@@ -1,0 +1,136 @@
+// Méthodes de paiement avec images et détails
+export const paymentMethods = [
+  {
+    id: 'card',
+    name: 'Carte de Crédit',
+    icon: 'card',
+    description: 'Visa, Mastercard, American Express',
+    logos: ['/payement/visa.png', '/payement/mastercard.png', '/payement/amex.png'],
+    steps: [
+      "Entrez le numéro de votre carte",
+      "Renseignez la date d'expiration",
+      "Saisissez le code CVV",
+      "Validez le paiement sécurisé"
+    ],
+    details: {
+      type: "Paiement par carte bancaire",
+      value: "Cryptage SSL 256 bits",
+      name: "Paiement 100% sécurisé"
+    }
+  },
+  {
+    id: 'paypal',
+    name: 'PayPal',
+    icon: 'PP',
+    description: 'Paiement sécurisé PayPal',
+    logos: ['/payement/paypal.png'],
+    steps: [
+      "Cliquez sur 'Payer avec PayPal'",
+      "Connectez-vous à votre compte PayPal",
+      "Vérifiez les informations de paiement",
+      "Confirmez la transaction"
+    ],
+    details: {
+      type: "Compte PayPal",
+      value: "contact@chinatradehub.com",
+      name: "CHINA TRADE HUB"
+    }
+  },
+  {
+    id: 'orange',
+    name: 'Orange Money',
+    icon: 'OM',
+    description: 'Paiement mobile Orange',
+    logos: ['/payement/orangemoney.png'],
+    steps: [
+      "Allez dans l'application Orange Money",
+      "Sélectionnez 'Paiement de marchandises'",
+      "Entrez le numéro: 07 57 89 12 34",
+      "Montant: {amount} FCFA",
+      "Référence: {orderNumber}",
+      "Validez le paiement"
+    ],
+    details: {
+      type: "Numéro Orange Money",
+      value: "07 57 89 12 34",
+      name: "CHINA TRADE HUB"
+    }
+  },
+  {
+    id: 'mtn',
+    name: 'MTN Money',
+    icon: 'MM',
+    description: 'Paiement mobile MTN',
+    logos: ['/payement/MobileMoney.jpg'],
+    steps: [
+      "Ouvrez l'application MTN Mobile Money",
+      "Sélectionnez 'Paiement marchand'",
+      "Entrez le numéro: 05 44 55 66 77",
+      "Montant: {amount} FCFA",
+      "Référence: {orderNumber}",
+      "Validez avec votre code PIN"
+    ],
+    details: {
+      type: "Numéro MTN Money",
+      value: "05 44 55 66 77",
+      name: "CHINA TRADE HUB"
+    }
+  },
+  {
+    id: 'wave',
+    name: 'Wave',
+    icon: 'WV',
+    description: 'Paiement mobile Wave',
+    logos: ['/payement/logowave.png'],
+    steps: [
+      "Ouvrez l'application Wave",
+      "Sélectionnez 'Envoyer de l'argent'",
+      "Entrez le numéro: 07 01 02 03 04",
+      "Montant: {amount} FCFA",
+      "Référence: {orderNumber}",
+      "Confirmez l'envoi"
+    ],
+    details: {
+      type: "Numéro Wave",
+      value: "07 01 02 03 04",
+      name: "CHINA TRADE HUB"
+    }
+  },
+  {
+    id: 'apple',
+    name: 'Apple Pay',
+    icon: 'AP',
+    description: 'Paiement Apple sécurisé',
+    logos: ['/payement/applepay.png'],
+    steps: [
+      "Cliquez sur le bouton Apple Pay",
+      "Authentifiez-vous avec Face ID ou Touch ID",
+      "Vérifiez le montant et les détails",
+      "Confirmez le paiement"
+    ],
+    details: {
+      type: "Apple Pay",
+      value: "Paiement instantané",
+      name: "CHINA TRADE HUB"
+    }
+  }
+];
+
+// Fonction pour obtenir une méthode de paiement par ID
+export const getPaymentMethod = (id) => {
+  return paymentMethods.find(method => method.id === id);
+};
+
+// Fonction pour formater les étapes avec les données dynamiques
+export const formatPaymentSteps = (methodId, orderNumber, amount) => {
+  const method = getPaymentMethod(methodId);
+  if (!method) return [];
+  
+  return method.steps.map(step => 
+    step
+      .replace('{orderNumber}', orderNumber)
+      .replace('{amount}', amount)
+  );
+};
+
+export default paymentMethods;
