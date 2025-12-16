@@ -44,8 +44,6 @@ export const paymentMethods = [
     description: 'Paiement mobile Orange',
     logos: ['/payement/orangemoney.png'],
     steps: [
-      "Allez dans l'application Orange Money",
-      "Sélectionnez 'Paiement de marchandises'",
       "Entrez le numéro: 6 96 27 85 95",
       "Montant: {amount} FCFA",
       "Référence: {orderNumber}",
@@ -64,9 +62,7 @@ export const paymentMethods = [
     description: 'Paiement mobile MTN',
     logos: ['/payement/MobileMoney.jpg'],
     steps: [
-      "Ouvrez l'application MTN Mobile Money",
-      "Sélectionnez 'Paiement marchand'",
-      "Entrez le numéro: 05 44 55 66 77",
+      "Entrez le numéro: 6 81 30 86 10",
       "Montant: {amount} FCFA",
       "Référence: {orderNumber}",
       "Validez avec votre code PIN"
@@ -85,7 +81,6 @@ export const paymentMethods = [
     logos: ['/payement/logowave.png'],
     steps: [
       "Ouvrez l'application Wave",
-      "Sélectionnez 'Envoyer de l'argent'",
       "Entrez le numéro: 696 18 47 62",
       "Montant: {amount} FCFA",
       "Référence: {orderNumber}",
@@ -94,7 +89,6 @@ export const paymentMethods = [
     details: {
       type: "Numéro Wave",
       value: "696 18 47 62",
-      name: "CHINA TRADE HUB"
     }
   },
   // {

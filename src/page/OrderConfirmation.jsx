@@ -620,7 +620,6 @@ const OrderConfirmation = () => {
                 <ul className="space-y-2 text-sm text-blue-800">
                   <li>• {t.orderConfirmation.copyOrderNumber}</li>
                   <li>• {t.orderConfirmation.delivery}</li>
-                  <li>• {t.orderConfirmation.contactSupport}: +225 07 57 89 12 34</li>
                   <li>• WhatsApp 24/7</li>
                 </ul>
               </div>
