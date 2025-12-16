@@ -79,7 +79,7 @@ const WelcomeDiscountModal = () => {
         setIsOpen(true);
         setHasShown(true);
         sessionStorage.setItem('welcomeModalShown', 'true');
-      }, 3000); // 3 secondes pour test - Changez à 60000 pour 1 minute
+      }, 60000); // 1 minute
 
       return () => clearTimeout(timer);
     }

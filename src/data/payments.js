@@ -25,15 +25,16 @@ export const paymentMethods = [
     description: 'Paiement sécurisé PayPal',
     logos: ['/payement/paypal.png'],
     steps: [
-      "Cliquez sur 'Payer avec PayPal'",
+      "Cliquez sur le lien PayPal: https://www.paypal.me/Fxstudio712",
       "Connectez-vous à votre compte PayPal",
-      "Vérifiez les informations de paiement",
+      "Entrez le montant: {amount}",
+      "Ajoutez la référence: {orderNumber}",
       "Confirmez la transaction"
     ],
     details: {
-      type: "Compte PayPal",
-      value: "contact@chinatradehub.com",
-      name: "CHINA TRADE HUB"
+      type: "Lien PayPal",
+      value: "paypal.me/Fxstudio712",
+      name: "FXSTUDIO"
     }
   },
   {
@@ -45,15 +46,15 @@ export const paymentMethods = [
     steps: [
       "Allez dans l'application Orange Money",
       "Sélectionnez 'Paiement de marchandises'",
-      "Entrez le numéro: 07 57 89 12 34",
+      "Entrez le numéro: 6 96 27 85 95",
       "Montant: {amount} FCFA",
       "Référence: {orderNumber}",
       "Validez le paiement"
     ],
     details: {
       type: "Numéro Orange Money",
-      value: "07 57 89 12 34",
-      name: "CHINA TRADE HUB"
+      value: "6 96 27 85 95",
+      name: "ARNAUD SALVADOR"
     }
   },
   {
@@ -72,8 +73,8 @@ export const paymentMethods = [
     ],
     details: {
       type: "Numéro MTN Money",
-      value: "05 44 55 66 77",
-      name: "CHINA TRADE HUB"
+      value: "6 81 30 86 10",
+      name: "ANNIK LAURE NDJEN"
     }
   },
   {
@@ -85,35 +86,35 @@ export const paymentMethods = [
     steps: [
       "Ouvrez l'application Wave",
       "Sélectionnez 'Envoyer de l'argent'",
-      "Entrez le numéro: 07 01 02 03 04",
+      "Entrez le numéro: 696 18 47 62",
       "Montant: {amount} FCFA",
       "Référence: {orderNumber}",
       "Confirmez l'envoi"
     ],
     details: {
       type: "Numéro Wave",
-      value: "07 01 02 03 04",
+      value: "696 18 47 62",
       name: "CHINA TRADE HUB"
     }
   },
-  {
-    id: 'apple',
-    name: 'Apple Pay',
-    icon: 'AP',
-    description: 'Paiement Apple sécurisé',
-    logos: ['/payement/applepay.png'],
-    steps: [
-      "Cliquez sur le bouton Apple Pay",
-      "Authentifiez-vous avec Face ID ou Touch ID",
-      "Vérifiez le montant et les détails",
-      "Confirmez le paiement"
-    ],
-    details: {
-      type: "Apple Pay",
-      value: "Paiement instantané",
-      name: "CHINA TRADE HUB"
-    }
-  }
+  // {
+  //   id: 'apple',
+  //   name: 'Apple Pay',
+  //   icon: 'AP',
+  //   description: 'Paiement Apple sécurisé',
+  //   logos: ['/payement/applepay.png'],
+  //   steps: [
+  //     "Cliquez sur le bouton Apple Pay",
+  //     "Authentifiez-vous avec Face ID ou Touch ID",
+  //     "Vérifiez le montant et les détails",
+  //     "Confirmez le paiement"
+  //   ],
+  //   details: {
+  //     type: "Apple Pay",
+  //     value: "Paiement instantané",
+  //     name: "CHINA TRADE HUB"
+  //   }
+  // }
 ];
 
 // Fonction pour obtenir une méthode de paiement par ID

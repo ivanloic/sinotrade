@@ -6,8 +6,6 @@ import { useTranslation } from '../hooks/useTranslation';
 
 const Categories = () => {
   const { t } = useTranslation();
-  const [activeCategory, setActiveCategory] = useState(null);
-  const [selectedCategory, setSelectedCategory] = useState(null);
   const scrollContainerRef = useRef(null);
   const [currentSlide, setCurrentSlide] = useState(0);
   const scrollTimeoutRef = useRef(null);
@@ -137,13 +135,6 @@ const Categories = () => {
     }
   ];
 
-  // Sous-catégories détaillées
-  const subCategories = {
-    1: t.categoriesSection.subcategories.electronics,
-    2: t.categoriesSection.subcategories.fashion,
-    3: t.categoriesSection.subcategories.beauty
-  };
-
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
       const prev = (currentSlide - 1 + categories.length) % categories.length;
@@ -214,8 +205,6 @@ const Categories = () => {
 
   const hoverStyle = { y: -8, scale: 1.05, transition: { duration: 0.3, ease: "easeOut" } };
 
-  const displayedCategory = selectedCategory ?? activeCategory;
-
   return (
     <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4">
@@ -253,14 +242,8 @@ const Categories = () => {
               key={category.id}
               variants={itemVariants}
               whileHover={hoverStyle}
-              className={`relative bg-white rounded-2xl shadow-lg border border-gray-100 p-6 cursor-pointer group transition-all duration-300 ${category.bgColor} hover:shadow-2xl min-w-[220px] w-72 flex-shrink-0 snap-start ${currentSlide === index ? 'scale-105 z-10' : ''} ${selectedCategory === category.id ? 'ring-2 ring-offset-2 ring-gray-300' : ''}`}
-              onMouseEnter={() => { setActiveCategory(category.id); }}
-              onMouseLeave={() => { setActiveCategory(null); }}
-              onClick={() => {
-                // Clique pour sélectionner/désélectionner (persistant)
-                if (selectedCategory === category.id) setSelectedCategory(null);
-                else setSelectedCategory(category.id);
-              }}
+              className={`relative bg-white rounded-2xl shadow-lg border border-gray-100 p-6 cursor-pointer group transition-all duration-300 ${category.bgColor} hover:shadow-2xl min-w-[220px] w-72 flex-shrink-0 snap-start ${currentSlide === index ? 'scale-105 z-10' : ''}`}
+              onClick={() => navigate('/category')}
             >
               {/* Icône avec fond gradient */}
               <motion.div 
@@ -319,60 +302,6 @@ const Categories = () => {
             <ChevronRight className="w-6 h-6" />
           </motion.button>
         </div>
-
-        {/* Catégorie active détaillée */}
-        {/* const displayedCategory = selectedCategory ?? activeCategory; */}
-
-        {displayedCategory && subCategories[displayedCategory] && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.5 }}
-            className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8 mb-12"
-          >
-            <div className="flex items-center justify-between mb-6">
-              <div className="flex items-center space-x-4">
-                <div className={`w-12 h-12 rounded-xl bg-gradient-to-r ${categories.find(c => c.id === displayedCategory)?.color} flex items-center justify-center text-white`}>
-                  {categories.find(c => c.id === displayedCategory)?.icon}
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900">
-                    {categories.find(c => c.id === displayedCategory)?.name}
-                  </h3>
-                  <p className="text-gray-600">
-                    {categories.find(c => c.id === displayedCategory)?.description}
-                  </p>
-                </div>
-              </div>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className={`px-6 py-3 rounded-lg bg-gradient-to-r ${categories.find(c => c.id === displayedCategory)?.color} text-white font-semibold hover:shadow-lg transition-shadow`}
-              >
-                {t.categoriesSection.viewAll}
-              </motion.button>
-            </div>
-
-            {/* Sous-catégories */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {subCategories[displayedCategory].map((subCat, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  className="flex items-center space-x-3 p-3 rounded-lg bg-gray-50 hover:bg-gray-100 cursor-pointer transition-colors"
-                >
-                  <div className={`w-8 h-8 rounded-lg bg-gradient-to-r ${categories.find(c => c.id === displayedCategory)?.color} flex items-center justify-center text-white text-sm font-bold`}>
-                    {index + 1}
-                  </div>
-                  <span className="text-gray-700 font-medium">{subCat}</span>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-        )}
 
         {/* Bannière promotionnelle */}
         <motion.div
