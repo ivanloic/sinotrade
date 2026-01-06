@@ -99,7 +99,7 @@ function buildProduct(id, dir, files) {
   const name = cleanNameFromFilename(first)
   let brand = inferBrand(first)
   let category = inferCategory(first)
-  let price = rand(1500, 4500)
+  let price = rand(1500, 2500)
   let originalPrice = price + rand(50, 500)
   const images = files.map(f => `/vetement_homme/${dir}/${f}`)
   const image = images[0]
@@ -111,7 +111,7 @@ function buildProduct(id, dir, files) {
   if (price < 1500) minOrder = rand(5, 20)
 
   if (isEnsemble) {
-    price = rand(6500, 10000)
+    price = rand(3200, 5200)
     originalPrice = price + rand(100, 600)
     minOrder = rand(1, 11)
   }

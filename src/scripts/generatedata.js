@@ -100,7 +100,7 @@ function buildProduct(id, dir, files) {
   const name = cleanNameFromFilename(first)
   let brand = inferBrand(first)
   let category = inferCategory(first)
-  const price = rand(1500, 4500)
+  const price = rand(1500, 2600)
   const originalPrice = price + rand(50, 500)
   const images = files.map(f => `/vetement_femme/${dir}/${f}`)
   const image = images[0]

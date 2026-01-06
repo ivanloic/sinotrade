@@ -28,7 +28,6 @@ export const paymentMethods = [
       "Cliquez sur le lien PayPal: https://www.paypal.me/Fxstudio712",
       "Connectez-vous à votre compte PayPal",
       "Entrez le montant: {amount}",
-      "Ajoutez la référence: {orderNumber}",
       "Confirmez la transaction"
     ],
     details: {
@@ -46,7 +45,6 @@ export const paymentMethods = [
     steps: [
       "Entrez le numéro: 6 96 27 85 95",
       "Montant: {amount} FCFA",
-      "Référence: {orderNumber}",
       "Validez le paiement"
     ],
     details: {

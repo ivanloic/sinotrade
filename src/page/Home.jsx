@@ -163,8 +163,6 @@ function Home () {
           </motion.div>
         </div>
       </section>
-
-      <Categories />
       <Products />
       
       {/* Section Demande de Produit Spécifique */}

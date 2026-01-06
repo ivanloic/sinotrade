@@ -2,19 +2,16 @@ export const vetement_homme = [
   {
     "id": 1,
     "name": "Ensemble Nike",
-    "price": 6645,
-    "originalPrice": 6984,
+    "price": 4433,
+    "originalPrice": 4570,
     "category": "men",
     "brand": "Nike",
     "image": "/vetement_homme/1/Ensemble nike .jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Noir",
-      "Violet",
-      "Beige",
-      "Orange",
-      "Vert",
-      "Jaune"
+      "Gris",
+      "Blanc",
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -23,7 +20,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 6,
+    "minOrder": 4,
     "images": [
       "/vetement_homme/1/Ensemble nike .jpg",
       "/vetement_homme/1/IMG-20251117-WA0034.jpg",
@@ -35,16 +32,18 @@ export const vetement_homme = [
   {
     "id": 2,
     "name": "Ensemble Longue Manche Palm Angels",
-    "price": 7148,
-    "originalPrice": 7497,
+    "price": 3542,
+    "originalPrice": 3785,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/3/Ensemble-Longue-manche-palm-angels.jpg",
     "taxType": "ht",
     "colors": [
-      "Marron",
-      "Rose",
-      "Noir"
+      "Beige",
+      "Bleu",
+      "Gris",
+      "Blanc",
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -53,7 +52,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 5,
+    "minOrder": 7,
     "images": [
       "/vetement_homme/3/Ensemble-Longue-manche-palm-angels.jpg",
       "/vetement_homme/3/IMG-20251117-WA0108.jpg",
@@ -66,17 +65,18 @@ export const vetement_homme = [
   {
     "id": 3,
     "name": "Ensemble Jogging Homme Mutimarque",
-    "price": 8638,
-    "originalPrice": 8922,
+    "price": 3290,
+    "originalPrice": 3751,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/4/Ensemble_jogging_homme-mutimarque.jpg",
     "taxType": "ht",
     "colors": [
-      "Rouge",
-      "Vert",
+      "Blanc",
       "Noir",
-      "Rose"
+      "Orange",
+      "Rose",
+      "Gris"
     ],
     "sizes": [
       "S",
@@ -85,7 +85,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 5,
+    "minOrder": 4,
     "images": [
       "/vetement_homme/4/Ensemble_jogging_homme-mutimarque.jpg",
       "/vetement_homme/4/IMG-20251114-WA0040.jpg",
@@ -96,19 +96,17 @@ export const vetement_homme = [
   {
     "id": 4,
     "name": "T Shirt Homme Multimarque",
-    "price": 1763,
-    "originalPrice": 2054,
+    "price": 2392,
+    "originalPrice": 2451,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/5/T-shirt_homme_Multimarque.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Bleu",
       "Rouge",
-      "Rose",
-      "Noir",
-      "Gris",
-      "Jaune"
+      "Orange",
+      "Jaune",
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -117,7 +115,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 13,
+    "minOrder": 19,
     "images": [
       "/vetement_homme/5/T-shirt_homme_Multimarque.jpg",
       "/vetement_homme/5/z1.jpg",
@@ -126,34 +124,35 @@ export const vetement_homme = [
       "/vetement_homme/5/z4.jpg"
     ],
     "clothbrands": [
-      "Tommy Hilfiger",
-      "Reebok",
-      "Nike",
-      "Levis",
-      "Chanel",
+      "Supreme",
+      "Prada",
+      "New Balance",
+      "Armani",
+      "Puma",
       "Balenciaga",
-      "Hermes",
-      "Dior",
-      "Under Armour",
-      "Off-White",
-      "Burberry",
-      "Armani"
+      "Zara",
+      "Reebok",
+      "Fendi",
+      "Tommy Hilfiger",
+      "Versace",
+      "Givenchy"
     ]
   },
   {
     "id": 5,
     "name": "Sweatshirt Lacoste",
-    "price": 3827,
-    "originalPrice": 4222,
+    "price": 1520,
+    "originalPrice": 1907,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/6/ASweatshirt_lacoste.jpg",
     "taxType": "ttc",
     "colors": [
+      "Noir",
       "Gris",
-      "Marron",
-      "Rouge",
-      "Bleu"
+      "Bleu",
+      "Jaune",
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -162,7 +161,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 6,
+    "minOrder": 17,
     "images": [
       "/vetement_homme/6/ASweatshirt_lacoste.jpg",
       "/vetement_homme/6/photo_27_2025-11-17_22-00-37.jpg",
@@ -176,18 +175,19 @@ export const vetement_homme = [
   {
     "id": 6,
     "name": "Swaertshirt Multimarque",
-    "price": 3461,
-    "originalPrice": 3584,
+    "price": 2399,
+    "originalPrice": 2560,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/7/Aswaertshirt_multimarque.jpg",
     "taxType": "ht",
     "colors": [
-      "Bleu",
+      "Orange",
+      "Violet",
       "Rouge",
       "Noir",
-      "Rose",
-      "Gris"
+      "Gris",
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -196,7 +196,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 17,
+    "minOrder": 15,
     "images": [
       "/vetement_homme/7/Aswaertshirt_multimarque.jpg",
       "/vetement_homme/7/photo_35_2025-11-17_22-00-37.jpg",
@@ -209,34 +209,35 @@ export const vetement_homme = [
       "/vetement_homme/7/photo_51_2025-11-17_22-00-37.jpg"
     ],
     "clothbrands": [
-      "Tommy Hilfiger",
-      "Gucci",
-      "Under Armour",
-      "Coach",
       "Burberry",
+      "Hm",
       "Lacoste",
+      "Prada",
+      "Puma",
+      "Off-White",
       "Hermes",
-      "Adidas",
-      "Levis",
-      "H&M",
-      "New Balance",
-      "Fendi"
+      "Dior",
+      "Supreme",
+      "Coach",
+      "Armani",
+      "Levis"
     ]
   },
   {
     "id": 7,
     "name": "Ensemble Homme Lacoste",
-    "price": 8774,
-    "originalPrice": 9211,
+    "price": 4315,
+    "originalPrice": 4866,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/8/Aensemble_homme_lacoste.jpg",
     "taxType": "ht",
     "colors": [
+      "Blanc",
+      "Beige",
       "Gris",
-      "Rouge",
-      "Rose",
-      "Violet"
+      "Jaune",
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -245,7 +246,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 8,
     "images": [
       "/vetement_homme/8/Aensemble_homme_lacoste.jpg",
       "/vetement_homme/8/photo_68_2025-11-17_22-00-37.jpg",
@@ -257,46 +258,17 @@ export const vetement_homme = [
   {
     "id": 8,
     "name": "Ensemble Sport Lacoste",
-    "price": 6701,
-    "originalPrice": 7292,
+    "price": 4724,
+    "originalPrice": 5093,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/9/Aensemble_sport_lacoste.jpg",
     "taxType": "ttc",
     "colors": [
-      "Beige",
-      "Vert",
-      "Jaune",
-      "Violet",
-      "Rouge"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 7,
-    "images": [
-      "/vetement_homme/9/Aensemble_sport_lacoste.jpg",
-      "/vetement_homme/9/photo_76_2025-11-17_22-00-37.jpg",
-      "/vetement_homme/9/photo_80_2025-11-17_22-00-37.jpg"
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Ensemble Sportunder Armour",
-    "price": 7030,
-    "originalPrice": 7392,
-    "category": "men",
-    "brand": "Various",
-    "image": "/vetement_homme/10/Aensemble_sportunder_armour.jpg",
-    "taxType": "ht",
-    "colors": [
+      "Noir",
       "Rose",
-      "Blanc",
       "Marron",
+      "Rouge",
       "Bleu"
     ],
     "sizes": [
@@ -306,7 +278,36 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 6,
+    "minOrder": 2,
+    "images": [
+      "/vetement_homme/9/Aensemble_sport_lacoste.jpg",
+      "/vetement_homme/9/photo_76_2025-11-17_22-00-37.jpg",
+      "/vetement_homme/9/photo_80_2025-11-17_22-00-37.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ensemble Sportunder Armour",
+    "price": 4585,
+    "originalPrice": 5065,
+    "category": "men",
+    "brand": "Various",
+    "image": "/vetement_homme/10/Aensemble_sportunder_armour.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Rouge",
+      "Noir",
+      "Jaune",
+      "Bleu"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 5,
     "images": [
       "/vetement_homme/10/Aensemble_sportunder_armour.jpg",
       "/vetement_homme/10/photo_86_2025-11-17_22-00-37.jpg",
@@ -317,17 +318,17 @@ export const vetement_homme = [
   {
     "id": 10,
     "name": "Doudoune Louis Vuiton",
-    "price": 2209,
-    "originalPrice": 2350,
+    "price": 2181,
+    "originalPrice": 2550,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/11/doudoune_louis vuiton.jpg",
     "taxType": "ht",
     "colors": [
-      "Noir",
-      "Blanc",
+      "Bleu",
+      "Jaune",
       "Rose",
-      "Marron"
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -336,7 +337,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 17,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/11/doudoune_louis vuiton.jpg",
       "/vetement_homme/11/photo_14_2025-11-17_21-59-10.jpg",
@@ -349,18 +350,17 @@ export const vetement_homme = [
   {
     "id": 11,
     "name": "Sweatshirt Homme Mutlimarque",
-    "price": 3204,
-    "originalPrice": 3543,
+    "price": 2492,
+    "originalPrice": 2705,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/12/Asweatshirt_homme_mutlimarque.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Orange",
-      "Gris",
-      "Jaune",
       "Noir",
-      "Rouge"
+      "Vert",
+      "Violet",
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -379,19 +379,17 @@ export const vetement_homme = [
   {
     "id": 12,
     "name": "Vêtement Homme",
-    "price": 1768,
-    "originalPrice": 1912,
+    "price": 1895,
+    "originalPrice": 2028,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/13/photo_10_2025-11-17_21-59-10.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Violet",
-      "Jaune",
-      "Orange",
-      "Gris",
+      "Vert",
       "Noir",
-      "Rose"
+      "Orange",
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -400,7 +398,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 7,
+    "minOrder": 18,
     "images": [
       "/vetement_homme/13/photo_10_2025-11-17_21-59-10.jpg",
       "/vetement_homme/13/photo_2_2025-11-17_21-59-10.jpg",
@@ -416,18 +414,16 @@ export const vetement_homme = [
   {
     "id": 13,
     "name": "Vêtement Homme",
-    "price": 3999,
-    "originalPrice": 4211,
+    "price": 1851,
+    "originalPrice": 2227,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/14/photo_36_2025-11-17_21-59-10.jpg",
     "taxType": "ht",
     "colors": [
-      "Rouge",
-      "Vert",
-      "Blanc",
-      "Jaune",
-      "Beige"
+      "Rose",
+      "Gris",
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -436,7 +432,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 14,
+    "minOrder": 7,
     "images": [
       "/vetement_homme/14/photo_36_2025-11-17_21-59-10.jpg",
       "/vetement_homme/14/photo_38_2025-11-17_21-59-10.jpg",
@@ -456,19 +452,19 @@ export const vetement_homme = [
   {
     "id": 14,
     "name": "Ensemble Homme Lacoste",
-    "price": 6661,
-    "originalPrice": 6995,
+    "price": 3370,
+    "originalPrice": 3811,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/15/Aensemble_homme_lacoste.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Violet",
-      "Gris",
-      "Beige",
       "Noir",
-      "Rose",
-      "Blanc"
+      "Blanc",
+      "Bleu",
+      "Jaune",
+      "Beige",
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -477,7 +473,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 3,
+    "minOrder": 7,
     "images": [
       "/vetement_homme/15/Aensemble_homme_lacoste.jpg",
       "/vetement_homme/15/photo_74_2025-11-17_21-59-10.jpg",
@@ -487,18 +483,19 @@ export const vetement_homme = [
   {
     "id": 15,
     "name": "Ensemble Homme Lacoste",
-    "price": 8151,
-    "originalPrice": 8305,
+    "price": 5194,
+    "originalPrice": 5299,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/16/Aensemble_homme_lacoste.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Marron",
       "Rose",
       "Noir",
-      "Jaune",
-      "Rouge"
+      "Rouge",
+      "Bleu",
+      "Gris",
+      "Beige"
     ],
     "sizes": [
       "S",
@@ -507,7 +504,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 4,
+    "minOrder": 7,
     "images": [
       "/vetement_homme/16/Aensemble_homme_lacoste.jpg",
       "/vetement_homme/16/photo_64_2025-11-17_21-59-10.jpg",
@@ -520,18 +517,16 @@ export const vetement_homme = [
   {
     "id": 16,
     "name": "Ensemble Homme Lacoste",
-    "price": 8325,
-    "originalPrice": 8798,
+    "price": 4273,
+    "originalPrice": 4445,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/17/Aensemble_homme_lacoste.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Blanc",
-      "Vert",
-      "Beige",
-      "Gris",
-      "Violet"
+      "Rose",
+      "Rouge",
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -540,7 +535,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 11,
+    "minOrder": 5,
     "images": [
       "/vetement_homme/17/Aensemble_homme_lacoste.jpg",
       "/vetement_homme/17/photo_70_2025-11-17_21-59-10.jpg",
@@ -551,18 +546,17 @@ export const vetement_homme = [
   {
     "id": 17,
     "name": "Pullover Homme Tommy Hilfiger",
-    "price": 2453,
-    "originalPrice": 2929,
+    "price": 2126,
+    "originalPrice": 2346,
     "category": "men",
     "brand": "Tommy",
     "image": "/vetement_homme/18/Apullover_homme_tommy_hilfiger.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Violet",
-      "Orange",
-      "Blanc",
-      "Marron",
+      "Noir",
+      "Gris",
       "Rouge",
+      "Beige",
       "Jaune"
     ],
     "sizes": [
@@ -572,7 +566,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 6,
+    "minOrder": 8,
     "images": [
       "/vetement_homme/18/Apullover_homme_tommy_hilfiger.jpg",
       "/vetement_homme/18/photo_77_2025-11-17_21-59-10.jpg",
@@ -582,18 +576,18 @@ export const vetement_homme = [
   {
     "id": 18,
     "name": "Ensemble Homme Addidas",
-    "price": 8594,
-    "originalPrice": 9029,
+    "price": 4172,
+    "originalPrice": 4460,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/19/Aensemble_homme_addidas.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
+      "Rose",
+      "Vert",
+      "Marron",
       "Rouge",
-      "Bleu",
-      "Beige",
-      "Violet",
-      "Jaune"
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -602,7 +596,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 2,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/19/Aensemble_homme_addidas.jpg",
       "/vetement_homme/19/photo_80_2025-11-17_21-59-10.jpg",
@@ -616,18 +610,18 @@ export const vetement_homme = [
   {
     "id": 19,
     "name": "Pullover Homme Multimarque",
-    "price": 1599,
-    "originalPrice": 1868,
+    "price": 1630,
+    "originalPrice": 1994,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/20/Apullover_homme_multimarque.jpg",
     "taxType": "ht",
     "colors": [
-      "Rose",
-      "Noir",
       "Blanc",
-      "Beige",
-      "Violet"
+      "Orange",
+      "Noir",
+      "Bleu",
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -636,7 +630,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 19,
+    "minOrder": 9,
     "images": [
       "/vetement_homme/20/Apullover_homme_multimarque.jpg",
       "/vetement_homme/20/photo_12_2025-11-17_21-58-19.jpg",
@@ -652,36 +646,34 @@ export const vetement_homme = [
       "/vetement_homme/20/photo_92_2025-11-17_21-59-10.jpg"
     ],
     "clothbrands": [
-      "Armani",
-      "Fendi",
-      "Ralph Lauren",
-      "New Balance",
-      "Under Armour",
-      "Tommy",
       "Nike",
-      "Gucci",
-      "Tommy Hilfiger",
+      "Versace",
       "Celine",
-      "Prada",
-      "Dior"
+      "Dior",
+      "Armani",
+      "Ralph Lauren",
+      "Lacoste",
+      "Supreme",
+      "Reebok",
+      "Coach",
+      "Tommy",
+      "Tommy Hilfiger"
     ]
   },
   {
     "id": 20,
     "name": "Vêtement Homme",
-    "price": 3898,
-    "originalPrice": 4381,
+    "price": 1879,
+    "originalPrice": 2060,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/21/photo_19_2025-11-17_21-58-19.jpg",
     "taxType": "ht",
     "colors": [
-      "Jaune",
-      "Bleu",
       "Rouge",
-      "Noir",
-      "Orange",
-      "Marron"
+      "Vert",
+      "Violet",
+      "Jaune"
     ],
     "sizes": [
       "S",
@@ -690,7 +682,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 14,
+    "minOrder": 12,
     "images": [
       "/vetement_homme/21/photo_19_2025-11-17_21-58-19.jpg",
       "/vetement_homme/21/photo_21_2025-11-17_21-58-19.jpg",
@@ -701,18 +693,18 @@ export const vetement_homme = [
   {
     "id": 21,
     "name": "Ensemble Homme Under Armour",
-    "price": 7137,
-    "originalPrice": 7283,
+    "price": 4249,
+    "originalPrice": 4800,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/22/Aensemble_homme_under_armour.jpg",
     "taxType": "ttc",
     "colors": [
       "Noir",
-      "Rouge",
       "Rose",
+      "Rouge",
       "Bleu",
-      "Violet"
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -721,7 +713,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 11,
+    "minOrder": 6,
     "images": [
       "/vetement_homme/22/Aensemble_homme_under_armour.jpg",
       "/vetement_homme/22/photo_27_2025-11-17_21-58-19.jpg",
@@ -731,19 +723,18 @@ export const vetement_homme = [
   {
     "id": 22,
     "name": "Ensemble Homme Under Armour",
-    "price": 6549,
-    "originalPrice": 6795,
+    "price": 4369,
+    "originalPrice": 4639,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/23/Aensemble_homme_under_armour.jpg",
     "taxType": "ht",
     "colors": [
-      "Noir",
-      "Beige",
-      "Vert",
-      "Bleu",
       "Gris",
-      "Jaune"
+      "Bleu",
+      "Noir",
+      "Violet",
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -752,7 +743,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 2,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/23/Aensemble_homme_under_armour.jpg",
       "/vetement_homme/23/photo_45_2025-11-17_21-58-19.jpg"
@@ -761,18 +752,19 @@ export const vetement_homme = [
   {
     "id": 23,
     "name": "Ensemble Homme Under Armour",
-    "price": 7988,
-    "originalPrice": 8203,
+    "price": 3676,
+    "originalPrice": 4073,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/24/Aensemble_homme_under_armour.jpg",
     "taxType": "ht",
     "colors": [
-      "Jaune",
       "Violet",
-      "Blanc",
+      "Vert",
       "Rouge",
-      "Marron"
+      "Blanc",
+      "Noir",
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -781,7 +773,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 4,
+    "minOrder": 5,
     "images": [
       "/vetement_homme/24/Aensemble_homme_under_armour.jpg",
       "/vetement_homme/24/photo_31_2025-11-17_21-58-19.jpg",
@@ -792,17 +784,17 @@ export const vetement_homme = [
   {
     "id": 24,
     "name": "Vêtement Homme",
-    "price": 4027,
-    "originalPrice": 4277,
+    "price": 2373,
+    "originalPrice": 2640,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/25/photo_48_2025-11-17_21-58-19.jpg",
     "taxType": "ttc",
     "colors": [
-      "Noir",
+      "Blanc",
       "Rouge",
       "Vert",
-      "Rose"
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -811,7 +803,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 14,
+    "minOrder": 13,
     "images": [
       "/vetement_homme/25/photo_48_2025-11-17_21-58-19.jpg",
       "/vetement_homme/25/photo_55_2025-11-17_21-58-19.jpg",
@@ -823,17 +815,18 @@ export const vetement_homme = [
   {
     "id": 25,
     "name": "Ensemble Homme Lacoste",
-    "price": 9168,
-    "originalPrice": 9666,
+    "price": 4757,
+    "originalPrice": 5072,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/26/Aensemble_homme_lacoste.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Gris",
-      "Rouge",
+      "Rose",
+      "Noir",
+      "Vert",
       "Marron",
-      "Noir"
+      "Gris"
     ],
     "sizes": [
       "S",
@@ -842,7 +835,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 3,
+    "minOrder": 8,
     "images": [
       "/vetement_homme/26/Aensemble_homme_lacoste.jpg",
       "/vetement_homme/26/photo_69_2025-11-17_21-58-19.jpg",
@@ -854,18 +847,19 @@ export const vetement_homme = [
   {
     "id": 26,
     "name": "Pullover Homme Multimarque",
-    "price": 1782,
-    "originalPrice": 1943,
+    "price": 1858,
+    "originalPrice": 1969,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/27/Apullover_homme_multimarque.jpg",
     "taxType": "ht",
     "colors": [
-      "Vert",
-      "Rouge",
+      "Beige",
+      "Gris",
+      "Jaune",
       "Orange",
-      "Bleu",
-      "Gris"
+      "Vert",
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -874,7 +868,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 11,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/27/Apullover_homme_multimarque.jpg",
       "/vetement_homme/27/photo_58_2025-11-17_21-57-31.jpg",
@@ -890,36 +884,34 @@ export const vetement_homme = [
       "/vetement_homme/27/photo_68_2025-11-17_21-57-31.jpg"
     ],
     "clothbrands": [
-      "New Balance",
-      "Versace",
-      "Hermes",
-      "Fendi",
-      "Lacoste",
+      "Zara",
+      "Levis",
+      "Ralph Lauren",
+      "Nike",
+      "Celine",
+      "Adidas",
+      "Balenciaga",
+      "Chanel",
       "Tommy",
-      "Reebok",
-      "Puma",
-      "Coach",
-      "Dior",
       "Burberry",
-      "Under Armour"
+      "Hermes",
+      "Tommy Hilfiger"
     ]
   },
   {
     "id": 27,
     "name": "Pullover Homme Multimarque",
-    "price": 4247,
-    "originalPrice": 4414,
+    "price": 1525,
+    "originalPrice": 1829,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/28/Apullover_homme_multimarque.jpg",
     "taxType": "ttc",
     "colors": [
-      "Jaune",
       "Rouge",
-      "Noir",
-      "Vert",
-      "Bleu",
-      "Marron"
+      "Violet",
+      "Marron",
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -928,7 +920,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 11,
+    "minOrder": 5,
     "images": [
       "/vetement_homme/28/Apullover_homme_multimarque.jpg",
       "/vetement_homme/28/photo_69_2025-11-17_21-57-31.jpg",
@@ -940,34 +932,33 @@ export const vetement_homme = [
       "/vetement_homme/28/photo_76_2025-11-17_21-57-31.jpg"
     ],
     "clothbrands": [
-      "Adidas",
-      "Levis",
-      "Givenchy",
-      "Fendi",
-      "Ralph Lauren",
-      "H&M",
-      "Coach",
-      "Balenciaga",
-      "Reebok",
+      "Nike",
+      "Hermes",
+      "Supreme",
+      "Hm",
+      "Dior",
       "Burberry",
-      "Tommy",
-      "Hermes"
+      "Givenchy",
+      "Off-White",
+      "Lacoste",
+      "H&M",
+      "Versace",
+      "New Balance"
     ]
   },
   {
     "id": 28,
     "name": "Pullover Homme Multimarque",
-    "price": 1675,
-    "originalPrice": 1941,
+    "price": 2365,
+    "originalPrice": 2707,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/29/Apullover_homme_multimarque.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
       "Noir",
-      "Beige",
       "Rose",
-      "Violet"
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -976,7 +967,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 19,
+    "minOrder": 15,
     "images": [
       "/vetement_homme/29/Apullover_homme_multimarque.jpg",
       "/vetement_homme/29/photo_78_2025-11-17_21-57-31.jpg",
@@ -989,34 +980,33 @@ export const vetement_homme = [
       "/vetement_homme/29/photo_86_2025-11-17_21-57-31.jpg"
     ],
     "clothbrands": [
+      "H&M",
       "Armani",
-      "Fendi",
-      "Reebok",
       "Adidas",
-      "Hm",
-      "Off-White",
-      "Tommy",
-      "Balenciaga",
+      "Puma",
+      "Lacoste",
       "New Balance",
-      "Levis",
-      "Hermes",
-      "Prada"
+      "Tommy Hilfiger",
+      "Under Armour",
+      "Reebok",
+      "Tommy",
+      "Supreme",
+      "Chanel"
     ]
   },
   {
     "id": 29,
     "name": "Sweatshirt A Capuche Homme Multimarque",
-    "price": 4134,
-    "originalPrice": 4216,
+    "price": 2372,
+    "originalPrice": 2593,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/30/Asweatshirt_a_capuche_homme_multimarque.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Noir",
-      "Violet",
+      "Gris",
       "Blanc",
-      "Rose"
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -1025,7 +1015,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 12,
+    "minOrder": 16,
     "images": [
       "/vetement_homme/30/Asweatshirt_a_capuche_homme_multimarque.jpg",
       "/vetement_homme/30/photo_18_2025-11-17_21-56-34.jpg",
@@ -1037,33 +1027,35 @@ export const vetement_homme = [
       "/vetement_homme/30/photo_24_2025-11-17_21-56-34.jpg"
     ],
     "clothbrands": [
-      "Tommy Hilfiger",
-      "Dior",
-      "Celine",
-      "Tommy",
-      "Ralph Lauren",
+      "Balenciaga",
+      "New Balance",
       "Nike",
-      "Burberry",
-      "Coach",
-      "Hermes",
+      "Levis",
+      "Dior",
+      "Tommy",
       "Supreme",
-      "Fendi",
-      "Levis"
+      "Hm",
+      "Adidas",
+      "Armani",
+      "Versace",
+      "Under Armour"
     ]
   },
   {
     "id": 30,
     "name": "Sweatshirt Homme Mutlimarque",
-    "price": 3630,
-    "originalPrice": 3955,
+    "price": 2235,
+    "originalPrice": 2665,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/31/Asweatshirt_homme_mutlimarque.jpg",
     "taxType": "ht",
     "colors": [
+      "Rouge",
+      "Bleu",
+      "Gris",
       "Vert",
-      "Orange",
-      "Rose"
+      "Jaune"
     ],
     "sizes": [
       "S",
@@ -1072,7 +1064,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 19,
+    "minOrder": 14,
     "images": [
       "/vetement_homme/31/Asweatshirt_homme_mutlimarque.jpg",
       "/vetement_homme/31/photo_88_2025-11-17_21-57-31.jpg",
@@ -1088,18 +1080,18 @@ export const vetement_homme = [
   {
     "id": 31,
     "name": "Pullover Homme Tommy Hilfiger",
-    "price": 2847,
-    "originalPrice": 2981,
+    "price": 2066,
+    "originalPrice": 2221,
     "category": "men",
     "brand": "Tommy",
     "image": "/vetement_homme/32/Apullover_homme_tommy_hilfiger.jpg",
     "taxType": "ttc",
     "colors": [
-      "Beige",
-      "Orange",
-      "Rouge",
       "Noir",
-      "Jaune"
+      "Gris",
+      "Violet",
+      "Orange",
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -1108,7 +1100,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 15,
+    "minOrder": 9,
     "images": [
       "/vetement_homme/32/Apullover_homme_tommy_hilfiger.jpg",
       "/vetement_homme/32/photo_10_2025-11-17_21-56-34.jpg",
@@ -1120,18 +1112,16 @@ export const vetement_homme = [
   {
     "id": 32,
     "name": "Ensemble Homme Lacoste",
-    "price": 6784,
-    "originalPrice": 7151,
+    "price": 3291,
+    "originalPrice": 3829,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/33/Aensemble_homme_lacoste.jpg",
     "taxType": "ttc",
     "colors": [
-      "Vert",
+      "Orange",
       "Jaune",
-      "Rose",
-      "Violet",
-      "Gris",
+      "Noir",
       "Marron"
     ],
     "sizes": [
@@ -1141,7 +1131,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 9,
+    "minOrder": 5,
     "images": [
       "/vetement_homme/33/Aensemble_homme_lacoste.jpg",
       "/vetement_homme/33/photo_25_2025-11-17_21-56-34.jpg",
@@ -1156,16 +1146,18 @@ export const vetement_homme = [
   {
     "id": 33,
     "name": "Ensemble Homme Nike",
-    "price": 6683,
-    "originalPrice": 7056,
+    "price": 4249,
+    "originalPrice": 4489,
     "category": "men",
     "brand": "Nike",
     "image": "/vetement_homme/34/Aensemble_homme_Nike.jpg",
     "taxType": "ttc",
     "colors": [
       "Gris",
-      "Noir",
-      "Beige"
+      "Blanc",
+      "Beige",
+      "Bleu",
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -1174,7 +1166,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 6,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/34/Aensemble_homme_Nike.jpg",
       "/vetement_homme/34/photo_47_2025-11-17_21-56-34.jpg",
@@ -1185,18 +1177,19 @@ export const vetement_homme = [
   {
     "id": 34,
     "name": "Ensemble Homme Nike",
-    "price": 9225,
-    "originalPrice": 9482,
+    "price": 5047,
+    "originalPrice": 5600,
     "category": "men",
     "brand": "Nike",
     "image": "/vetement_homme/35/Aensemble_homme_Nike.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
+      "Violet",
       "Bleu",
-      "Rouge",
-      "Orange",
-      "Vert",
-      "Rose"
+      "Marron",
+      "Rose",
+      "Beige",
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -1205,7 +1198,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 9,
     "images": [
       "/vetement_homme/35/Aensemble_homme_Nike.jpg",
       "/vetement_homme/35/photo_58_2025-11-17_21-56-34.jpg",
@@ -1217,17 +1210,61 @@ export const vetement_homme = [
   {
     "id": 35,
     "name": "Bonnet Multimarque",
-    "price": 3083,
-    "originalPrice": 3309,
+    "price": 1586,
+    "originalPrice": 1720,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/36/Abonnet_multimarque.jpg",
     "taxType": "ht",
     "colors": [
-      "Violet",
-      "Rose",
-      "Marron",
+      "Vert",
+      "Noir",
       "Gris",
+      "Beige"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 18,
+    "images": [
+      "/vetement_homme/36/Abonnet_multimarque.jpg",
+      "/vetement_homme/36/photo_34_2025-11-17_21-56-34.jpg",
+      "/vetement_homme/36/photo_35_2025-11-17_21-56-34.jpg",
+      "/vetement_homme/36/photo_41_2025-11-17_21-56-34.jpg"
+    ],
+    "clothbrands": [
+      "Dior",
+      "Balenciaga",
+      "Hm",
+      "Prada",
+      "Versace",
+      "Celine",
+      "Coach",
+      "Nike",
+      "Givenchy",
+      "Adidas",
+      "Fendi",
+      "Burberry"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Vêtement Homme",
+    "price": 2275,
+    "originalPrice": 2611,
+    "category": "men",
+    "brand": "Various",
+    "image": "/vetement_homme/37/photo_42_2025-11-17_21-56-34.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Rouge",
+      "Noir",
+      "Marron",
+      "Bleu",
       "Blanc"
     ],
     "sizes": [
@@ -1237,52 +1274,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 13,
-    "images": [
-      "/vetement_homme/36/Abonnet_multimarque.jpg",
-      "/vetement_homme/36/photo_34_2025-11-17_21-56-34.jpg",
-      "/vetement_homme/36/photo_35_2025-11-17_21-56-34.jpg",
-      "/vetement_homme/36/photo_41_2025-11-17_21-56-34.jpg"
-    ],
-    "clothbrands": [
-      "Fendi",
-      "Zara",
-      "Supreme",
-      "Reebok",
-      "Burberry",
-      "Tommy",
-      "New Balance",
-      "Prada",
-      "Puma",
-      "H&M",
-      "Tommy Hilfiger",
-      "Adidas"
-    ]
-  },
-  {
-    "id": 36,
-    "name": "Vêtement Homme",
-    "price": 3840,
-    "originalPrice": 4320,
-    "category": "men",
-    "brand": "Various",
-    "image": "/vetement_homme/37/photo_42_2025-11-17_21-56-34.jpg",
-    "taxType": "ttc",
-    "colors": [
-      "Marron",
-      "Noir",
-      "Rouge",
-      "Blanc",
-      "Bleu"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 17,
+    "minOrder": 11,
     "images": [
       "/vetement_homme/37/photo_42_2025-11-17_21-56-34.jpg",
       "/vetement_homme/37/photo_43_2025-11-17_21-56-34.jpg",
@@ -1293,17 +1285,17 @@ export const vetement_homme = [
   {
     "id": 37,
     "name": "Ensemble Homme Nike",
-    "price": 8485,
-    "originalPrice": 8819,
+    "price": 4874,
+    "originalPrice": 5155,
     "category": "men",
     "brand": "Nike",
     "image": "/vetement_homme/38/Aensemble_homme_Nike.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
+      "Bleu",
+      "Orange",
       "Noir",
-      "Violet",
-      "Beige",
-      "Bleu"
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -1312,7 +1304,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 1,
+    "minOrder": 3,
     "images": [
       "/vetement_homme/38/Aensemble_homme_Nike.jpg",
       "/vetement_homme/38/photo_92_2025-11-17_21-56-34.jpg",
@@ -1322,17 +1314,17 @@ export const vetement_homme = [
   {
     "id": 38,
     "name": "Ensemble Homme Nike",
-    "price": 8878,
-    "originalPrice": 9227,
+    "price": 3469,
+    "originalPrice": 3703,
     "category": "men",
     "brand": "Nike",
     "image": "/vetement_homme/39/Aensemble_homme_Nike.jpg",
     "taxType": "ttc",
     "colors": [
-      "Rose",
       "Beige",
-      "Noir",
-      "Violet"
+      "Rouge",
+      "Vert",
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -1341,7 +1333,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 4,
+    "minOrder": 11,
     "images": [
       "/vetement_homme/39/Aensemble_homme_Nike.jpg",
       "/vetement_homme/39/photo_10_2025-11-17_21-53-57.jpg",
@@ -1353,16 +1345,19 @@ export const vetement_homme = [
   {
     "id": 39,
     "name": "Ensemble Homme Nike",
-    "price": 7960,
-    "originalPrice": 8384,
+    "price": 3812,
+    "originalPrice": 4033,
     "category": "men",
     "brand": "Nike",
     "image": "/vetement_homme/40/Aensemble_homme_Nike.jpg",
     "taxType": "ht",
     "colors": [
+      "Rouge",
+      "Jaune",
       "Noir",
-      "Blanc",
-      "Rouge"
+      "Gris",
+      "Bleu",
+      "Marron"
     ],
     "sizes": [
       "S",
@@ -1371,7 +1366,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 7,
+    "minOrder": 1,
     "images": [
       "/vetement_homme/40/Aensemble_homme_Nike.jpg",
       "/vetement_homme/40/photo_3_2025-11-17_21-53-57.jpg",
@@ -1382,18 +1377,17 @@ export const vetement_homme = [
   {
     "id": 40,
     "name": "Vêtement Homme",
-    "price": 2865,
-    "originalPrice": 3106,
+    "price": 1775,
+    "originalPrice": 1857,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/41/photo_67_2025-11-17_22-02-41.jpg",
     "taxType": "ht",
     "colors": [
-      "Jaune",
-      "Gris",
+      "Rose",
       "Marron",
-      "Violet",
-      "Rouge"
+      "Blanc",
+      "Gris"
     ],
     "sizes": [
       "S",
@@ -1402,7 +1396,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 11,
+    "minOrder": 13,
     "images": [
       "/vetement_homme/41/photo_67_2025-11-17_22-02-41.jpg",
       "/vetement_homme/41/photo_68_2025-11-17_22-02-41.jpg",
@@ -1417,19 +1411,49 @@ export const vetement_homme = [
   {
     "id": 41,
     "name": "Sweatshirt Homme Amiri",
-    "price": 3901,
-    "originalPrice": 4265,
+    "price": 1611,
+    "originalPrice": 1854,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/42/Asweatshirt_homme_amiri.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Vert",
-      "Violet",
-      "Beige",
+      "Noir",
+      "Orange",
+      "Rose",
       "Rouge",
-      "Blanc",
-      "Gris"
+      "Gris",
+      "Bleu"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 13,
+    "images": [
+      "/vetement_homme/42/Asweatshirt_homme_amiri.jpg",
+      "/vetement_homme/42/photo_15_2025-11-17_22-14-36.jpg",
+      "/vetement_homme/42/photo_16_2025-11-17_22-14-36.jpg"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Sweatshirt Homme Lacoste",
+    "price": 2478,
+    "originalPrice": 2926,
+    "category": "tshirts",
+    "brand": "Lacoste",
+    "image": "/vetement_homme/43/Asweatshirt_homme_lacoste.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Noir",
+      "Beige",
+      "Gris",
+      "Jaune",
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -1440,36 +1464,6 @@ export const vetement_homme = [
     ],
     "minOrder": 7,
     "images": [
-      "/vetement_homme/42/Asweatshirt_homme_amiri.jpg",
-      "/vetement_homme/42/photo_15_2025-11-17_22-14-36.jpg",
-      "/vetement_homme/42/photo_16_2025-11-17_22-14-36.jpg"
-    ]
-  },
-  {
-    "id": 42,
-    "name": "Sweatshirt Homme Lacoste",
-    "price": 3166,
-    "originalPrice": 3394,
-    "category": "tshirts",
-    "brand": "Lacoste",
-    "image": "/vetement_homme/43/Asweatshirt_homme_lacoste.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Noir",
-      "Violet",
-      "Blanc",
-      "Bleu",
-      "Jaune"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 5,
-    "images": [
       "/vetement_homme/43/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/43/photo_12_2025-11-17_22-14-36.jpg",
       "/vetement_homme/43/photo_13_2025-11-17_22-14-36.jpg",
@@ -1479,74 +1473,19 @@ export const vetement_homme = [
   {
     "id": 43,
     "name": "Vêtement Homme",
-    "price": 2316,
-    "originalPrice": 2382,
+    "price": 1563,
+    "originalPrice": 1753,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/44/photo_10_2025-11-17_22-14-36.jpg",
-    "taxType": "ttc",
-    "colors": [
-      "Noir",
-      "Vert",
-      "Bleu"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 12,
-    "images": [
-      "/vetement_homme/44/photo_10_2025-11-17_22-14-36.jpg",
-      "/vetement_homme/44/photo_9_2025-11-17_22-14-36.jpg"
-    ]
-  },
-  {
-    "id": 44,
-    "name": "Sweatshirt Homme Gucci",
-    "price": 3146,
-    "originalPrice": 3304,
-    "category": "tshirts",
-    "brand": "Gucci",
-    "image": "/vetement_homme/45/Asweatshirt_homme_gucci.jpg",
     "taxType": "ht",
     "colors": [
-      "Gris",
-      "Noir",
-      "Blanc",
-      "Marron",
-      "Bleu"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 17,
-    "images": [
-      "/vetement_homme/45/Asweatshirt_homme_gucci.jpg",
-      "/vetement_homme/45/photo_8_2025-11-17_22-14-36.jpg"
-    ]
-  },
-  {
-    "id": 45,
-    "name": "Sweatshirt Homme Hugo Boss",
-    "price": 2337,
-    "originalPrice": 2463,
-    "category": "tshirts",
-    "brand": "Various",
-    "image": "/vetement_homme/46/Asweatshirt_homme_hugo_boss.jpg",
-    "taxType": "ttc",
-    "colors": [
-      "Rouge",
+      "Jaune",
+      "Rose",
+      "Violet",
       "Bleu",
-      "Vert",
-      "Noir",
-      "Gris"
+      "Rouge",
+      "Marron"
     ],
     "sizes": [
       "S",
@@ -1557,24 +1496,25 @@ export const vetement_homme = [
     ],
     "minOrder": 18,
     "images": [
-      "/vetement_homme/46/Asweatshirt_homme_hugo_boss.jpg",
-      "/vetement_homme/46/photo_6_2025-11-17_22-14-36.jpg"
+      "/vetement_homme/44/photo_10_2025-11-17_22-14-36.jpg",
+      "/vetement_homme/44/photo_9_2025-11-17_22-14-36.jpg"
     ]
   },
   {
-    "id": 46,
-    "name": "T Shirt Homme Multimarque",
-    "price": 1565,
-    "originalPrice": 1869,
-    "category": "clothbrands",
-    "brand": "Multiple",
-    "image": "/vetement_homme/47/At-shirt_homme_multimarque.jpg",
+    "id": 44,
+    "name": "Sweatshirt Homme Gucci",
+    "price": 1533,
+    "originalPrice": 1661,
+    "category": "tshirts",
+    "brand": "Gucci",
+    "image": "/vetement_homme/45/Asweatshirt_homme_gucci.jpg",
     "taxType": "ttc",
     "colors": [
+      "Gris",
+      "Marron",
       "Noir",
       "Bleu",
-      "Gris",
-      "Marron"
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -1583,7 +1523,63 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 17,
+    "minOrder": 12,
+    "images": [
+      "/vetement_homme/45/Asweatshirt_homme_gucci.jpg",
+      "/vetement_homme/45/photo_8_2025-11-17_22-14-36.jpg"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Sweatshirt Homme Hugo Boss",
+    "price": 1606,
+    "originalPrice": 1924,
+    "category": "tshirts",
+    "brand": "Various",
+    "image": "/vetement_homme/46/Asweatshirt_homme_hugo_boss.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Noir",
+      "Marron",
+      "Orange",
+      "Beige",
+      "Gris"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 11,
+    "images": [
+      "/vetement_homme/46/Asweatshirt_homme_hugo_boss.jpg",
+      "/vetement_homme/46/photo_6_2025-11-17_22-14-36.jpg"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "T Shirt Homme Multimarque",
+    "price": 1838,
+    "originalPrice": 2261,
+    "category": "clothbrands",
+    "brand": "Multiple",
+    "image": "/vetement_homme/47/At-shirt_homme_multimarque.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Marron",
+      "Rose",
+      "Bleu"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 11,
     "images": [
       "/vetement_homme/47/At-shirt_homme_multimarque.jpg",
       "/vetement_homme/47/photo_2_2025-11-17_22-19-15.jpg",
@@ -1592,36 +1588,34 @@ export const vetement_homme = [
       "/vetement_homme/47/photo_5_2025-11-17_22-19-15.jpg"
     ],
     "clothbrands": [
-      "Nike",
-      "Adidas",
-      "Dior",
-      "Levis",
-      "Ralph Lauren",
-      "Prada",
-      "Supreme",
       "Chanel",
-      "Under Armour",
-      "Burberry",
-      "Tommy",
-      "Celine"
+      "Levis",
+      "Reebok",
+      "Gucci",
+      "Zara",
+      "Balenciaga",
+      "Fendi",
+      "Dior",
+      "Celine",
+      "Supreme",
+      "Puma",
+      "Prada"
     ]
   },
   {
     "id": 47,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 3009,
-    "originalPrice": 3169,
+    "price": 1849,
+    "originalPrice": 1984,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/48/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ht",
     "colors": [
-      "Vert",
-      "Bleu",
+      "Noir",
+      "Rose",
       "Orange",
-      "Marron",
-      "Beige",
-      "Rose"
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -1630,7 +1624,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 6,
+    "minOrder": 7,
     "images": [
       "/vetement_homme/48/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/48/photo_44_2025-11-17_22-20-48.jpg",
@@ -1643,19 +1637,18 @@ export const vetement_homme = [
   {
     "id": 48,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 3647,
-    "originalPrice": 3900,
+    "price": 1801,
+    "originalPrice": 1883,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/49/Asweatshirt_homme_lacoste.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Blanc",
-      "Bleu",
-      "Beige",
-      "Gris",
+      "Marron",
       "Orange",
-      "Vert"
+      "Rouge",
+      "Bleu",
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -1664,7 +1657,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 20,
+    "minOrder": 17,
     "images": [
       "/vetement_homme/49/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/49/photo_50_2025-11-17_22-20-48.jpg",
@@ -1675,18 +1668,17 @@ export const vetement_homme = [
   {
     "id": 49,
     "name": "Sweatshirt A Capuche Homme Lacoste",
-    "price": 2853,
-    "originalPrice": 3343,
+    "price": 1632,
+    "originalPrice": 1908,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/50/Asweatshirt_a_capuche_homme_lacoste.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Noir",
-      "Marron",
+      "Blanc",
       "Bleu",
-      "Orange",
-      "Rouge"
+      "Gris",
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -1695,7 +1687,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 12,
+    "minOrder": 18,
     "images": [
       "/vetement_homme/50/Asweatshirt_a_capuche_homme_lacoste.jpg",
       "/vetement_homme/50/photo_71_2025-11-17_22-20-48.jpg",
@@ -1707,18 +1699,19 @@ export const vetement_homme = [
   {
     "id": 50,
     "name": "Sweatshirt Homme Addidas",
-    "price": 2381,
-    "originalPrice": 2716,
+    "price": 2304,
+    "originalPrice": 2700,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/51/Asweatshirt_homme_addidas.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Noir",
+      "Jaune",
+      "Vert",
       "Rouge",
       "Gris",
-      "Rose",
-      "Orange"
+      "Noir",
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -1727,7 +1720,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 16,
+    "minOrder": 19,
     "images": [
       "/vetement_homme/51/Asweatshirt_homme_addidas.jpg",
       "/vetement_homme/51/photo_96_2025-11-17_22-20-48.jpg",
@@ -1739,18 +1732,19 @@ export const vetement_homme = [
   {
     "id": 51,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 3281,
-    "originalPrice": 3362,
+    "price": 2438,
+    "originalPrice": 2516,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/52/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ht",
     "colors": [
-      "Violet",
-      "Jaune",
+      "Marron",
+      "Noir",
+      "Rouge",
       "Blanc",
-      "Rose",
-      "Gris"
+      "Gris",
+      "Jaune"
     ],
     "sizes": [
       "S",
@@ -1759,7 +1753,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 11,
     "images": [
       "/vetement_homme/52/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/52/photo_91_2025-11-17_22-20-48.jpg",
@@ -1771,16 +1765,17 @@ export const vetement_homme = [
   {
     "id": 52,
     "name": "Sweatshirt Homme Puma",
-    "price": 3164,
-    "originalPrice": 3277,
+    "price": 1686,
+    "originalPrice": 1891,
     "category": "tshirts",
     "brand": "Puma",
     "image": "/vetement_homme/53/Asweatshirt_homme_puma.jpg",
     "taxType": "ttc",
     "colors": [
-      "Orange",
       "Rose",
-      "Noir"
+      "Bleu",
+      "Beige",
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -1789,7 +1784,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 9,
+    "minOrder": 20,
     "images": [
       "/vetement_homme/53/Asweatshirt_homme_puma.jpg",
       "/vetement_homme/53/photo_86_2025-11-17_22-20-48.jpg",
@@ -1800,16 +1795,18 @@ export const vetement_homme = [
   {
     "id": 53,
     "name": "Sweatshirt Homme Addidas",
-    "price": 3416,
-    "originalPrice": 3879,
+    "price": 1728,
+    "originalPrice": 1789,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/54/Asweatshirt_homme_addidas.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
+      "Noir",
       "Violet",
       "Jaune",
-      "Vert"
+      "Bleu",
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -1818,7 +1815,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 15,
+    "minOrder": 7,
     "images": [
       "/vetement_homme/54/Asweatshirt_homme_addidas.jpg",
       "/vetement_homme/54/photo_78_2025-11-17_22-20-48.jpg",
@@ -1829,16 +1826,18 @@ export const vetement_homme = [
   {
     "id": 54,
     "name": "Sweatshirt Homme Nike",
-    "price": 3736,
-    "originalPrice": 4035,
+    "price": 1687,
+    "originalPrice": 2006,
     "category": "tshirts",
     "brand": "Nike",
     "image": "/vetement_homme/55/Asweatshirt_homme_Nike.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Marron",
       "Gris",
-      "Rose"
+      "Blanc",
+      "Noir",
+      "Jaune",
+      "Orange"
     ],
     "sizes": [
       "S",
@@ -1847,7 +1846,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 19,
+    "minOrder": 13,
     "images": [
       "/vetement_homme/55/Asweatshirt_homme_Nike.jpg",
       "/vetement_homme/55/photo_57_2025-11-17_22-20-48.jpg",
@@ -1859,17 +1858,15 @@ export const vetement_homme = [
   {
     "id": 55,
     "name": "Sweatshirt Homme Addidas",
-    "price": 2819,
-    "originalPrice": 3010,
+    "price": 2160,
+    "originalPrice": 2616,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/56/Asweatshirt_homme_addidas.jpg",
     "taxType": "ht",
     "colors": [
-      "Beige",
-      "Noir",
-      "Rouge",
-      "Vert"
+      "Gris",
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -1878,7 +1875,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 20,
+    "minOrder": 15,
     "images": [
       "/vetement_homme/56/Asweatshirt_homme_addidas.jpg",
       "/vetement_homme/56/photo_63_2025-11-17_22-20-48.jpg",
@@ -1891,18 +1888,17 @@ export const vetement_homme = [
   {
     "id": 56,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 4258,
-    "originalPrice": 4450,
+    "price": 2320,
+    "originalPrice": 2819,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/57/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ttc",
     "colors": [
-      "Orange",
+      "Noir",
+      "Blanc",
       "Bleu",
-      "Jaune",
-      "Vert",
-      "Noir"
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -1911,7 +1907,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 18,
+    "minOrder": 5,
     "images": [
       "/vetement_homme/57/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/57/photo_30_2025-11-17_22-20-48.jpg",
@@ -1923,18 +1919,17 @@ export const vetement_homme = [
   {
     "id": 57,
     "name": "Sweatshirt Homme Mutlimarque",
-    "price": 3226,
-    "originalPrice": 3641,
+    "price": 2314,
+    "originalPrice": 2551,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/58/Asweatshirt_homme_mutlimarque.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Bleu",
       "Rose",
-      "Noir",
-      "Violet",
-      "Beige"
+      "Vert",
+      "Marron",
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -1943,7 +1938,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 13,
+    "minOrder": 6,
     "images": [
       "/vetement_homme/58/Asweatshirt_homme_mutlimarque.jpg",
       "/vetement_homme/58/photo_1_2025-11-17_22-21-12.jpg",
@@ -1960,14 +1955,76 @@ export const vetement_homme = [
   {
     "id": 58,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 3998,
-    "originalPrice": 4289,
+    "price": 2469,
+    "originalPrice": 2901,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/59/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ht",
     "colors": [
       "Violet",
+      "Jaune",
+      "Rouge",
+      "Noir",
+      "Marron"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 8,
+    "images": [
+      "/vetement_homme/59/Asweatshirt_homme_lacoste.jpg",
+      "/vetement_homme/59/photo_85_2025-11-17_22-02-41.jpg",
+      "/vetement_homme/59/photo_87_2025-11-17_22-02-41.jpg",
+      "/vetement_homme/59/photo_93_2025-11-17_22-02-41.jpg"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Sweatshirt Homme Hugo Boss",
+    "price": 2359,
+    "originalPrice": 2587,
+    "category": "tshirts",
+    "brand": "Various",
+    "image": "/vetement_homme/60/Asweatshirt_homme_hugo_boss.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Gris",
+      "Rouge",
+      "Violet",
+      "Noir"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 6,
+    "images": [
+      "/vetement_homme/60/Asweatshirt_homme_hugo_boss.jpg",
+      "/vetement_homme/60/photo_94_2025-11-17_22-14-37.jpg",
+      "/vetement_homme/60/photo_95_2025-11-17_22-14-37.jpg",
+      "/vetement_homme/60/photo_96_2025-11-17_22-14-37.jpg"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Vêtement Homme",
+    "price": 1654,
+    "originalPrice": 2147,
+    "category": "men",
+    "brand": "Various",
+    "image": "/vetement_homme/61/photo_46_2025-11-17_22-11-58.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Beige",
+      "Bleu",
       "Noir",
       "Rose",
       "Marron",
@@ -1980,29 +2037,28 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 16,
+    "minOrder": 15,
     "images": [
-      "/vetement_homme/59/Asweatshirt_homme_lacoste.jpg",
-      "/vetement_homme/59/photo_85_2025-11-17_22-02-41.jpg",
-      "/vetement_homme/59/photo_87_2025-11-17_22-02-41.jpg",
-      "/vetement_homme/59/photo_93_2025-11-17_22-02-41.jpg"
+      "/vetement_homme/61/photo_46_2025-11-17_22-11-58.jpg",
+      "/vetement_homme/61/photo_48_2025-11-17_22-11-58.jpg",
+      "/vetement_homme/61/photo_50_2025-11-17_22-11-58.jpg"
     ]
   },
   {
-    "id": 59,
-    "name": "Sweatshirt Homme Hugo Boss",
-    "price": 2189,
-    "originalPrice": 2640,
-    "category": "tshirts",
-    "brand": "Various",
-    "image": "/vetement_homme/60/Asweatshirt_homme_hugo_boss.jpg",
-    "taxType": "ttc",
+    "id": 61,
+    "name": "Debardeur Prada",
+    "price": 2133,
+    "originalPrice": 2233,
+    "category": "men",
+    "brand": "Prada",
+    "image": "/vetement_homme/62/debardeur_prada.jpg",
+    "taxType": "ht",
     "colors": [
-      "Noir",
+      "Bleu",
+      "Violet",
       "Vert",
-      "Rouge",
-      "Blanc",
-      "Gris"
+      "Rose",
+      "Beige"
     ],
     "sizes": [
       "S",
@@ -2011,28 +2067,26 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 15,
     "images": [
-      "/vetement_homme/60/Asweatshirt_homme_hugo_boss.jpg",
-      "/vetement_homme/60/photo_94_2025-11-17_22-14-37.jpg",
-      "/vetement_homme/60/photo_95_2025-11-17_22-14-37.jpg",
-      "/vetement_homme/60/photo_96_2025-11-17_22-14-37.jpg"
+      "/vetement_homme/62/debardeur_prada.jpg",
+      "/vetement_homme/62/photo_38_2025-11-17_22-11-58.jpg"
     ]
   },
   {
-    "id": 60,
-    "name": "Vêtement Homme",
-    "price": 2430,
-    "originalPrice": 2547,
+    "id": 62,
+    "name": "Ensemble Homme Tommy Hilfiger",
+    "price": 4336,
+    "originalPrice": 4537,
     "category": "men",
-    "brand": "Various",
-    "image": "/vetement_homme/61/photo_46_2025-11-17_22-11-58.jpg",
+    "brand": "Tommy",
+    "image": "/vetement_homme/63/Aensemble_homme_tommy_hilfiger.jpg",
     "taxType": "ttc",
     "colors": [
-      "Rose",
-      "Orange",
-      "Bleu",
-      "Marron"
+      "Marron",
+      "Rouge",
+      "Beige",
+      "Gris"
     ],
     "sizes": [
       "S",
@@ -2043,66 +2097,6 @@ export const vetement_homme = [
     ],
     "minOrder": 7,
     "images": [
-      "/vetement_homme/61/photo_46_2025-11-17_22-11-58.jpg",
-      "/vetement_homme/61/photo_48_2025-11-17_22-11-58.jpg",
-      "/vetement_homme/61/photo_50_2025-11-17_22-11-58.jpg"
-    ]
-  },
-  {
-    "id": 61,
-    "name": "Debardeur Prada",
-    "price": 3764,
-    "originalPrice": 4204,
-    "category": "men",
-    "brand": "Prada",
-    "image": "/vetement_homme/62/debardeur_prada.jpg",
-    "taxType": "ttc",
-    "colors": [
-      "Gris",
-      "Orange",
-      "Blanc",
-      "Bleu",
-      "Noir",
-      "Rose"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 10,
-    "images": [
-      "/vetement_homme/62/debardeur_prada.jpg",
-      "/vetement_homme/62/photo_38_2025-11-17_22-11-58.jpg"
-    ]
-  },
-  {
-    "id": 62,
-    "name": "Ensemble Homme Tommy Hilfiger",
-    "price": 9210,
-    "originalPrice": 9732,
-    "category": "men",
-    "brand": "Tommy",
-    "image": "/vetement_homme/63/Aensemble_homme_tommy_hilfiger.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Orange",
-      "Blanc",
-      "Rouge",
-      "Bleu",
-      "Vert"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 6,
-    "images": [
       "/vetement_homme/63/Aensemble_homme_tommy_hilfiger.jpg",
       "/vetement_homme/63/photo_27_2025-11-17_22-11-58.jpg",
       "/vetement_homme/63/photo_28_2025-11-17_22-11-58.jpg",
@@ -2112,17 +2106,18 @@ export const vetement_homme = [
   {
     "id": 63,
     "name": "Sweatshirt Homme Louis Vouiton",
-    "price": 2290,
-    "originalPrice": 2393,
+    "price": 1894,
+    "originalPrice": 2185,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/64/Asweatshirt_homme_louis_vouiton.jpg",
     "taxType": "ht",
     "colors": [
       "Gris",
+      "Rouge",
+      "Rose",
       "Noir",
-      "Jaune",
-      "Beige"
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -2131,7 +2126,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 5,
+    "minOrder": 19,
     "images": [
       "/vetement_homme/64/Asweatshirt_homme_louis_vouiton.jpg",
       "/vetement_homme/64/photo_48_2025-11-17_22-02-41.jpg",
@@ -2141,17 +2136,49 @@ export const vetement_homme = [
   {
     "id": 64,
     "name": "Ensemble Homme Nike",
-    "price": 8708,
-    "originalPrice": 9140,
+    "price": 3438,
+    "originalPrice": 3809,
     "category": "men",
     "brand": "Nike",
     "image": "/vetement_homme/65/Aensemble_homme_Nike.jpg",
     "taxType": "ht",
     "colors": [
-      "Vert",
-      "Bleu",
-      "Rouge",
+      "Rose",
       "Blanc",
+      "Noir",
+      "Marron",
+      "Rouge",
+      "Bleu"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 2,
+    "images": [
+      "/vetement_homme/65/Aensemble_homme_Nike.jpg",
+      "/vetement_homme/65/photo_31_2025-11-17_22-11-58.jpg",
+      "/vetement_homme/65/photo_32_2025-11-17_22-11-58.jpg",
+      "/vetement_homme/65/photo_33_2025-11-17_22-11-58.jpg"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Ensemble Homme Multimarque",
+    "price": 3698,
+    "originalPrice": 3896,
+    "category": "clothbrands",
+    "brand": "Multiple",
+    "image": "/vetement_homme/66/Aensemble_homme_multimarque .jpg",
+    "taxType": "ht",
+    "colors": [
+      "Gris",
+      "Vert",
+      "Rouge",
+      "Marron",
       "Noir"
     ],
     "sizes": [
@@ -2163,37 +2190,6 @@ export const vetement_homme = [
     ],
     "minOrder": 7,
     "images": [
-      "/vetement_homme/65/Aensemble_homme_Nike.jpg",
-      "/vetement_homme/65/photo_31_2025-11-17_22-11-58.jpg",
-      "/vetement_homme/65/photo_32_2025-11-17_22-11-58.jpg",
-      "/vetement_homme/65/photo_33_2025-11-17_22-11-58.jpg"
-    ]
-  },
-  {
-    "id": 65,
-    "name": "Ensemble Homme Multimarque",
-    "price": 6864,
-    "originalPrice": 7143,
-    "category": "clothbrands",
-    "brand": "Multiple",
-    "image": "/vetement_homme/66/Aensemble_homme_multimarque .jpg",
-    "taxType": "ht",
-    "colors": [
-      "Marron",
-      "Bleu",
-      "Rose",
-      "Beige",
-      "Violet"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 4,
-    "images": [
       "/vetement_homme/66/Aensemble_homme_multimarque .jpg",
       "/vetement_homme/66/photo_19_2025-11-17_22-10-02.jpg",
       "/vetement_homme/66/photo_20_2025-11-17_22-10-02.jpg",
@@ -2203,35 +2199,36 @@ export const vetement_homme = [
       "/vetement_homme/66/photo_25_2025-11-17_22-10-02.jpg"
     ],
     "clothbrands": [
-      "Nike",
-      "Hermes",
+      "Adidas",
       "Puma",
-      "Off-White",
-      "Burberry",
-      "Lacoste",
-      "Zara",
-      "H&M",
-      "Levis",
-      "Reebok",
       "Versace",
-      "Coach"
+      "Tommy",
+      "Dior",
+      "Hermes",
+      "Nike",
+      "Givenchy",
+      "Chanel",
+      "Celine",
+      "Tommy Hilfiger",
+      "Supreme"
     ]
   },
   {
     "id": 66,
     "name": "Sweatshirt Homme Amiri",
-    "price": 3241,
-    "originalPrice": 3666,
+    "price": 2022,
+    "originalPrice": 2198,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/67/Asweatshirt_homme_amiri.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
       "Rouge",
       "Jaune",
-      "Blanc",
       "Bleu",
-      "Gris"
+      "Orange",
+      "Noir",
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -2240,7 +2237,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 14,
+    "minOrder": 6,
     "images": [
       "/vetement_homme/67/Asweatshirt_homme_amiri.jpg",
       "/vetement_homme/67/photo_29_2025-11-17_22-10-02.jpg",
@@ -2252,18 +2249,18 @@ export const vetement_homme = [
   {
     "id": 67,
     "name": "Sweatshirt Homme Louis Vouiton",
-    "price": 4186,
-    "originalPrice": 4603,
+    "price": 2312,
+    "originalPrice": 2789,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/68/Asweatshirt_homme_louis_vouiton.jpg",
     "taxType": "ht",
     "colors": [
-      "Noir",
-      "Blanc",
+      "Rouge",
+      "Rose",
+      "Marron",
       "Vert",
-      "Violet",
-      "Bleu"
+      "Beige"
     ],
     "sizes": [
       "S",
@@ -2272,7 +2269,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 20,
+    "minOrder": 17,
     "images": [
       "/vetement_homme/68/Asweatshirt_homme_louis_vouiton.jpg",
       "/vetement_homme/68/photo_2_2025-11-17_22-07-20.jpg",
@@ -2283,18 +2280,17 @@ export const vetement_homme = [
   {
     "id": 68,
     "name": "Sweatshirt Homme Louis Vouiton",
-    "price": 3458,
-    "originalPrice": 3706,
+    "price": 1941,
+    "originalPrice": 2410,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/69/Asweatshirt_homme_louis_vouiton.jpg",
     "taxType": "ttc",
     "colors": [
+      "Jaune",
       "Rouge",
-      "Marron",
-      "Violet",
       "Gris",
-      "Jaune"
+      "Beige"
     ],
     "sizes": [
       "S",
@@ -2303,7 +2299,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 15,
+    "minOrder": 16,
     "images": [
       "/vetement_homme/69/Asweatshirt_homme_louis_vouiton.jpg",
       "/vetement_homme/69/photo_10_2025-11-17_22-07-20.jpg",
@@ -2314,17 +2310,18 @@ export const vetement_homme = [
   {
     "id": 69,
     "name": "Sweatshirt Homme Louis Vouiton",
-    "price": 4431,
-    "originalPrice": 4673,
+    "price": 2202,
+    "originalPrice": 2315,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/70/Asweatshirt_homme_louis_vouiton.jpg",
     "taxType": "ttc",
     "colors": [
-      "Gris",
-      "Noir",
-      "Beige",
-      "Bleu"
+      "Blanc",
+      "Vert",
+      "Rouge",
+      "Bleu",
+      "Jaune"
     ],
     "sizes": [
       "S",
@@ -2333,7 +2330,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 12,
+    "minOrder": 6,
     "images": [
       "/vetement_homme/70/Asweatshirt_homme_louis_vouiton.jpg",
       "/vetement_homme/70/photo_32_2025-11-17_22-07-20.jpg",
@@ -2344,17 +2341,18 @@ export const vetement_homme = [
   {
     "id": 70,
     "name": "Sweatshirt A Capuche Homme Polo",
-    "price": 4360,
-    "originalPrice": 4782,
+    "price": 1802,
+    "originalPrice": 2207,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/71/Asweatshirt_a_capuche_homme_polo.jpg",
     "taxType": "ttc",
     "colors": [
-      "Bleu",
-      "Rouge",
+      "Noir",
+      "Violet",
+      "Jaune",
       "Rose",
-      "Gris"
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -2363,7 +2361,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 20,
+    "minOrder": 9,
     "images": [
       "/vetement_homme/71/Asweatshirt_a_capuche_homme_polo.jpg",
       "/vetement_homme/71/photo_46_2025-11-17_22-07-20.jpg",
@@ -2375,18 +2373,17 @@ export const vetement_homme = [
   {
     "id": 71,
     "name": "Sweatshirt Homme Mutlimarque",
-    "price": 2327,
-    "originalPrice": 2612,
+    "price": 2047,
+    "originalPrice": 2145,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/73/Asweatshirt_homme_mutlimarque.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
+      "Jaune",
       "Rose",
-      "Violet",
-      "Gris",
       "Noir",
-      "Beige"
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -2395,7 +2392,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 12,
+    "minOrder": 11,
     "images": [
       "/vetement_homme/73/Asweatshirt_homme_mutlimarque.jpg",
       "/vetement_homme/73/photo_65_2025-11-17_22-07-20.jpg",
@@ -2407,16 +2404,15 @@ export const vetement_homme = [
   {
     "id": 72,
     "name": "Sweatshirt Homme Mutlimarque",
-    "price": 2288,
-    "originalPrice": 2620,
+    "price": 1853,
+    "originalPrice": 2123,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/74/Asweatshirt_homme_mutlimarque.jpg",
     "taxType": "ttc",
     "colors": [
-      "Jaune",
-      "Beige",
-      "Marron",
+      "Rouge",
+      "Rose",
       "Gris"
     ],
     "sizes": [
@@ -2426,7 +2422,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 11,
+    "minOrder": 16,
     "images": [
       "/vetement_homme/74/Asweatshirt_homme_mutlimarque.jpg",
       "/vetement_homme/74/photo_12_2025-11-17_22-04-47.jpg",
@@ -2437,19 +2433,17 @@ export const vetement_homme = [
   {
     "id": 73,
     "name": "Ensemble Homme Nike",
-    "price": 8554,
-    "originalPrice": 9070,
+    "price": 3748,
+    "originalPrice": 4289,
     "category": "men",
     "brand": "Nike",
     "image": "/vetement_homme/75/Aensemble_homme_Nike.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Rouge",
-      "Gris",
-      "Beige",
-      "Orange",
-      "Blanc",
-      "Noir"
+      "Jaune",
+      "Noir",
+      "Vert",
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -2458,7 +2452,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 6,
+    "minOrder": 5,
     "images": [
       "/vetement_homme/75/Aensemble_homme_Nike.jpg",
       "/vetement_homme/75/photo_46_2025-11-17_22-04-47.jpg",
@@ -2469,17 +2463,19 @@ export const vetement_homme = [
   {
     "id": 74,
     "name": "Ensemble Homme Lacoste",
-    "price": 6827,
-    "originalPrice": 7056,
+    "price": 4370,
+    "originalPrice": 4760,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/76/Aensemble_homme_lacoste.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Beige",
       "Vert",
+      "Noir",
+      "Gris",
       "Rose",
-      "Rouge"
+      "Orange",
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -2488,7 +2484,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 9,
+    "minOrder": 8,
     "images": [
       "/vetement_homme/76/Aensemble_homme_lacoste.jpg",
       "/vetement_homme/76/photo_39_2025-11-17_22-04-47.jpg",
@@ -2499,201 +2495,16 @@ export const vetement_homme = [
   {
     "id": 75,
     "name": "Ensemble Homme Lacoste",
-    "price": 7267,
-    "originalPrice": 7629,
+    "price": 3708,
+    "originalPrice": 4195,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/77/Aensemble_homme_lacoste.jpg",
     "taxType": "ht",
     "colors": [
-      "Rose",
-      "Beige",
-      "Noir",
-      "Marron"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 10,
-    "images": [
-      "/vetement_homme/77/Aensemble_homme_lacoste.jpg",
-      "/vetement_homme/77/photo_34_2025-11-17_22-04-47.jpg",
-      "/vetement_homme/77/photo_35_2025-11-17_22-04-47.jpg",
-      "/vetement_homme/77/photo_36_2025-11-17_22-04-47.jpg"
-    ]
-  },
-  {
-    "id": 76,
-    "name": "Ensemble Homme Under Armour",
-    "price": 8776,
-    "originalPrice": 9351,
-    "category": "men",
-    "brand": "Various",
-    "image": "/vetement_homme/78/Aensemble_homme_under_armour.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Beige",
-      "Jaune",
-      "Violet",
-      "Marron",
-      "Gris",
-      "Blanc"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 7,
-    "images": [
-      "/vetement_homme/78/Aensemble_homme_under_armour.jpg",
-      "/vetement_homme/78/photo_25_2025-11-17_22-04-47.jpg",
-      "/vetement_homme/78/photo_26_2025-11-17_22-04-47.jpg",
-      "/vetement_homme/78/photo_27_2025-11-17_22-04-47.jpg"
-    ]
-  },
-  {
-    "id": 77,
-    "name": "Ensemble Homme Under Armour",
-    "price": 8616,
-    "originalPrice": 8732,
-    "category": "men",
-    "brand": "Various",
-    "image": "/vetement_homme/79/Aensemble_homme_under_armour.jpg",
-    "taxType": "ttc",
-    "colors": [
-      "Noir",
       "Rouge",
-      "Bleu",
-      "Rose",
-      "Blanc"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 10,
-    "images": [
-      "/vetement_homme/79/Aensemble_homme_under_armour.jpg",
-      "/vetement_homme/79/photo_58_2025-11-17_22-04-47.jpg",
-      "/vetement_homme/79/photo_76_2025-11-17_22-04-47.jpg"
-    ]
-  },
-  {
-    "id": 78,
-    "name": "Ensemble Homme Addidas",
-    "price": 7046,
-    "originalPrice": 7233,
-    "category": "men",
-    "brand": "Various",
-    "image": "/vetement_homme/80/Aensemble_homme_addidas.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Bleu",
-      "Noir",
       "Vert",
-      "Gris",
-      "Rouge"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 6,
-    "images": [
-      "/vetement_homme/80/Aensemble_homme_addidas.jpg",
-      "/vetement_homme/80/photo_81_2025-11-17_22-04-47.jpg",
-      "/vetement_homme/80/photo_85_2025-11-17_22-04-47.jpg"
-    ]
-  },
-  {
-    "id": 79,
-    "name": "Ensemble Homme Burberry",
-    "price": 9939,
-    "originalPrice": 10214,
-    "category": "men",
-    "brand": "Burberry",
-    "image": "/vetement_homme/81/Aensemble_homme_burberry.jpg",
-    "taxType": "ttc",
-    "colors": [
-      "Blanc",
-      "Noir",
-      "Violet",
-      "Rose",
-      "Bleu"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 4,
-    "images": [
-      "/vetement_homme/81/Aensemble_homme_burberry.jpg",
-      "/vetement_homme/81/photo_88_2025-11-17_22-04-47.jpg",
-      "/vetement_homme/81/photo_89_2025-11-17_22-04-47.jpg",
-      "/vetement_homme/81/photo_90_2025-11-17_22-04-47.jpg"
-    ]
-  },
-  {
-    "id": 80,
-    "name": "Ensemble Homme Addidas",
-    "price": 9056,
-    "originalPrice": 9316,
-    "category": "men",
-    "brand": "Various",
-    "image": "/vetement_homme/82/Aensemble_homme_addidas.jpg",
-    "taxType": "ttc",
-    "colors": [
-      "Rose",
-      "Vert",
-      "Violet",
-      "Bleu"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 4,
-    "images": [
-      "/vetement_homme/82/Aensemble_homme_addidas.jpg",
-      "/vetement_homme/82/photo_12_2025-11-17_22-03-43.jpg",
-      "/vetement_homme/82/photo_18_2025-11-17_22-03-43.jpg",
-      "/vetement_homme/82/photo_20_2025-11-17_22-03-43.jpg"
-    ]
-  },
-  {
-    "id": 81,
-    "name": "Ensemble Homme Guicci",
-    "price": 6657,
-    "originalPrice": 7027,
-    "category": "men",
-    "brand": "Various",
-    "image": "/vetement_homme/83/Aensemble_homme_guicci.jpg",
-    "taxType": "ht",
-    "colors": [
       "Orange",
-      "Bleu",
-      "Blanc",
-      "Violet",
-      "Vert",
       "Noir"
     ],
     "sizes": [
@@ -2705,25 +2516,59 @@ export const vetement_homme = [
     ],
     "minOrder": 3,
     "images": [
-      "/vetement_homme/83/Aensemble_homme_guicci.jpg",
-      "/vetement_homme/83/photo_11_2025-11-17_22-03-43.jpg",
-      "/vetement_homme/83/photo_3_2025-11-17_22-03-43.jpg",
-      "/vetement_homme/83/photo_5_2025-11-17_22-03-43.jpg"
+      "/vetement_homme/77/Aensemble_homme_lacoste.jpg",
+      "/vetement_homme/77/photo_34_2025-11-17_22-04-47.jpg",
+      "/vetement_homme/77/photo_35_2025-11-17_22-04-47.jpg",
+      "/vetement_homme/77/photo_36_2025-11-17_22-04-47.jpg"
     ]
   },
   {
-    "id": 82,
-    "name": "Ensemble Homme Nike",
-    "price": 7329,
-    "originalPrice": 7645,
+    "id": 76,
+    "name": "Ensemble Homme Under Armour",
+    "price": 5080,
+    "originalPrice": 5302,
     "category": "men",
-    "brand": "Nike",
-    "image": "/vetement_homme/84/Aensemble_homme_Nike.jpg",
-    "taxType": "ht",
+    "brand": "Various",
+    "image": "/vetement_homme/78/Aensemble_homme_under_armour.jpg",
+    "taxType": "ttc",
     "colors": [
-      "Beige",
+      "Blanc",
       "Noir",
-      "Rose"
+      "Gris",
+      "Bleu",
+      "Jaune"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 9,
+    "images": [
+      "/vetement_homme/78/Aensemble_homme_under_armour.jpg",
+      "/vetement_homme/78/photo_25_2025-11-17_22-04-47.jpg",
+      "/vetement_homme/78/photo_26_2025-11-17_22-04-47.jpg",
+      "/vetement_homme/78/photo_27_2025-11-17_22-04-47.jpg"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Ensemble Homme Under Armour",
+    "price": 4469,
+    "originalPrice": 4849,
+    "category": "men",
+    "brand": "Various",
+    "image": "/vetement_homme/79/Aensemble_homme_under_armour.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Marron",
+      "Vert",
+      "Bleu",
+      "Rouge",
+      "Noir",
+      "Beige"
     ],
     "sizes": [
       "S",
@@ -2733,6 +2578,157 @@ export const vetement_homme = [
       "XXL"
     ],
     "minOrder": 7,
+    "images": [
+      "/vetement_homme/79/Aensemble_homme_under_armour.jpg",
+      "/vetement_homme/79/photo_58_2025-11-17_22-04-47.jpg",
+      "/vetement_homme/79/photo_76_2025-11-17_22-04-47.jpg"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Ensemble Homme Addidas",
+    "price": 5177,
+    "originalPrice": 5428,
+    "category": "men",
+    "brand": "Various",
+    "image": "/vetement_homme/80/Aensemble_homme_addidas.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Jaune",
+      "Beige",
+      "Noir",
+      "Gris",
+      "Bleu"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 9,
+    "images": [
+      "/vetement_homme/80/Aensemble_homme_addidas.jpg",
+      "/vetement_homme/80/photo_81_2025-11-17_22-04-47.jpg",
+      "/vetement_homme/80/photo_85_2025-11-17_22-04-47.jpg"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Ensemble Homme Burberry",
+    "price": 3676,
+    "originalPrice": 4081,
+    "category": "men",
+    "brand": "Burberry",
+    "image": "/vetement_homme/81/Aensemble_homme_burberry.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Jaune",
+      "Bleu",
+      "Rose",
+      "Orange"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 9,
+    "images": [
+      "/vetement_homme/81/Aensemble_homme_burberry.jpg",
+      "/vetement_homme/81/photo_88_2025-11-17_22-04-47.jpg",
+      "/vetement_homme/81/photo_89_2025-11-17_22-04-47.jpg",
+      "/vetement_homme/81/photo_90_2025-11-17_22-04-47.jpg"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Ensemble Homme Addidas",
+    "price": 3426,
+    "originalPrice": 3691,
+    "category": "men",
+    "brand": "Various",
+    "image": "/vetement_homme/82/Aensemble_homme_addidas.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Blanc",
+      "Marron",
+      "Noir",
+      "Rouge",
+      "Orange"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 1,
+    "images": [
+      "/vetement_homme/82/Aensemble_homme_addidas.jpg",
+      "/vetement_homme/82/photo_12_2025-11-17_22-03-43.jpg",
+      "/vetement_homme/82/photo_18_2025-11-17_22-03-43.jpg",
+      "/vetement_homme/82/photo_20_2025-11-17_22-03-43.jpg"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Ensemble Homme Guicci",
+    "price": 5121,
+    "originalPrice": 5382,
+    "category": "men",
+    "brand": "Various",
+    "image": "/vetement_homme/83/Aensemble_homme_guicci.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Marron",
+      "Noir",
+      "Orange",
+      "Violet"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 6,
+    "images": [
+      "/vetement_homme/83/Aensemble_homme_guicci.jpg",
+      "/vetement_homme/83/photo_11_2025-11-17_22-03-43.jpg",
+      "/vetement_homme/83/photo_3_2025-11-17_22-03-43.jpg",
+      "/vetement_homme/83/photo_5_2025-11-17_22-03-43.jpg"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Ensemble Homme Nike",
+    "price": 4890,
+    "originalPrice": 5459,
+    "category": "men",
+    "brand": "Nike",
+    "image": "/vetement_homme/84/Aensemble_homme_Nike.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Noir",
+      "Jaune",
+      "Beige",
+      "Bleu",
+      "Rose"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 3,
     "images": [
       "/vetement_homme/84/Aensemble_homme_Nike.jpg",
       "/vetement_homme/84/photo_23_2025-11-17_22-03-43.jpg",
@@ -2745,18 +2741,18 @@ export const vetement_homme = [
   {
     "id": 83,
     "name": "Ensemble Homme Louis Vouiton",
-    "price": 8768,
-    "originalPrice": 8969,
+    "price": 5036,
+    "originalPrice": 5178,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/85/Aensemble_homme_louis_vouiton.jpg",
     "taxType": "ht",
     "colors": [
       "Noir",
-      "Gris",
-      "Bleu",
+      "Jaune",
       "Blanc",
-      "Vert"
+      "Rouge",
+      "Orange"
     ],
     "sizes": [
       "S",
@@ -2765,7 +2761,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 2,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/85/Aensemble_homme_louis_vouiton.jpg",
       "/vetement_homme/85/photo_47_2025-11-17_22-03-43.jpg",
@@ -2776,17 +2772,103 @@ export const vetement_homme = [
   {
     "id": 84,
     "name": "Pullover Homme Gucci",
-    "price": 1824,
-    "originalPrice": 1893,
+    "price": 2075,
+    "originalPrice": 2529,
     "category": "men",
     "brand": "Gucci",
     "image": "/vetement_homme/86/Apullover_homme_gucci.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Bleu",
+      "Jaune",
+      "Blanc",
+      "Gris",
+      "Orange"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 16,
+    "images": [
+      "/vetement_homme/86/Apullover_homme_gucci.jpg",
+      "/vetement_homme/86/photo_61_2025-11-17_22-02-41.jpg",
+      "/vetement_homme/86/photo_63_2025-11-17_22-02-41.jpg"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Sweatshirt Homme Casa Blanca",
+    "price": 1768,
+    "originalPrice": 2156,
+    "category": "tshirts",
+    "brand": "Various",
+    "image": "/vetement_homme/87/Asweatshirt_homme_casa_blanca.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Blanc"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 6,
+    "images": [
+      "/vetement_homme/87/Asweatshirt_homme_casa_blanca.jpg",
+      "/vetement_homme/87/photo_44_2025-11-17_22-02-41.jpg",
+      "/vetement_homme/87/photo_47_2025-11-17_22-02-41.jpg"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Ensemble Homme Addidas",
+    "price": 4232,
+    "originalPrice": 4516,
+    "category": "men",
+    "brand": "Various",
+    "image": "/vetement_homme/88/Aensemble_homme_addidas.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Rose",
+      "Marron",
+      "Blanc",
+      "Bleu",
+      "Vert",
+      "Noir"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 11,
+    "images": [
+      "/vetement_homme/88/Aensemble_homme_addidas.jpg",
+      "/vetement_homme/88/photo_69_2025-11-17_22-01-40.jpg",
+      "/vetement_homme/88/photo_70_2025-11-17_22-01-40.jpg",
+      "/vetement_homme/88/photo_72_2025-11-17_22-01-40.jpg"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Ensemble Homme Multimarque",
+    "price": 4657,
+    "originalPrice": 5247,
+    "category": "clothbrands",
+    "brand": "Multiple",
+    "image": "/vetement_homme/89/Aensemble_homme_multimarque .jpg",
     "taxType": "ttc",
     "colors": [
       "Rose",
-      "Rouge",
       "Noir",
-      "Beige",
       "Vert"
     ],
     "sizes": [
@@ -2798,92 +2880,6 @@ export const vetement_homme = [
     ],
     "minOrder": 7,
     "images": [
-      "/vetement_homme/86/Apullover_homme_gucci.jpg",
-      "/vetement_homme/86/photo_61_2025-11-17_22-02-41.jpg",
-      "/vetement_homme/86/photo_63_2025-11-17_22-02-41.jpg"
-    ]
-  },
-  {
-    "id": 85,
-    "name": "Sweatshirt Homme Casa Blanca",
-    "price": 2060,
-    "originalPrice": 2152,
-    "category": "tshirts",
-    "brand": "Various",
-    "image": "/vetement_homme/87/Asweatshirt_homme_casa_blanca.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Blanc"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 19,
-    "images": [
-      "/vetement_homme/87/Asweatshirt_homme_casa_blanca.jpg",
-      "/vetement_homme/87/photo_44_2025-11-17_22-02-41.jpg",
-      "/vetement_homme/87/photo_47_2025-11-17_22-02-41.jpg"
-    ]
-  },
-  {
-    "id": 86,
-    "name": "Ensemble Homme Addidas",
-    "price": 9372,
-    "originalPrice": 9507,
-    "category": "men",
-    "brand": "Various",
-    "image": "/vetement_homme/88/Aensemble_homme_addidas.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Beige",
-      "Gris",
-      "Bleu",
-      "Jaune"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 6,
-    "images": [
-      "/vetement_homme/88/Aensemble_homme_addidas.jpg",
-      "/vetement_homme/88/photo_69_2025-11-17_22-01-40.jpg",
-      "/vetement_homme/88/photo_70_2025-11-17_22-01-40.jpg",
-      "/vetement_homme/88/photo_72_2025-11-17_22-01-40.jpg"
-    ]
-  },
-  {
-    "id": 87,
-    "name": "Ensemble Homme Multimarque",
-    "price": 7901,
-    "originalPrice": 8355,
-    "category": "clothbrands",
-    "brand": "Multiple",
-    "image": "/vetement_homme/89/Aensemble_homme_multimarque .jpg",
-    "taxType": "ht",
-    "colors": [
-      "Gris",
-      "Orange",
-      "Marron",
-      "Bleu",
-      "Noir"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 4,
-    "images": [
       "/vetement_homme/89/Aensemble_homme_multimarque .jpg",
       "/vetement_homme/89/photo_14_2025-11-17_22-01-40.jpg",
       "/vetement_homme/89/photo_17_2025-11-17_22-01-40.jpg",
@@ -2894,36 +2890,36 @@ export const vetement_homme = [
       "/vetement_homme/89/photo_4_2025-11-17_22-01-40.jpg"
     ],
     "clothbrands": [
-      "Armani",
-      "Ralph Lauren",
-      "Fendi",
+      "Burberry",
+      "Lacoste",
       "Prada",
-      "Versace",
-      "Supreme",
-      "Chanel",
+      "Dior",
+      "Levis",
       "Nike",
-      "Givenchy",
       "Adidas",
+      "H&M",
+      "Puma",
+      "Balenciaga",
       "Gucci",
-      "Zara"
+      "Versace"
     ]
   },
   {
     "id": 88,
     "name": "Sweatshirt Homme Under Armour",
-    "price": 4337,
-    "originalPrice": 4392,
+    "price": 1939,
+    "originalPrice": 2196,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/90/Asweatshirt_homme_under_armour.jpg",
     "taxType": "ttc",
     "colors": [
-      "Beige",
       "Blanc",
-      "Gris",
-      "Vert",
+      "Noir",
+      "Jaune",
       "Rouge",
-      "Noir"
+      "Orange",
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -2932,7 +2928,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 17,
+    "minOrder": 6,
     "images": [
       "/vetement_homme/90/Asweatshirt_homme_under_armour.jpg",
       "/vetement_homme/90/photo_19_2025-11-17_22-00-37.jpg",
@@ -2943,18 +2939,17 @@ export const vetement_homme = [
   {
     "id": 89,
     "name": "Sweatshirt Homme Under Armour",
-    "price": 4193,
-    "originalPrice": 4552,
+    "price": 2318,
+    "originalPrice": 2683,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/91/Asweatshirt_homme_under_armour.jpg",
     "taxType": "ht",
     "colors": [
-      "Bleu",
       "Rouge",
-      "Noir",
-      "Rose",
-      "Marron"
+      "Jaune",
+      "Beige",
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -2963,7 +2958,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 18,
+    "minOrder": 9,
     "images": [
       "/vetement_homme/91/Asweatshirt_homme_under_armour.jpg",
       "/vetement_homme/91/photo_59_2025-11-17_22-11-58.jpg",
@@ -2974,18 +2969,17 @@ export const vetement_homme = [
   {
     "id": 90,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 3201,
-    "originalPrice": 3342,
+    "price": 2428,
+    "originalPrice": 2745,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/92/Asweatshirt_homme_lacoste.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Gris",
+      "Blanc",
       "Rose",
       "Noir",
-      "Jaune",
-      "Rouge"
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -3005,17 +2999,16 @@ export const vetement_homme = [
   {
     "id": 91,
     "name": "Sweatshirt Homme Tommy Hilfiger",
-    "price": 1821,
-    "originalPrice": 2179,
+    "price": 2411,
+    "originalPrice": 2532,
     "category": "tshirts",
     "brand": "Tommy",
     "image": "/vetement_homme/93/Asweatshirt_homme_Tommy_hilfiger.jpg",
     "taxType": "ttc",
     "colors": [
+      "Blanc",
       "Violet",
-      "Beige",
-      "Vert",
-      "Noir",
+      "Rouge",
       "Bleu"
     ],
     "sizes": [
@@ -3025,7 +3018,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 6,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/93/Asweatshirt_homme_Tommy_hilfiger.jpg",
       "/vetement_homme/93/photo_20_2025-11-17_22-11-58.jpg",
@@ -3038,16 +3031,17 @@ export const vetement_homme = [
   {
     "id": 92,
     "name": "Sweatshirt Homme Tommy Hilfiger",
-    "price": 3821,
-    "originalPrice": 4181,
+    "price": 1822,
+    "originalPrice": 1947,
     "category": "tshirts",
     "brand": "Tommy",
     "image": "/vetement_homme/94/Asweatshirt_homme_Tommy_hilfiger.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Bleu",
-      "Gris",
-      "Noir"
+      "Rouge",
+      "Vert",
+      "Blanc",
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -3056,7 +3050,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 16,
+    "minOrder": 12,
     "images": [
       "/vetement_homme/94/Asweatshirt_homme_Tommy_hilfiger.jpg",
       "/vetement_homme/94/photo_16_2025-11-17_22-11-58.jpg",
@@ -3067,19 +3061,18 @@ export const vetement_homme = [
   {
     "id": 93,
     "name": "Sweatshirt Homme Tommy Hilfiger",
-    "price": 4304,
-    "originalPrice": 4409,
+    "price": 2357,
+    "originalPrice": 2816,
     "category": "tshirts",
     "brand": "Tommy",
     "image": "/vetement_homme/95/Asweatshirt_homme_Tommy_hilfiger.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Bleu",
-      "Vert",
+      "Beige",
       "Jaune",
-      "Violet",
-      "Rose",
-      "Rouge"
+      "Orange",
+      "Rouge",
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -3088,7 +3081,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 8,
+    "minOrder": 15,
     "images": [
       "/vetement_homme/95/Asweatshirt_homme_Tommy_hilfiger.jpg",
       "/vetement_homme/95/photo_12_2025-11-17_22-11-58.jpg",
@@ -3099,18 +3092,18 @@ export const vetement_homme = [
   {
     "id": 94,
     "name": "Sweatshirt Homme Tommy Hilfiger",
-    "price": 3946,
-    "originalPrice": 4027,
+    "price": 2274,
+    "originalPrice": 2354,
     "category": "tshirts",
     "brand": "Tommy",
     "image": "/vetement_homme/96/Asweatshirt_homme_Tommy_hilfiger.jpg",
     "taxType": "ht",
     "colors": [
+      "Blanc",
       "Noir",
-      "Beige",
-      "Rouge",
-      "Bleu",
-      "Gris"
+      "Orange",
+      "Vert",
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -3119,7 +3112,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 6,
+    "minOrder": 20,
     "images": [
       "/vetement_homme/96/Asweatshirt_homme_Tommy_hilfiger.jpg",
       "/vetement_homme/96/photo_2_2025-11-17_22-11-58.jpg",
@@ -3130,17 +3123,46 @@ export const vetement_homme = [
   {
     "id": 95,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 2372,
-    "originalPrice": 2508,
+    "price": 2020,
+    "originalPrice": 2401,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/97/Asweatshirt_homme_lacoste.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Rouge",
       "Orange",
-      "Gris",
-      "Rose"
+      "Bleu",
+      "Noir",
+      "Blanc"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 15,
+    "images": [
+      "/vetement_homme/97/Asweatshirt_homme_lacoste.jpg",
+      "/vetement_homme/97/photo_86_2025-11-17_22-14-36.jpg",
+      "/vetement_homme/97/photo_87_2025-11-17_22-14-36.jpg"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Sweatshirt Homme Lacoste",
+    "price": 1533,
+    "originalPrice": 1824,
+    "category": "tshirts",
+    "brand": "Lacoste",
+    "image": "/vetement_homme/98/Asweatshirt_homme_lacoste.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Rose",
+      "Jaune",
+      "Violet",
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -3151,36 +3173,6 @@ export const vetement_homme = [
     ],
     "minOrder": 13,
     "images": [
-      "/vetement_homme/97/Asweatshirt_homme_lacoste.jpg",
-      "/vetement_homme/97/photo_86_2025-11-17_22-14-36.jpg",
-      "/vetement_homme/97/photo_87_2025-11-17_22-14-36.jpg"
-    ]
-  },
-  {
-    "id": 96,
-    "name": "Sweatshirt Homme Lacoste",
-    "price": 1522,
-    "originalPrice": 1884,
-    "category": "tshirts",
-    "brand": "Lacoste",
-    "image": "/vetement_homme/98/Asweatshirt_homme_lacoste.jpg",
-    "taxType": "ttc",
-    "colors": [
-      "Jaune",
-      "Blanc",
-      "Vert",
-      "Beige",
-      "Noir"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 19,
-    "images": [
       "/vetement_homme/98/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/98/photo_80_2025-11-17_22-14-36.jpg",
       "/vetement_homme/98/photo_81_2025-11-17_22-14-36.jpg",
@@ -3190,171 +3182,18 @@ export const vetement_homme = [
   {
     "id": 97,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 4002,
-    "originalPrice": 4309,
+    "price": 1575,
+    "originalPrice": 1670,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/99/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ttc",
     "colors": [
-      "Rouge",
-      "Noir",
-      "Rose",
-      "Jaune",
-      "Gris"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 6,
-    "images": [
-      "/vetement_homme/99/Asweatshirt_homme_lacoste.jpg",
-      "/vetement_homme/99/photo_75_2025-11-17_22-14-36.jpg",
-      "/vetement_homme/99/photo_76_2025-11-17_22-14-36.jpg",
-      "/vetement_homme/99/photo_77_2025-11-17_22-14-36.jpg"
-    ]
-  },
-  {
-    "id": 98,
-    "name": "Sweatshirt Homme Lacoste",
-    "price": 2439,
-    "originalPrice": 2890,
-    "category": "tshirts",
-    "brand": "Lacoste",
-    "image": "/vetement_homme/100/Asweatshirt_homme_lacoste.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Marron",
-      "Jaune",
-      "Vert",
-      "Bleu",
-      "Rose"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 12,
-    "images": [
-      "/vetement_homme/100/Asweatshirt_homme_lacoste.jpg",
-      "/vetement_homme/100/photo_70_2025-11-17_22-14-36.jpg",
-      "/vetement_homme/100/photo_71_2025-11-17_22-14-36.jpg",
-      "/vetement_homme/100/photo_72_2025-11-17_22-14-36.jpg"
-    ]
-  },
-  {
-    "id": 99,
-    "name": "Sweatshirt Homme Off White",
-    "price": 3238,
-    "originalPrice": 3456,
-    "category": "tshirts",
-    "brand": "Various",
-    "image": "/vetement_homme/101/Asweatshirt_homme_off_white.jpg",
-    "taxType": "ttc",
-    "colors": [
-      "Noir",
-      "Jaune",
-      "Rouge",
-      "Rose",
-      "Bleu"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 16,
-    "images": [
-      "/vetement_homme/101/Asweatshirt_homme_off_white.jpg",
-      "/vetement_homme/101/photo_1_2025-11-17_22-14-36.jpg",
-      "/vetement_homme/101/photo_2_2025-11-17_22-14-36.jpg",
-      "/vetement_homme/101/photo_4_2025-11-17_22-14-36.jpg"
-    ]
-  },
-  {
-    "id": 100,
-    "name": "Sweatshirt Homme Louis Vouiton",
-    "price": 4412,
-    "originalPrice": 4501,
-    "category": "tshirts",
-    "brand": "Various",
-    "image": "/vetement_homme/102/Asweatshirt_homme_louis_vouiton.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Bleu",
-      "Beige",
-      "Gris",
       "Blanc",
-      "Rose"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 6,
-    "images": [
-      "/vetement_homme/102/Asweatshirt_homme_louis_vouiton.jpg",
-      "/vetement_homme/102/photo_30_2025-11-17_22-14-36.jpg",
-      "/vetement_homme/102/photo_31_2025-11-17_22-14-36.jpg"
-    ]
-  },
-  {
-    "id": 101,
-    "name": "Sweatshirt Homme Hugo Boss",
-    "price": 3548,
-    "originalPrice": 3742,
-    "category": "tshirts",
-    "brand": "Various",
-    "image": "/vetement_homme/103/Asweatshirt_homme_hugo_boss.jpg",
-    "taxType": "ttc",
-    "colors": [
       "Rouge",
-      "Vert",
-      "Rose",
-      "Violet",
-      "Gris",
-      "Blanc"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 12,
-    "images": [
-      "/vetement_homme/103/Asweatshirt_homme_hugo_boss.jpg",
-      "/vetement_homme/103/photo_36_2025-11-17_22-14-36.jpg"
-    ]
-  },
-  {
-    "id": 102,
-    "name": "Sweatshirt Homme Hugo Boss",
-    "price": 3841,
-    "originalPrice": 4090,
-    "category": "tshirts",
-    "brand": "Various",
-    "image": "/vetement_homme/104/Asweatshirt_homme_hugo_boss.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Violet",
-      "Rose",
-      "Vert",
+      "Jaune",
       "Beige",
-      "Marron"
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -3365,24 +3204,115 @@ export const vetement_homme = [
     ],
     "minOrder": 14,
     "images": [
-      "/vetement_homme/104/Asweatshirt_homme_hugo_boss.jpg",
-      "/vetement_homme/104/photo_40_2025-11-17_22-14-36.jpg"
+      "/vetement_homme/99/Asweatshirt_homme_lacoste.jpg",
+      "/vetement_homme/99/photo_75_2025-11-17_22-14-36.jpg",
+      "/vetement_homme/99/photo_76_2025-11-17_22-14-36.jpg",
+      "/vetement_homme/99/photo_77_2025-11-17_22-14-36.jpg"
     ]
   },
   {
-    "id": 103,
-    "name": "Sweatshirt Homme Hugo Boss",
-    "price": 2508,
-    "originalPrice": 2615,
+    "id": 98,
+    "name": "Sweatshirt Homme Lacoste",
+    "price": 2134,
+    "originalPrice": 2300,
     "category": "tshirts",
-    "brand": "Various",
-    "image": "/vetement_homme/105/Asweatshirt_homme_hugo_boss.jpg",
+    "brand": "Lacoste",
+    "image": "/vetement_homme/100/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ttc",
     "colors": [
-      "Noir",
+      "Rose",
+      "Jaune",
+      "Noir"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 5,
+    "images": [
+      "/vetement_homme/100/Asweatshirt_homme_lacoste.jpg",
+      "/vetement_homme/100/photo_70_2025-11-17_22-14-36.jpg",
+      "/vetement_homme/100/photo_71_2025-11-17_22-14-36.jpg",
+      "/vetement_homme/100/photo_72_2025-11-17_22-14-36.jpg"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Sweatshirt Homme Off White",
+    "price": 1577,
+    "originalPrice": 2031,
+    "category": "tshirts",
+    "brand": "Various",
+    "image": "/vetement_homme/101/Asweatshirt_homme_off_white.jpg",
+    "taxType": "ttc",
+    "colors": [
       "Rouge",
-      "Marron",
-      "Vert"
+      "Noir",
+      "Jaune",
+      "Violet"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 18,
+    "images": [
+      "/vetement_homme/101/Asweatshirt_homme_off_white.jpg",
+      "/vetement_homme/101/photo_1_2025-11-17_22-14-36.jpg",
+      "/vetement_homme/101/photo_2_2025-11-17_22-14-36.jpg",
+      "/vetement_homme/101/photo_4_2025-11-17_22-14-36.jpg"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Sweatshirt Homme Louis Vouiton",
+    "price": 1581,
+    "originalPrice": 2030,
+    "category": "tshirts",
+    "brand": "Various",
+    "image": "/vetement_homme/102/Asweatshirt_homme_louis_vouiton.jpg",
+    "taxType": "ht",
+    "colors": [
+      "Rouge",
+      "Bleu",
+      "Violet",
+      "Jaune",
+      "Noir"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 13,
+    "images": [
+      "/vetement_homme/102/Asweatshirt_homme_louis_vouiton.jpg",
+      "/vetement_homme/102/photo_30_2025-11-17_22-14-36.jpg",
+      "/vetement_homme/102/photo_31_2025-11-17_22-14-36.jpg"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Sweatshirt Homme Hugo Boss",
+    "price": 2251,
+    "originalPrice": 2387,
+    "category": "tshirts",
+    "brand": "Various",
+    "image": "/vetement_homme/103/Asweatshirt_homme_hugo_boss.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Rouge",
+      "Blanc",
+      "Gris",
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -3393,25 +3323,24 @@ export const vetement_homme = [
     ],
     "minOrder": 8,
     "images": [
-      "/vetement_homme/105/Asweatshirt_homme_hugo_boss.jpg",
-      "/vetement_homme/105/photo_38_2025-11-17_22-14-36.jpg"
+      "/vetement_homme/103/Asweatshirt_homme_hugo_boss.jpg",
+      "/vetement_homme/103/photo_36_2025-11-17_22-14-36.jpg"
     ]
   },
   {
-    "id": 104,
-    "name": "Sweatshirt Homme",
-    "price": 2935,
-    "originalPrice": 3336,
+    "id": 102,
+    "name": "Sweatshirt Homme Hugo Boss",
+    "price": 1623,
+    "originalPrice": 1938,
     "category": "tshirts",
     "brand": "Various",
-    "image": "/vetement_homme/106/Asweatshirt_homme.jpg",
-    "taxType": "ht",
+    "image": "/vetement_homme/104/Asweatshirt_homme_hugo_boss.jpg",
+    "taxType": "ttc",
     "colors": [
-      "Rose",
-      "Bleu",
+      "Jaune",
       "Noir",
-      "Rouge",
-      "Orange"
+      "Beige",
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -3420,7 +3349,64 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 8,
+    "minOrder": 6,
+    "images": [
+      "/vetement_homme/104/Asweatshirt_homme_hugo_boss.jpg",
+      "/vetement_homme/104/photo_40_2025-11-17_22-14-36.jpg"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Sweatshirt Homme Hugo Boss",
+    "price": 2294,
+    "originalPrice": 2603,
+    "category": "tshirts",
+    "brand": "Various",
+    "image": "/vetement_homme/105/Asweatshirt_homme_hugo_boss.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Rouge",
+      "Noir",
+      "Violet",
+      "Blanc"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 18,
+    "images": [
+      "/vetement_homme/105/Asweatshirt_homme_hugo_boss.jpg",
+      "/vetement_homme/105/photo_38_2025-11-17_22-14-36.jpg"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Sweatshirt Homme",
+    "price": 1711,
+    "originalPrice": 2183,
+    "category": "tshirts",
+    "brand": "Various",
+    "image": "/vetement_homme/106/Asweatshirt_homme.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Gris",
+      "Vert",
+      "Rouge",
+      "Blanc",
+      "Marron"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 6,
     "images": [
       "/vetement_homme/106/Asweatshirt_homme.jpg",
       "/vetement_homme/106/photo_33_2025-11-17_22-14-36.jpg",
@@ -3430,8 +3416,8 @@ export const vetement_homme = [
   {
     "id": 105,
     "name": "Sweatshirt Homme Casa Blanca",
-    "price": 3567,
-    "originalPrice": 3798,
+    "price": 2418,
+    "originalPrice": 2802,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/107/Asweatshirt_homme_casa_blanca.jpg",
@@ -3446,7 +3432,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 12,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/107/Asweatshirt_homme_casa_blanca.jpg",
       "/vetement_homme/107/photo_28_2025-11-17_22-14-36.jpg"
@@ -3455,18 +3441,18 @@ export const vetement_homme = [
   {
     "id": 106,
     "name": "Sweatshirt Homme Gucci",
-    "price": 3400,
-    "originalPrice": 3889,
+    "price": 2489,
+    "originalPrice": 2681,
     "category": "tshirts",
     "brand": "Gucci",
     "image": "/vetement_homme/108/Asweatshirt_homme_gucci.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
       "Noir",
-      "Jaune",
+      "Beige",
       "Gris",
-      "Blanc",
-      "Beige"
+      "Rose",
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -3475,7 +3461,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 12,
+    "minOrder": 17,
     "images": [
       "/vetement_homme/108/Asweatshirt_homme_gucci.jpg",
       "/vetement_homme/108/photo_26_2025-11-17_22-14-36.jpg"
@@ -3484,18 +3470,17 @@ export const vetement_homme = [
   {
     "id": 107,
     "name": "Sweatshirt Homme Nike",
-    "price": 3880,
-    "originalPrice": 4374,
+    "price": 2420,
+    "originalPrice": 2618,
     "category": "tshirts",
     "brand": "Nike",
     "image": "/vetement_homme/109/Asweatshirt_homme_Nike.jpg",
     "taxType": "ttc",
     "colors": [
-      "Noir",
+      "Jaune",
       "Rouge",
-      "Gris",
-      "Bleu",
-      "Rose"
+      "Marron",
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -3504,7 +3489,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 16,
+    "minOrder": 7,
     "images": [
       "/vetement_homme/109/Asweatshirt_homme_Nike.jpg",
       "/vetement_homme/109/photo_24_2025-11-17_22-14-36.jpg"
@@ -3513,19 +3498,18 @@ export const vetement_homme = [
   {
     "id": 108,
     "name": "Sweatshirt Homme Nike",
-    "price": 1560,
-    "originalPrice": 1625,
+    "price": 2131,
+    "originalPrice": 2320,
     "category": "tshirts",
     "brand": "Nike",
     "image": "/vetement_homme/110/Asweatshirt_homme_Nike.jpg",
     "taxType": "ht",
     "colors": [
-      "Rouge",
-      "Beige",
+      "Gris",
       "Noir",
-      "Jaune",
-      "Vert",
-      "Gris"
+      "Rouge",
+      "Rose",
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -3534,7 +3518,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 9,
+    "minOrder": 14,
     "images": [
       "/vetement_homme/110/Asweatshirt_homme_Nike.jpg",
       "/vetement_homme/110/photo_22_2025-11-17_22-14-36.jpg"
@@ -3543,18 +3527,19 @@ export const vetement_homme = [
   {
     "id": 109,
     "name": "Sweatshirt Homme Balmain",
-    "price": 1713,
-    "originalPrice": 2055,
+    "price": 1995,
+    "originalPrice": 2326,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/111/Asweatshirt_homme_balmain.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
+      "Bleu",
       "Orange",
-      "Rose",
+      "Gris",
       "Noir",
-      "Violet",
-      "Vert"
+      "Rose",
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -3563,7 +3548,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 19,
+    "minOrder": 15,
     "images": [
       "/vetement_homme/111/Asweatshirt_homme_balmain.jpg",
       "/vetement_homme/111/photo_19_2025-11-17_22-14-36.jpg",
@@ -3573,17 +3558,17 @@ export const vetement_homme = [
   {
     "id": 110,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 3363,
-    "originalPrice": 3579,
+    "price": 1519,
+    "originalPrice": 1569,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/112/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ttc",
     "colors": [
-      "Bleu",
+      "Rose",
       "Orange",
-      "Jaune",
-      "Vert",
+      "Marron",
+      "Rouge",
       "Noir"
     ],
     "sizes": [
@@ -3593,7 +3578,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 20,
+    "minOrder": 15,
     "images": [
       "/vetement_homme/112/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/112/photo_23_2025-11-17_22-20-48.jpg",
@@ -3604,18 +3589,17 @@ export const vetement_homme = [
   {
     "id": 111,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 4096,
-    "originalPrice": 4372,
+    "price": 2353,
+    "originalPrice": 2664,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/113/Asweatshirt_homme_lacoste.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Vert",
       "Rose",
-      "Noir",
-      "Beige",
-      "Gris"
+      "Jaune",
+      "Bleu",
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -3624,7 +3608,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 19,
+    "minOrder": 5,
     "images": [
       "/vetement_homme/113/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/113/photo_37_2025-11-17_22-20-48.jpg",
@@ -3636,17 +3620,17 @@ export const vetement_homme = [
   {
     "id": 112,
     "name": "Sweatshirt Homme Mutlimarque",
-    "price": 2670,
-    "originalPrice": 2851,
+    "price": 2024,
+    "originalPrice": 2117,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/114/Asweatshirt_homme_mutlimarque.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Vert",
-      "Bleu",
-      "Violet",
-      "Orange",
+      "Blanc",
+      "Rouge",
+      "Marron",
+      "Jaune",
       "Noir",
       "Beige"
     ],
@@ -3668,17 +3652,18 @@ export const vetement_homme = [
   {
     "id": 113,
     "name": "Sweatshirt Homme Polo",
-    "price": 3473,
-    "originalPrice": 3822,
+    "price": 1993,
+    "originalPrice": 2358,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/115/Asweatshirt_homme_polo.jpg",
     "taxType": "ht",
     "colors": [
-      "Blanc",
+      "Gris",
       "Rouge",
-      "Rose",
-      "Noir"
+      "Orange",
+      "Jaune",
+      "Marron"
     ],
     "sizes": [
       "S",
@@ -3687,7 +3672,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 11,
+    "minOrder": 13,
     "images": [
       "/vetement_homme/115/Asweatshirt_homme_polo.jpg",
       "/vetement_homme/115/photo_36_2025-11-17_22-07-20.jpg",
@@ -3698,17 +3683,17 @@ export const vetement_homme = [
   {
     "id": 114,
     "name": "Sweatshirt Homme Louis Vouiton",
-    "price": 1815,
-    "originalPrice": 1912,
+    "price": 1965,
+    "originalPrice": 2173,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/116/Asweatshirt_homme_louis_vouiton.jpg",
     "taxType": "ht",
     "colors": [
       "Beige",
-      "Vert",
       "Rouge",
-      "Violet"
+      "Rose",
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -3717,7 +3702,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 13,
     "images": [
       "/vetement_homme/116/Asweatshirt_homme_louis_vouiton.jpg",
       "/vetement_homme/116/photo_25_2025-11-17_22-07-20.jpg",
@@ -3728,18 +3713,17 @@ export const vetement_homme = [
   {
     "id": 115,
     "name": "Sweatshirt Homme Gucci",
-    "price": 4274,
-    "originalPrice": 4592,
+    "price": 2375,
+    "originalPrice": 2583,
     "category": "tshirts",
     "brand": "Gucci",
     "image": "/vetement_homme/117/Asweatshirt_homme_gucci.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Jaune",
-      "Vert",
+      "Rouge",
       "Noir",
-      "Gris",
-      "Rose"
+      "Bleu",
+      "Jaune"
     ],
     "sizes": [
       "S",
@@ -3748,7 +3732,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 18,
+    "minOrder": 9,
     "images": [
       "/vetement_homme/117/Asweatshirt_homme_gucci.jpg",
       "/vetement_homme/117/photo_2_2025-11-17_22-04-47.jpg"
@@ -3757,16 +3741,15 @@ export const vetement_homme = [
   {
     "id": 116,
     "name": "Sweatshirt Homme Hugo Boss",
-    "price": 3057,
-    "originalPrice": 3190,
+    "price": 2010,
+    "originalPrice": 2279,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/118/Asweatshirt_homme_hugo_boss.jpg",
     "taxType": "ttc",
     "colors": [
-      "Beige",
-      "Noir",
       "Blanc",
+      "Orange",
       "Rouge",
       "Gris"
     ],
@@ -3777,7 +3760,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 15,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/118/Asweatshirt_homme_hugo_boss.jpg",
       "/vetement_homme/118/photo_35_2025-11-17_22-02-41.jpg",
@@ -3788,48 +3771,17 @@ export const vetement_homme = [
   {
     "id": 117,
     "name": "Sweatshirt Homme Hugo Boss",
-    "price": 3163,
-    "originalPrice": 3321,
+    "price": 1745,
+    "originalPrice": 2028,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/119/Asweatshirt_homme_hugo_boss.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Rouge",
-      "Orange",
-      "Blanc",
-      "Rose"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "minOrder": 5,
-    "images": [
-      "/vetement_homme/119/Asweatshirt_homme_hugo_boss.jpg",
-      "/vetement_homme/119/photo_22_2025-11-17_22-02-41.jpg",
-      "/vetement_homme/119/photo_25_2025-11-17_22-02-41.jpg",
-      "/vetement_homme/119/photo_27_2025-11-17_22-02-41.jpg"
-    ]
-  },
-  {
-    "id": 118,
-    "name": "Sweatshirt Homme Tommy Hilfiger",
-    "price": 1542,
-    "originalPrice": 2016,
-    "category": "tshirts",
-    "brand": "Tommy",
-    "image": "/vetement_homme/120/Asweatshirt_homme_Tommy_hilfiger.jpg",
     "taxType": "ttc",
     "colors": [
-      "Rose",
-      "Jaune",
       "Gris",
+      "Jaune",
       "Violet",
-      "Noir"
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -3840,6 +3792,36 @@ export const vetement_homme = [
     ],
     "minOrder": 20,
     "images": [
+      "/vetement_homme/119/Asweatshirt_homme_hugo_boss.jpg",
+      "/vetement_homme/119/photo_22_2025-11-17_22-02-41.jpg",
+      "/vetement_homme/119/photo_25_2025-11-17_22-02-41.jpg",
+      "/vetement_homme/119/photo_27_2025-11-17_22-02-41.jpg"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Sweatshirt Homme Tommy Hilfiger",
+    "price": 2394,
+    "originalPrice": 2798,
+    "category": "tshirts",
+    "brand": "Tommy",
+    "image": "/vetement_homme/120/Asweatshirt_homme_Tommy_hilfiger.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Bleu",
+      "Rouge",
+      "Noir",
+      "Rose"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "minOrder": 8,
+    "images": [
       "/vetement_homme/120/Asweatshirt_homme_Tommy_hilfiger.jpg",
       "/vetement_homme/120/photo_13_2025-11-17_22-02-41.jpg",
       "/vetement_homme/120/photo_15_2025-11-17_22-02-41.jpg",
@@ -3849,17 +3831,17 @@ export const vetement_homme = [
   {
     "id": 119,
     "name": "Ensemble Homme Multimarque",
-    "price": 7705,
-    "originalPrice": 7831,
+    "price": 4059,
+    "originalPrice": 4321,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/121/Aensemble_homme_multimarque .jpg",
     "taxType": "ttc",
     "colors": [
-      "Gris",
-      "Rose",
       "Jaune",
-      "Orange"
+      "Beige",
+      "Noir",
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -3868,7 +3850,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 1,
     "images": [
       "/vetement_homme/121/Aensemble_homme_multimarque .jpg",
       "/vetement_homme/121/IMG-20251117-WA0253.jpg",
@@ -3876,35 +3858,36 @@ export const vetement_homme = [
       "/vetement_homme/121/IMG-20251117-WA0255.jpg"
     ],
     "clothbrands": [
-      "Nike",
-      "Under Armour",
-      "Coach",
-      "Fendi",
-      "New Balance",
-      "Off-White",
-      "Lacoste",
+      "Givenchy",
+      "Hermes",
+      "Dior",
+      "Celine",
+      "Puma",
+      "H&M",
+      "Gucci",
+      "Versace",
       "Prada",
-      "Balenciaga",
-      "Zara",
-      "Reebok",
-      "Celine"
+      "Tommy",
+      "Chanel",
+      "Coach"
     ]
   },
   {
     "id": 120,
     "name": "T Shirt Homme Multimarque",
-    "price": 2973,
-    "originalPrice": 3097,
+    "price": 1572,
+    "originalPrice": 1806,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/122/At-shirt_homme_multimarque.jpg",
     "taxType": "ht",
     "colors": [
-      "Beige",
-      "Orange",
-      "Rose",
+      "Jaune",
+      "Blanc",
       "Rouge",
-      "Bleu"
+      "Gris",
+      "Orange",
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -3913,7 +3896,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 16,
+    "minOrder": 20,
     "images": [
       "/vetement_homme/122/At-shirt_homme_multimarque.jpg",
       "/vetement_homme/122/IMG-20251117-WA0233.jpg",
@@ -3925,33 +3908,34 @@ export const vetement_homme = [
     ],
     "clothbrands": [
       "Armani",
+      "Versace",
+      "Zara",
       "Reebok",
-      "Adidas",
-      "Givenchy",
-      "Dior",
-      "Chanel",
-      "New Balance",
-      "Burberry",
-      "Puma",
       "Ralph Lauren",
+      "Dior",
+      "Fendi",
+      "Celine",
       "Lacoste",
-      "Off-White"
+      "Under Armour",
+      "Hermes",
+      "Givenchy"
     ]
   },
   {
     "id": 121,
     "name": "Ensemble Homme Multimarque",
-    "price": 7029,
-    "originalPrice": 7384,
+    "price": 3519,
+    "originalPrice": 3814,
     "category": "clothbrands",
     "brand": "Multiple",
     "image": "/vetement_homme/123/Aensemble_homme_multimarque .jpg",
     "taxType": "ht",
     "colors": [
-      "Gris",
-      "Violet",
-      "Noir",
-      "Rose"
+      "Blanc",
+      "Vert",
+      "Jaune",
+      "Rose",
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -3960,7 +3944,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 2,
+    "minOrder": 1,
     "images": [
       "/vetement_homme/123/Aensemble_homme_multimarque .jpg",
       "/vetement_homme/123/photo_53_2025-11-17_22-00-37.jpg",
@@ -3974,35 +3958,36 @@ export const vetement_homme = [
       "/vetement_homme/123/photo_62_2025-11-17_22-00-37.jpg"
     ],
     "clothbrands": [
-      "Armani",
-      "Nike",
-      "Ralph Lauren",
-      "Versace",
-      "Prada",
-      "Off-White",
-      "Lacoste",
       "Adidas",
-      "Levis",
-      "Reebok",
+      "Balenciaga",
+      "Hermes",
+      "Celine",
+      "Zara",
+      "Gucci",
+      "Off-White",
+      "Coach",
       "Puma",
-      "Dior"
+      "Supreme",
+      "H&M",
+      "Levis"
     ]
   },
   {
     "id": 122,
     "name": "Ensemble Homme Under Armour",
-    "price": 8577,
-    "originalPrice": 9033,
+    "price": 4290,
+    "originalPrice": 4413,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/124/Aensemble_homme_under_armour.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Noir",
+      "Gris",
+      "Blanc",
+      "Jaune",
+      "Vert",
       "Beige",
-      "Rose",
-      "Violet",
-      "Rouge"
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -4011,7 +3996,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 1,
+    "minOrder": 8,
     "images": [
       "/vetement_homme/124/Aensemble_homme_under_armour.jpg",
       "/vetement_homme/124/photo_18_2025-11-17_21-57-31.jpg",
@@ -4023,19 +4008,17 @@ export const vetement_homme = [
   {
     "id": 123,
     "name": "Ensemble Homme Nike",
-    "price": 9232,
-    "originalPrice": 9725,
+    "price": 3276,
+    "originalPrice": 3508,
     "category": "men",
     "brand": "Nike",
     "image": "/vetement_homme/125/Aensemble_homme_Nike.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
+      "Vert",
+      "Violet",
       "Noir",
-      "Rouge",
-      "Beige",
-      "Marron",
-      "Blanc",
-      "Rose"
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -4044,7 +4027,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 6,
     "images": [
       "/vetement_homme/125/Aensemble_homme_Nike.jpg",
       "/vetement_homme/125/photo_11_2025-11-17_21-57-31.jpg",
@@ -4055,18 +4038,18 @@ export const vetement_homme = [
   {
     "id": 124,
     "name": "Ensemble Homme Lacoste",
-    "price": 7239,
-    "originalPrice": 7792,
+    "price": 4409,
+    "originalPrice": 4863,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/126/Aensemble_homme_lacoste.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Beige",
-      "Blanc",
-      "Violet",
+      "Noir",
+      "Bleu",
+      "Jaune",
       "Vert",
-      "Rose"
+      "Gris"
     ],
     "sizes": [
       "S",
@@ -4075,7 +4058,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 11,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/126/Aensemble_homme_lacoste.jpg",
       "/vetement_homme/126/photo_2_2025-11-17_21-57-31.jpg",
@@ -4086,19 +4069,17 @@ export const vetement_homme = [
   {
     "id": 125,
     "name": "Ensemble Homme Lacoste",
-    "price": 9466,
-    "originalPrice": 9941,
+    "price": 4486,
+    "originalPrice": 4590,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/127/Aensemble_homme_lacoste.jpg",
     "taxType": "ht",
     "colors": [
-      "Jaune",
-      "Gris",
-      "Rouge",
-      "Bleu",
       "Rose",
-      "Noir"
+      "Orange",
+      "Bleu",
+      "Jaune"
     ],
     "sizes": [
       "S",
@@ -4107,7 +4088,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 2,
+    "minOrder": 5,
     "images": [
       "/vetement_homme/127/Aensemble_homme_lacoste.jpg",
       "/vetement_homme/127/photo_81_2025-11-17_21-58-19.jpg",
@@ -4118,19 +4099,19 @@ export const vetement_homme = [
   {
     "id": 126,
     "name": "Ensemble Homme Lacoste",
-    "price": 8198,
-    "originalPrice": 8774,
+    "price": 4194,
+    "originalPrice": 4739,
     "category": "men",
     "brand": "Lacoste",
     "image": "/vetement_homme/128/Aensemble_homme_lacoste.jpg",
     "taxType": "ttc",
     "colors": [
-      "Bleu",
-      "Violet",
+      "Orange",
+      "Jaune",
       "Gris",
-      "Beige",
-      "Marron",
-      "Vert"
+      "Noir",
+      "Violet",
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -4139,7 +4120,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 6,
+    "minOrder": 1,
     "images": [
       "/vetement_homme/128/Aensemble_homme_lacoste.jpg",
       "/vetement_homme/128/photo_88_2025-11-17_21-58-19.jpg",
@@ -4151,19 +4132,18 @@ export const vetement_homme = [
   {
     "id": 127,
     "name": "Sweatshirt Homme Polo",
-    "price": 3677,
-    "originalPrice": 3771,
+    "price": 2435,
+    "originalPrice": 2809,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/130/Asweatshirt_homme_polo.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Bleu",
-      "Vert",
-      "Violet",
-      "Orange",
-      "Rose",
-      "Jaune"
+      "Jaune",
+      "Gris",
+      "Noir",
+      "Rouge",
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -4172,7 +4152,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 12,
+    "minOrder": 13,
     "images": [
       "/vetement_homme/130/Asweatshirt_homme_polo.jpg",
       "/vetement_homme/130/photo_86_2025-11-17_22-11-58.jpg"
@@ -4181,18 +4161,18 @@ export const vetement_homme = [
   {
     "id": 128,
     "name": "Sweatshirt Homme Calvinklein",
-    "price": 1927,
-    "originalPrice": 2200,
+    "price": 2125,
+    "originalPrice": 2176,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/131/Asweatshirt_homme_calvinklein.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Bleu",
-      "Marron",
-      "Noir",
+      "Rose",
       "Orange",
-      "Rose"
+      "Gris",
+      "Blanc",
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -4201,7 +4181,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 9,
+    "minOrder": 20,
     "images": [
       "/vetement_homme/131/Asweatshirt_homme_calvinklein.jpg",
       "/vetement_homme/131/photo_80_2025-11-17_22-11-58.jpg",
@@ -4212,17 +4192,17 @@ export const vetement_homme = [
   {
     "id": 129,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 1875,
-    "originalPrice": 2135,
+    "price": 2319,
+    "originalPrice": 2386,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/132/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ttc",
     "colors": [
-      "Violet",
-      "Rose",
+      "Bleu",
       "Noir",
-      "Bleu"
+      "Vert",
+      "Jaune"
     ],
     "sizes": [
       "S",
@@ -4231,7 +4211,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 18,
     "images": [
       "/vetement_homme/132/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/132/photo_68_2025-11-17_22-11-58.jpg",
@@ -4242,17 +4222,18 @@ export const vetement_homme = [
   {
     "id": 130,
     "name": "Sweatshirt Homme Louis Vouiton",
-    "price": 3936,
-    "originalPrice": 4071,
+    "price": 2079,
+    "originalPrice": 2342,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/133/Asweatshirt_homme_louis_vouiton.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
+      "Orange",
+      "Marron",
+      "Noir",
       "Violet",
-      "Vert",
-      "Rouge",
-      "Rose"
+      "Bleu"
     ],
     "sizes": [
       "S",
@@ -4261,7 +4242,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 18,
     "images": [
       "/vetement_homme/133/Asweatshirt_homme_louis_vouiton.jpg",
       "/vetement_homme/133/photo_14_2025-11-17_22-10-02.jpg",
@@ -4272,17 +4253,17 @@ export const vetement_homme = [
   {
     "id": 131,
     "name": "Sweatshirt Homme Dsquared2",
-    "price": 4272,
-    "originalPrice": 4482,
+    "price": 1530,
+    "originalPrice": 1954,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/134/Asweatshirt_homme_dsquared2.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Vert",
+      "Orange",
       "Rose",
-      "Violet",
-      "Noir"
+      "Rouge",
+      "Marron"
     ],
     "sizes": [
       "S",
@@ -4291,7 +4272,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 19,
+    "minOrder": 12,
     "images": [
       "/vetement_homme/134/Asweatshirt_homme_dsquared2.jpg",
       "/vetement_homme/134/photo_37_2025-11-17_22-10-03.jpg",
@@ -4303,19 +4284,18 @@ export const vetement_homme = [
   {
     "id": 132,
     "name": "Sweatshirt Homme Givenchy",
-    "price": 2693,
-    "originalPrice": 2904,
+    "price": 2069,
+    "originalPrice": 2549,
     "category": "tshirts",
     "brand": "Givenchy",
     "image": "/vetement_homme/135/Asweatshirt_homme_givenchy.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Beige",
-      "Rouge",
-      "Noir",
-      "Blanc",
+      "Orange",
       "Jaune",
-      "Bleu"
+      "Rouge",
+      "Violet",
+      "Vert"
     ],
     "sizes": [
       "S",
@@ -4324,7 +4304,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 18,
+    "minOrder": 8,
     "images": [
       "/vetement_homme/135/Asweatshirt_homme_givenchy.jpg",
       "/vetement_homme/135/photo_42_2025-11-17_22-10-03.jpg",
@@ -4337,17 +4317,18 @@ export const vetement_homme = [
   {
     "id": 133,
     "name": "Sweatshirt Homme Prada",
-    "price": 1876,
-    "originalPrice": 2053,
+    "price": 2333,
+    "originalPrice": 2383,
     "category": "tshirts",
     "brand": "Prada",
     "image": "/vetement_homme/136/Asweatshirt_homme_prada.jpg",
     "taxType": "ttc",
     "colors": [
+      "Blanc",
       "Rouge",
       "Noir",
-      "Beige",
-      "Jaune"
+      "Vert",
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -4356,7 +4337,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 15,
+    "minOrder": 6,
     "images": [
       "/vetement_homme/136/Asweatshirt_homme_prada.jpg",
       "/vetement_homme/136/photo_56_2025-11-17_22-10-03.jpg",
@@ -4367,8 +4348,8 @@ export const vetement_homme = [
   {
     "id": 134,
     "name": "Sweatshirt Homme Gucci",
-    "price": 3573,
-    "originalPrice": 4013,
+    "price": 2128,
+    "originalPrice": 2549,
     "category": "tshirts",
     "brand": "Gucci",
     "image": "/vetement_homme/137/Asweatshirt_homme_gucci.jpg",
@@ -4376,8 +4357,7 @@ export const vetement_homme = [
     "colors": [
       "Rouge",
       "Vert",
-      "Marron",
-      "Violet",
+      "Gris",
       "Noir"
     ],
     "sizes": [
@@ -4387,7 +4367,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 18,
     "images": [
       "/vetement_homme/137/Asweatshirt_homme_gucci.jpg",
       "/vetement_homme/137/photo_6_2025-11-17_22-10-02.jpg",
@@ -4397,18 +4377,16 @@ export const vetement_homme = [
   {
     "id": 135,
     "name": "Sweatshirt Homme Burberry",
-    "price": 2145,
-    "originalPrice": 2607,
+    "price": 1660,
+    "originalPrice": 1899,
     "category": "tshirts",
     "brand": "Burberry",
     "image": "/vetement_homme/138/Asweatshirt_homme_burberry.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Bleu",
       "Vert",
       "Jaune",
-      "Gris",
-      "Orange"
+      "Gris"
     ],
     "sizes": [
       "S",
@@ -4427,17 +4405,17 @@ export const vetement_homme = [
   {
     "id": 136,
     "name": "Sweatshirt Homme Amiri",
-    "price": 4280,
-    "originalPrice": 4509,
+    "price": 1583,
+    "originalPrice": 1887,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/139/Asweatshirt_homme_amiri.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Vert",
-      "Violet",
-      "Jaune",
-      "Noir"
+      "Blanc",
+      "Rouge",
+      "Rose",
+      "Beige"
     ],
     "sizes": [
       "S",
@@ -4446,7 +4424,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 8,
+    "minOrder": 6,
     "images": [
       "/vetement_homme/139/Asweatshirt_homme_amiri.jpg",
       "/vetement_homme/139/photo_78_2025-11-17_22-10-03.jpg",
@@ -4457,17 +4435,18 @@ export const vetement_homme = [
   {
     "id": 137,
     "name": "Sweatshirt Homme Fendi",
-    "price": 2503,
-    "originalPrice": 2695,
+    "price": 1845,
+    "originalPrice": 1980,
     "category": "tshirts",
     "brand": "Fendi",
     "image": "/vetement_homme/140/Asweatshirt_homme_fendi.jpg",
     "taxType": "ht",
     "colors": [
-      "Beige",
+      "Marron",
+      "Violet",
+      "Vert",
       "Bleu",
-      "Jaune",
-      "Vert"
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -4476,7 +4455,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 16,
+    "minOrder": 11,
     "images": [
       "/vetement_homme/140/Asweatshirt_homme_fendi.jpg",
       "/vetement_homme/140/photo_72_2025-11-17_22-10-03.jpg",
@@ -4487,16 +4466,16 @@ export const vetement_homme = [
   {
     "id": 138,
     "name": "Sweatshirt Homme Dior",
-    "price": 2277,
-    "originalPrice": 2451,
+    "price": 2164,
+    "originalPrice": 2372,
     "category": "tshirts",
     "brand": "Dior",
     "image": "/vetement_homme/141/Asweatshirt_homme_dior.jpg",
     "taxType": "ttc",
     "colors": [
-      "Marron",
-      "Vert",
-      "Jaune",
+      "Rose",
+      "Gris",
+      "Rouge",
       "Noir"
     ],
     "sizes": [
@@ -4506,7 +4485,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 15,
+    "minOrder": 19,
     "images": [
       "/vetement_homme/141/Asweatshirt_homme_dior.jpg",
       "/vetement_homme/141/photo_63_2025-11-17_22-10-03.jpg",
@@ -4518,17 +4497,18 @@ export const vetement_homme = [
   {
     "id": 139,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 4192,
-    "originalPrice": 4268,
+    "price": 1540,
+    "originalPrice": 1797,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/142/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ttc",
     "colors": [
-      "Noir",
-      "Beige",
-      "Rouge",
-      "Rose"
+      "Gris",
+      "Rose",
+      "Jaune",
+      "Blanc",
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -4537,7 +4517,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 12,
+    "minOrder": 20,
     "images": [
       "/vetement_homme/142/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/142/photo_58_2025-11-17_22-14-36.jpg",
@@ -4547,17 +4527,19 @@ export const vetement_homme = [
   {
     "id": 140,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 2739,
-    "originalPrice": 3141,
+    "price": 2010,
+    "originalPrice": 2458,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/143/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ht",
     "colors": [
-      "Rose",
-      "Jaune",
+      "Violet",
+      "Bleu",
       "Noir",
-      "Vert"
+      "Marron",
+      "Rouge",
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -4566,7 +4548,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 8,
+    "minOrder": 15,
     "images": [
       "/vetement_homme/143/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/143/photo_60_2025-11-17_22-14-36.jpg",
@@ -4579,18 +4561,17 @@ export const vetement_homme = [
   {
     "id": 141,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 3992,
-    "originalPrice": 4211,
+    "price": 1523,
+    "originalPrice": 1914,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/144/Asweatshirt_homme_lacoste.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Noir",
-      "Rouge",
-      "Orange",
       "Bleu",
-      "Jaune"
+      "Noir",
+      "Beige",
+      "Blanc"
     ],
     "sizes": [
       "S",
@@ -4609,18 +4590,18 @@ export const vetement_homme = [
   {
     "id": 142,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 4447,
-    "originalPrice": 4575,
+    "price": 1708,
+    "originalPrice": 2092,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/145/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ht",
     "colors": [
+      "Beige",
+      "Gris",
       "Noir",
-      "Rouge",
-      "Orange",
-      "Blanc",
-      "Gris"
+      "Violet",
+      "Jaune"
     ],
     "sizes": [
       "S",
@@ -4629,7 +4610,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 14,
+    "minOrder": 7,
     "images": [
       "/vetement_homme/145/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/145/photo_50_2025-11-17_22-14-36.jpg",
@@ -4640,19 +4621,17 @@ export const vetement_homme = [
   {
     "id": 143,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 2783,
-    "originalPrice": 2933,
+    "price": 1520,
+    "originalPrice": 1715,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/146/Asweatshirt_homme_lacoste.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Rose",
-      "Violet",
+      "Orange",
+      "Bleu",
       "Rouge",
-      "Noir",
-      "Jaune",
-      "Bleu"
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -4661,7 +4640,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 17,
+    "minOrder": 10,
     "images": [
       "/vetement_homme/146/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/146/photo_42_2025-11-17_22-14-36.jpg",
@@ -4672,18 +4651,17 @@ export const vetement_homme = [
   {
     "id": 144,
     "name": "Sweatshirt Homme Lacoste",
-    "price": 2774,
-    "originalPrice": 3118,
+    "price": 2381,
+    "originalPrice": 2574,
     "category": "tshirts",
     "brand": "Lacoste",
     "image": "/vetement_homme/147/Asweatshirt_homme_lacoste.jpg",
     "taxType": "ht",
     "colors": [
-      "Blanc",
+      "Beige",
+      "Rouge",
       "Rose",
-      "Bleu",
-      "Noir",
-      "Jaune"
+      "Noir"
     ],
     "sizes": [
       "S",
@@ -4692,7 +4670,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 10,
+    "minOrder": 16,
     "images": [
       "/vetement_homme/147/Asweatshirt_homme_lacoste.jpg",
       "/vetement_homme/147/photo_45_2025-11-17_22-14-36.jpg",
@@ -4704,19 +4682,17 @@ export const vetement_homme = [
   {
     "id": 145,
     "name": "Sweatshirt Homme Dolge Et Gabana",
-    "price": 2996,
-    "originalPrice": 3479,
+    "price": 1812,
+    "originalPrice": 2097,
     "category": "tshirts",
     "brand": "Various",
     "image": "/vetement_homme/148/Asweatshirt_homme_dolge_et_gabana.jpg",
-    "taxType": "ttc",
+    "taxType": "ht",
     "colors": [
-      "Marron",
-      "Vert",
+      "Beige",
+      "Rouge",
       "Blanc",
-      "Noir",
-      "Jaune",
-      "Gris"
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -4725,7 +4701,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 9,
+    "minOrder": 5,
     "images": [
       "/vetement_homme/148/Asweatshirt_homme_dolge_et_gabana.jpg",
       "/vetement_homme/148/photo_85_2025-11-17_22-10-03.jpg",
@@ -4738,17 +4714,18 @@ export const vetement_homme = [
   {
     "id": 146,
     "name": "Ensemble Homme Nike",
-    "price": 8776,
-    "originalPrice": 9028,
+    "price": 4090,
+    "originalPrice": 4689,
     "category": "men",
     "brand": "Nike",
     "image": "/vetement_homme/149/Aensemble_homme_Nike.jpg",
-    "taxType": "ht",
+    "taxType": "ttc",
     "colors": [
-      "Gris",
-      "Bleu",
       "Noir",
-      "Rouge"
+      "Bleu",
+      "Orange",
+      "Rose",
+      "Jaune"
     ],
     "sizes": [
       "S",
@@ -4757,7 +4734,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 11,
+    "minOrder": 3,
     "images": [
       "/vetement_homme/149/Aensemble_homme_Nike.jpg",
       "/vetement_homme/149/photo_27_2025-11-17_21-57-31.jpg",
@@ -4767,18 +4744,18 @@ export const vetement_homme = [
   {
     "id": 147,
     "name": "Ensemble Homme",
-    "price": 8602,
-    "originalPrice": 8855,
+    "price": 4216,
+    "originalPrice": 4369,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/150/ensemble_homme.jpg",
     "taxType": "ht",
     "colors": [
-      "Jaune",
-      "Beige",
-      "Vert",
-      "Gris",
-      "Orange"
+      "Bleu",
+      "Rose",
+      "Orange",
+      "Rouge",
+      "Violet"
     ],
     "sizes": [
       "S",
@@ -4787,7 +4764,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 8,
+    "minOrder": 7,
     "images": [
       "/vetement_homme/150/ensemble_homme.jpg",
       "/vetement_homme/150/photo_32_2025-11-17_21-57-31.jpg",
@@ -4798,17 +4775,17 @@ export const vetement_homme = [
   {
     "id": 148,
     "name": "1",
-    "price": 2450,
-    "originalPrice": 2611,
+    "price": 1789,
+    "originalPrice": 1977,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/151/1.jpg",
     "taxType": "ht",
     "colors": [
-      "Rose",
-      "Jaune",
-      "Gris",
-      "Blanc"
+      "Noir",
+      "Orange",
+      "Rouge",
+      "Rose"
     ],
     "sizes": [
       "S",
@@ -4817,7 +4794,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 12,
+    "minOrder": 14,
     "images": [
       "/vetement_homme/151/1.jpg",
       "/vetement_homme/151/2.jpg",
@@ -4827,18 +4804,18 @@ export const vetement_homme = [
   {
     "id": 149,
     "name": "1",
-    "price": 2182,
-    "originalPrice": 2388,
+    "price": 2289,
+    "originalPrice": 2472,
     "category": "men",
     "brand": "Various",
     "image": "/vetement_homme/152/1.jpg",
     "taxType": "ht",
     "colors": [
+      "Jaune",
       "Noir",
-      "Beige",
+      "Orange",
       "Vert",
-      "Violet",
-      "Bleu"
+      "Rouge"
     ],
     "sizes": [
       "S",
@@ -4847,7 +4824,7 @@ export const vetement_homme = [
       "XL",
       "XXL"
     ],
-    "minOrder": 17,
+    "minOrder": 8,
     "images": [
       "/vetement_homme/152/1.jpg",
       "/vetement_homme/152/2.jpg",
