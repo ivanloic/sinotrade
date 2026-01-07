@@ -62,7 +62,9 @@ const ContactModal = ({ isOpen, onClose }) => {
 
   // Remplacez ces numéros par vos vrais numéros
   const whatsappNumber = "+237123456789"; // Votre numéro WhatsApp au format international
-  const telegramUsername = "votre_username"; // Votre username Telegram
+  // Lien Telegram direct vers le username fourni par l'utilisateur
+  // Utilisateur: @Sinotradelogistics (sans le @ pour l'URL)
+  const telegramLink = 'https://t.me/Sinotradelogistics';
 
   const handleWhatsApp = () => {
     // Charger et ouvrir le chat Smartsupp
@@ -77,7 +79,13 @@ const ContactModal = ({ isOpen, onClose }) => {
   };
 
   const handleTelegram = () => {
-    window.open(`https://t.me/${telegramUsername}`, '_blank');
+    // Ouvre le lien Telegram dans un nouvel onglet
+    try {
+      window.open(telegramLink, '_blank');
+    } catch (e) {
+      // Fallback: utiliser location.assign si window.open est bloqué
+      window.location.assign(telegramLink);
+    }
   };
 
   // Charger le script Smartsupp uniquement quand showSmartsupp est true
