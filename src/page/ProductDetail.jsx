@@ -818,6 +818,37 @@ const ProductDetail = () => {
               </p>
             </div>
 
+            {/* Spécifications: affichage spécial pour les téléphones */}
+            {(
+              // Condition: produit dans dataset telephone_accessoires ou spécifications présentes
+              (getProductCategory(product) === 'telephone_accessoires') || (product.specifications && Object.keys(product.specifications).length > 0)
+            ) && (
+              <div className="mt-6 p-6 bg-white rounded-lg border border-gray-200">
+                <h4 className="text-lg font-semibold mb-4">Spécifications</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {product.specifications && Object.keys(product.specifications).length > 0 ? (
+                    Object.entries(product.specifications).map(([k, v]) => (
+                      <div key={k} className="flex flex-col">
+                        <span className="text-sm text-gray-500">{k}</span>
+                        <span className="font-medium text-gray-800">{String(v)}</span>
+                      </div>
+                    ))
+                  ) : (
+                    // Fallback: utiliser features si pas de spécifications structurées
+                    product.features && product.features.length > 0 ? (
+                      product.features.map((f, idx) => (
+                        <div key={idx} className="flex flex-col">
+                          <span className="font-medium text-gray-800">{f}</span>
+                        </div>
+                      ))
+                    ) : (
+                      <p className="text-sm text-gray-600">Aucune spécification disponible pour ce produit.</p>
+                    )
+                  )}
+                </div>
+              </div>
+            )}
+
             {/* Actions - Boutons améliorés */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6">
               <button
@@ -858,9 +889,49 @@ const ProductDetail = () => {
                 <ShoppingCart className="w-5 h-5" />
                 <span>Ajouter au panier</span>
               </button>
+              {/* Handler pour Acheter maintenant : ajoute au panier puis redirige vers la page de checkout */}
+              <button
+                onClick={() => {
+                  // Validation pour les chaussures
+                  if (product.productType === 'shoe' && selectedSizes.length === 0) {
+                    showToast('⚠️ Veuillez sélectionner au moins une pointure', 'warning');
+                    return;
+                  }
+                  // Validation pour les vêtements non-chaussures
+                  if (!product.productType && !isShoe && selectedSizes.length === 0 && product.sizes && product.sizes.length > 0) {
+                    showToast('⚠️ Veuillez sélectionner au moins une taille', 'warning');
+                    return;
+                  }
 
-              <button className="flex-1 border-2 border-blue-600 hover:bg-blue-50 text-blue-600 py-4 px-8 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-[1.02]">
-                <span>Acheter maintenant</span>
+                  const options = {
+                    brands: selectedBrands,
+                    colors: selectedColors,
+                    sizes: selectedSizes
+                  };
+
+                  const payload = {
+                    productId: product.id,
+                    name: product.name,
+                    price: product.price,
+                    image: product.images && product.images[0],
+                    quantity,
+                    minOrder: product.minOrder,
+                    taxType: product.taxType,
+                    options
+                  };
+
+                  // Ajouter au panier puis rediriger vers Checkout
+                  addItem(payload);
+                  showToast('✅ Produit ajouté. Redirection vers le paiement...', 'success');
+                  // Petit délai pour montrer le toast puis rediriger
+                  setTimeout(() => {
+                    navigate('/Checkout');
+                  }, 500);
+                }}
+                className="flex-1 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white py-4 px-8 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-[1.02]"
+              >
+                <ShoppingCart className="w-5 h-5" />
+                <span>Achetez et payez</span>
               </button>
             </div>
 
