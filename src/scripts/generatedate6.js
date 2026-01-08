@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename)
 // remonter de deux niveaux pour atteindre la racine du projet (où se trouve 'public')
 const projectRoot = path.resolve(__dirname, '..', '..')
 // dossier source contenant les images des téléphones et accessoires
-const guitarsDir = path.join(projectRoot, 'public', 'electronique')
+const guitarsDir = path.join(projectRoot, 'public', 'telephone_accessoires')
 const outFile = path.join(projectRoot, 'src', 'data', 'telephone_accessoires.js')
 
 function capitalizeWords(s) {

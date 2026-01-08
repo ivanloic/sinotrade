@@ -974,5 +974,62 @@ export const telephone_accessoires = [
       "/telephone_accessoires/45/coffret_okpu_montre_connecte_lunnette_de_soleil.jpg"
     ],
     "specifications": {}
+  }, 
+  {
+    "id": 45,
+    "name": "Samsung Galaxy S23",
+    "price": 130450,
+    "originalPrice": 190450,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/46/samsung_galaxy-s23.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Bleu",
+      "Gris",
+      "Vert",
+      "Noir",
+      "Blanc"
+    ],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/46/samsung_galaxy-s23.jpg",
+      "/telephone_accessoires/46/Samsung-Galaxy-S23-renders-4RMD-3.jpg"
+    ],
+    "specifications": {
+      "ram": "6GB",
+      "stockage": "128GB",
+      "ecran": "5.3\"",
+      "systeme": "androide"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Smartphones Samsung Galaxy S23 Ultra 5g",
+    "price": 195875,
+    "originalPrice": 205875,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/47/smartphones-samsung-galaxy-s23-ultra-5g.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Orange",
+      "Bleu",
+      "Gris",
+      "Violet",
+      "Noir",
+      "Vert"
+    ],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/47/smartphones-samsung-galaxy-s23-ultra-5g.jpg",
+      "/telephone_accessoires/47/smartphones-samsung-galaxy-s23-ultra-5g+.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "256GB",
+      "ecran": "6.5\"",
+      "systeme": "Android"
+    }
   }
 ]

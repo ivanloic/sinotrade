@@ -530,7 +530,7 @@ const AuthPage = ({ asModal = false, onClose } = {}) => {
                             <p className="text-sm font-semibold text-gray-900 mb-3">Partagez ce lien pour inviter les gens à nous rejoindre :</p>
                             <div className="flex items-center space-x-2">
                               <div className="flex-1 bg-gray-50 border border-gray-300 rounded-lg px-3 py-2 text-sm text-gray-700 overflow-x-auto whitespace-nowrap">
-                                http://www.sinotrade.trechx.com
+                                http://www.sinotradelogistics.vercel.app
                               </div>
                               <button
                                 type="button"
