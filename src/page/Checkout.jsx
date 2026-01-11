@@ -70,9 +70,12 @@ const Checkout = () => {
 
   // shipping cost based on selected option from cart (fallback 0)
   const shippingOptions = [
-    { id: 'air', name: 'Transport Aérien', price: 25000, deliveryTime: '7-15 jours' },
-    { id: 'sea', name: 'Transport Maritime', price: 12000, deliveryTime: '30-45 jours' },
-    { id: 'express', name: 'Express Premium', price: 45000, deliveryTime: '5-10 jours' }
+    // Avion (Transport Aérien)
+    { id: 'air', name: 'Transport Aérien', price: 12000, deliveryTime: '7-15 jours' },
+    // Bateau (Transport Maritime)
+    { id: 'sea', name: 'Transport Maritime', price: 8500, deliveryTime: '30-45 jours' },
+    // Express
+    { id: 'express', name: 'Express Premium', price: 20000, deliveryTime: '5-10 jours' }
   ];
 
   const shipping = cartItems && cartItems.length > 0
