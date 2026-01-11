@@ -977,9 +977,9 @@ export const telephone_accessoires = [
   }, 
   {
     "id": 45,
-    "name": "Samsung Galaxy S23",
-    "price": 130450,
-    "originalPrice": 190450,
+    "name": "Samsung Galaxy S23 5g+",
+    "price": 144450,
+    "originalPrice": 201450,
     "category": "telephones",
     "brand": "Samsung",
     "image": "/telephone_accessoires/46/samsung_galaxy-s23.jpg",
@@ -997,8 +997,8 @@ export const telephone_accessoires = [
       "/telephone_accessoires/46/Samsung-Galaxy-S23-renders-4RMD-3.jpg"
     ],
     "specifications": {
-      "ram": "6GB",
-      "stockage": "128GB",
+      "ram": "8GB",
+      "stockage": "256GB",
       "ecran": "5.3\"",
       "systeme": "androide"
     }
