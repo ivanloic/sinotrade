@@ -216,8 +216,25 @@ const OrderConfirmation = () => {
                       {/* WhatsApp */}
                       <button
                         onClick={() => {
-                          if (window.smartsupp) {
-                            window.smartsupp('chat:open');
+                          // Ouvre le widget Tawk.to (ou le charge si nécessaire)
+                          if (window.Tawk_API && typeof window.Tawk_API.maximize === 'function') {
+                            try { window.Tawk_API.maximize(); } catch (e) {}
+                          } else {
+                            // Charger le script Tawk si il n'est pas encore présent
+                            if (!window.Tawk_API) {
+                              window.Tawk_API = window.Tawk_API || {};
+                              window.Tawk_LoadStart = new Date();
+                              const s1 = document.createElement('script');
+                              s1.async = true;
+                              s1.src = 'https://embed.tawk.to/6963b526d00da4197cacc860/1jemnn8j9';
+                              s1.charset = 'UTF-8';
+                              s1.setAttribute('crossorigin', '*');
+                              const s0 = document.getElementsByTagName('script')[0];
+                              s0.parentNode.insertBefore(s1, s0);
+                              s1.onload = () => {
+                                try { window.Tawk_API.maximize && window.Tawk_API.maximize(); } catch (e) {}
+                              };
+                            }
                           }
                         }}
                         className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-lg transition-colors flex items-center justify-center space-x-3"

@@ -45,12 +45,13 @@ export const paymentMethods = [
     steps: [
       "Entrez le numéro: 6 96 27 85 95",
       "Montant: {amount} FCFA",
+      'Nom du Compte : ARNAUD SALVADOR',
       "Validez le paiement"
     ],
     details: {
       type: "Numéro Orange Money",
       value: "6 96 27 85 95",
-      name: "ARNAUD SALVADOR"
+      name: "Orange Money"
     }
   },
   {
@@ -62,13 +63,13 @@ export const paymentMethods = [
     steps: [
       "Entrez le numéro: 6 81 30 86 10",
       "Montant: {amount} FCFA",
-      "Référence: {orderNumber}",
+      'Nom du Compte : ANNIK LAURE NDJEN',
       "Validez avec votre code PIN"
     ],
     details: {
       type: "Numéro MTN Money",
       value: "6 81 30 86 10",
-      name: "ANNIK LAURE NDJEN"
+      name: "MTN Money"
     }
   },
   {

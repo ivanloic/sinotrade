@@ -155,30 +155,6 @@ export const telephone_accessoires = [
     ],
   },
   {
-    "id": 8,
-    "name": "Google Pixel 4xl",
-    "price": 37450,
-    "originalPrice": 56099,
-    "category": "accessoires",
-    "brand": "Google",
-    "image": "/telephone_accessoires/8/google_pixel_4xl.jpg",
-    "taxType": "ht",
-    "colors": [
-      "Rouge",
-      "Noir",
-      "Gris",
-      "Jaune",
-      "Beige"
-    ],
-    "minOrder": 1,
-    "images": [
-      "/telephone_accessoires/8/google_pixel_4xl.jpg",
-      "/telephone_accessoires/8/photo_4_2025-12-04_20-36-30.jpg",
-      "/telephone_accessoires/8/photo_7_2025-12-04_20-36-30.jpg"
-    ],
-    "specifications": {}
-  },
-  {
     "id": 9,
     "name": "Paire D'Ecouteurs Sans Fil Pro 5s Qualite Superieure Garantie 3 Mois",
     "price": 2770,
@@ -466,11 +442,16 @@ export const telephone_accessoires = [
     "images": [
       "/telephone_accessoires/21/iphone_12_pro_max.png"
     ],
-
+      "specifications": {
+      "ram": "6GB",
+      "stockage": "256GB",
+      "ecran": "6.7\" OLED",
+      "systeme": "iOS"
+    }
   },
   {
     "id": 22,
-    "name": "IPhone 13 Apple",
+    "name": "Apple iPhone 13",
     "price": 140851,
     "originalPrice": 148518,
     "category": "telephones",
@@ -485,10 +466,16 @@ export const telephone_accessoires = [
       "Rose",
       "Bleu"
     ],
-    "minOrder": 5,
     "images": [
       "/telephone_accessoires/22/iPhone-13-Apple.jpg"
     ],
+    "minOrder": 1,
+    "specifications": {
+      "ram": "4GB",
+      "stockage": "128GB",
+      "ecran": "6.1\" OLED",
+      "systeme": "iOS"
+    }
   },
   {
     "id": 23,
@@ -558,7 +545,7 @@ export const telephone_accessoires = [
   {
     "id": 26,
     "name": "Iphone 13 Pro Max",
-    "price": 190787,
+    "price": 170787,
     "originalPrice": 242380,
     "category": "telephones",
     "brand": "Iphone",
@@ -574,6 +561,12 @@ export const telephone_accessoires = [
     "images": [
       "/telephone_accessoires/26/iphone_13_pro_max.jpeg"
     ],
+     "specifications": {
+      "ram": "6GB",
+      "stockage": "128GB",
+      "ecran": "6.7\" OLED",
+      "systeme": "iOS"
+    }
   },
   {
     "id": 27,
@@ -595,10 +588,16 @@ export const telephone_accessoires = [
     "images": [
       "/telephone_accessoires/28/google_pixel_6xl.jpg"
     ],
+      "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.7\" OLED 120Hz",
+      "systeme": "Android"
+    }
   },
   {
     "id": 28,
-    "name": "Oufer Hoco",
+    "name": "Woofer Hoco",
     "price": 2519,
     "originalPrice": 3599,
     "category": "accessoires",
@@ -793,10 +792,10 @@ export const telephone_accessoires = [
       "/telephone_accessoires/37/samsung_galaxy_s21.jpg"
     ],
     "specifications": {
-      "ram": "6GB",
-      "stockage": "64GB",
-      "ecran": "7.4\"",
-      "systeme": "iOS"
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.2\" AMOLED 120Hz",
+      "systeme": "Android"
     }
   },
   {
@@ -845,8 +844,8 @@ export const telephone_accessoires = [
   {
     "id": 39,
     "name": "Itel A70",
-    "price": 221054,
-    "originalPrice": 1290,
+    "price": 21054,
+    "originalPrice": 31290,
     "category": "accessoires",
     "brand": "Various",
     "image": "/telephone_accessoires/40/itel_a70.jpg",
@@ -997,38 +996,1205 @@ export const telephone_accessoires = [
       "/telephone_accessoires/46/Samsung-Galaxy-S23-renders-4RMD-3.jpg"
     ],
     "specifications": {
-      "ram": "6GB",
+      "ram": "8GB",
       "stockage": "128GB",
-      "ecran": "5.3\"",
-      "systeme": "androide"
+      "ecran": "6.1\" AMOLED 120Hz",
+      "systeme": "Android"
     }
   },
   {
-    "id": 46,
-    "name": "Smartphones Samsung Galaxy S23 Ultra 5g",
-    "price": 195875,
-    "originalPrice": 205875,
+    "id": 101,
+    "name": "Apple iPhone 11 64GB",
+    "price": 62080,
+    "originalPrice": 90670,
     "category": "telephones",
-    "brand": "Samsung",
-    "image": "/telephone_accessoires/47/smartphones-samsung-galaxy-s23-ultra-5g.jpg",
+    "brand": "Apple",
+    "image": "telephone_accessoires/48/apple-iphone-12-pro-512go-graphite-reconditionne.jpg",
     "taxType": "ttc",
-    "colors": [
-      "Orange",
-      "Bleu",
-      "Gris",
-      "Violet",
-      "Noir",
-      "Vert"
-    ],
+    "colors": ["Noir", "Blanc", "Vert", "Jaune", "Violet", "Rouge"],
     "minOrder": 1,
     "images": [
-      "/telephone_accessoires/47/smartphones-samsung-galaxy-s23-ultra-5g.jpg",
-      "/telephone_accessoires/47/smartphones-samsung-galaxy-s23-ultra-5g+.jpg"
+      "/telephone_accessoires/iphone/iphone-11/iphone-11-1.jpg",
+      "/telephone_accessoires/iphone/iphone-11/iphone-11-2.jpg"
+    ],
+    "specifications": {
+      "ram": "4GB",
+      "stockage": "64GB",
+      "ecran": "6.1\"",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 102,
+    "name": "Apple iPhone 11 Pro 128GB",
+    "price": 80000,
+    "originalPrice": 100000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-11-pro/iphone-11-pro-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Silver", "Space Gray", "Gold", "Midnight Green"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-11-pro/iphone-11-pro-1.jpg",
+      "/telephone_accessoires/iphone/iphone-11-pro/iphone-11-pro-2.jpg"
+    ],
+    "specifications": {
+      "ram": "4GB",
+      "stockage": "128GB",
+      "ecran": "5.8\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 103,
+    "name": "Apple iPhone 11 Pro Max 64GB",
+    "price": 350000,
+    "originalPrice": 580000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-11-pro-max/iphone-11-pro-max-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Silver", "Space Gray", "Gold", "Midnight Green"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-11-pro-max/iphone-11-pro-max-1.jpg",
+      "/telephone_accessoires/iphone/iphone-11-pro-max/iphone-11-pro-max-2.jpg"
+    ],
+    "specifications": {
+      "ram": "4GB",
+      "stockage": "64GB",
+      "ecran": "6.5\" OLED",
+      "systeme": "iOS"
+    }
+  },
+
+  {
+    "id": 104,
+    "name": "Apple iPhone 12 64GB",
+    "price": 290000,
+    "originalPrice": 480000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-12/iphone-12-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Blanc", "Rouge", "Vert", "Bleu", "Violet"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-12/iphone-12-1.jpg",
+      "/telephone_accessoires/iphone/iphone-12/iphone-12-2.jpg"
+    ],
+    "specifications": {
+      "ram": "4GB",
+      "stockage": "64GB",
+      "ecran": "6.1\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 105,
+    "name": "Apple iPhone 12 Pro 128GB",
+    "price": 132900,
+    "originalPrice": 15709,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "telephone_accessoires/48/apple-iphone-12-pro-512go-graphite-reconditionne.jpg",
+    "taxType": "ttc",
+    "colors": ["Graphite", "Silver", "Gold", "Pacific Blue"],
+    "minOrder": 1,
+    "images": [
+      "telephone_accessoires/48/apple-iphone-12-pro-512go-graphite-reconditionne.jpg",
+    ],
+    "specifications": {
+      "ram": "6GB",
+      "stockage": "128GB",
+      "ecran": "6.1\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 108,
+    "name": "Apple iPhone 13 Pro 128GB",
+    "price": 400000,
+    "originalPrice": 670000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-13-pro/iphone-13-pro-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Graphite", "Gold", "Silver", "Sierra Blue", "Alpine Green"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-13-pro/iphone-13-pro-1.jpg",
+      "/telephone_accessoires/iphone/iphone-13-pro/iphone-13-pro-2.jpg"
+    ],
+    "specifications": {
+      "ram": "6GB",
+      "stockage": "128GB",
+      "ecran": "6.1\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 110,
+    "name": "Apple iPhone 14 128GB",
+    "price": 330000,
+    "originalPrice": 550000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-14/iphone-14-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Blanc", "Bleu", "Violet", "Jaune", "Rouge"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-14/iphone-14-1.jpg",
+      "/telephone_accessoires/iphone/iphone-14/iphone-14-2.jpg"
+    ],
+    "specifications": {
+      "ram": "6GB",
+      "stockage": "128GB",
+      "ecran": "6.1\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 111,
+    "name": "Apple iPhone 14 Pro 128GB",
+    "price": 460000,
+    "originalPrice": 770000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-14-pro/iphone-14-pro-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Silver", "Gold", "Space Black", "Deep Purple"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-14-pro/iphone-14-pro-1.jpg",
+      "/telephone_accessoires/iphone/iphone-14-pro/iphone-14-pro-2.jpg"
+    ],
+    "specifications": {
+      "ram": "6GB",
+      "stockage": "128GB",
+      "ecran": "6.1\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 112,
+    "name": "Apple iPhone 14 Pro Max 128GB",
+    "price": 490000,
+    "originalPrice": 820000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-14-pro-max/iphone-14-pro-max-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Silver", "Gold", "Space Black", "Deep Purple"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-14-pro-max/iphone-14-pro-max-1.jpg",
+      "/telephone_accessoires/iphone/iphone-14-pro-max/iphone-14-pro-max-2.jpg"
+    ],
+    "specifications": {
+      "ram": "6GB",
+      "stockage": "128GB",
+      "ecran": "6.7\" OLED",
+      "systeme": "iOS"
+    }
+  },
+
+  {
+    "id": 113,
+    "name": "Apple iPhone 15 128GB",
+    "price": 340000,
+    "originalPrice": 570000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-15/iphone-15-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Bleu", "Vert", "Jaune", "Rose"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-15/iphone-15-1.jpg",
+      "/telephone_accessoires/iphone/iphone-15/iphone-15-2.jpg"
+    ],
+    "specifications": {
+      "ram": "6GB",
+      "stockage": "128GB",
+      "ecran": "6.1\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 114,
+    "name": "Apple iPhone 15 Pro 128GB",
+    "price": 520000,
+    "originalPrice": 870000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-15-pro/iphone-15-pro-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Black Titanium", "White Titanium", "Blue Titanium", "Natural Titanium"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-15-pro/iphone-15-pro-1.jpg",
+      "/telephone_accessoires/iphone/iphone-15-pro/iphone-15-pro-2.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.1\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 115,
+    "name": "Apple iPhone 15 Pro Max 256GB",
+    "price": 580000,
+    "originalPrice": 960000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-15-pro-max/iphone-15-pro-max-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Black Titanium", "White Titanium", "Blue Titanium", "Natural Titanium"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-15-pro-max/iphone-15-pro-max-1.jpg",
+      "/telephone_accessoires/iphone/iphone-15-pro-max/iphone-15-pro-max-2.jpg"
     ],
     "specifications": {
       "ram": "8GB",
       "stockage": "256GB",
-      "ecran": "6.5\"",
+      "ecran": "6.7\" OLED",
+      "systeme": "iOS"
+    }
+  },
+
+  {
+    "id": 116,
+    "name": "Apple iPhone 17 256GB",
+    "price": 650000,
+    "originalPrice": 1080000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-17/iphone-17-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Blanc", "Cosmic Orange", "Deep Blue"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-17/iphone-17-1.jpg",
+      "/telephone_accessoires/iphone/iphone-17/iphone-17-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.3\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 117,
+    "name": "Apple iPhone 17 Pro 256GB",
+    "price": 750000,
+    "originalPrice": 1250000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-17-pro/iphone-17-pro-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Silver", "Cosmic Orange", "Deep Blue"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-17-pro/iphone-17-pro-1.jpg",
+      "/telephone_accessoires/iphone/iphone-17-pro/iphone-17-pro-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.3\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 118,
+    "name": "Apple iPhone 17 Pro Max 256GB",
+    "price": 820000,
+    "originalPrice": 1375000,
+    "category": "telephones",
+    "brand": "Apple",
+    "image": "/telephone_accessoires/iphone/iphone-17-pro-max/iphone-17-pro-max-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Silver", "Cosmic Orange", "Deep Blue"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/iphone/iphone-17-pro-max/iphone-17-pro-max-1.jpg",
+      "/telephone_accessoires/iphone/iphone-17-pro-max/iphone-17-pro-max-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.9\" OLED",
+      "systeme": "iOS"
+    }
+  },
+  {
+    "id": 302,
+    "name": "Samsung Galaxy S21+ 5G 128GB",
+    "price": 300000,
+    "originalPrice": 500000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-s21-plus/galaxy-s21-plus-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Argent", "Violet"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-s21-plus/galaxy-s21-plus-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-s21-plus/galaxy-s21-plus-2.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.7\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 303,
+    "name": "Samsung Galaxy S21 Ultra 5G 256GB",
+    "price": 90560,
+    "originalPrice": 130000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/84/imgi_78_samsung-galaxy-s21-ultra-pakistan-priceoye-ps2pg-500x500-1.webp",
+    "taxType": "ttc",
+    "colors": ["Noir", "Argent", "Titane"],
+    "minOrder": 1,
+    "images": [
+         "/telephone_accessoires/84/imgi_78_samsung-galaxy-s21-ultra-pakistan-priceoye-ps2pg-500x500-1.webp",
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.8\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+
+  {
+    "id": 304,
+    "name": "Samsung Galaxy S22 5G 128GB",
+    "price": 102300,
+    "originalPrice": 130000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-s22/galaxy-s22-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Blanc", "Vert", "Rose"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-s22/galaxy-s22-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-s22/galaxy-s22-2.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.1\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 305,
+    "name": "Samsung Galaxy S22+ 5G 256GB",
+    "price": 120000,
+    "originalPrice": 170000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/83/imgi_100_71m1Jx31JRL.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Blanc", "Vert"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/83/imgi_100_71m1Jx31JRL.jpg",
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "256GB",
+      "ecran": "6.6\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 306,
+    "name": "Samsung Galaxy S22 Ultra 5G 256GB",
+    "price": 160000,
+    "originalPrice": 270000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/82/imgi_91_322-thickbox_default.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Bordeaux", "Vert"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/82/imgi_91_322-thickbox_default.jpg",
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.8\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 308,
+    "name": "Samsung Galaxy S23+ 5G 256GB",
+    "price": 140500,
+    "originalPrice": 240000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "public/telephone_accessoires/81/imgi_107_bG9jYWw6Ly8vL2Vjb21tZXJjZS8zMDQ4OC5qcGc-768x768.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Crème", "Vert"],
+    "minOrder": 1,
+    "images": [
+      "public/telephone_accessoires/81/imgi_107_bG9jYWw6Ly8vL2Vjb21tZXJjZS8zMDQ4OC5qcGc-768x768.jpg",
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "256GB",
+      "ecran": "6.6\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 309,
+    "name": "Samsung Galaxy S23 Ultra 5G 256GB",
+    "price": 180000,
+    "originalPrice": 205000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/47/smartphones-samsung-galaxy-s23-ultra-5g.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Crème", "Vert", "Lavande"],
+    "minOrder": 1,
+    "images": [
+      "telephone_accessoires/47/smartphones-samsung-galaxy-s23-ultra-5g.jpg",
+      "public/telephone_accessoires/47/smartphones-samsung-galaxy-s23-ultra-5g+.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.8\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+
+  {
+    "id": 310,
+    "name": "Samsung Galaxy S24 5G 128GB",
+    "price": 360000,
+    "originalPrice": 600000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-s24/galaxy-s24-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Gris", "Jaune"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-s24/galaxy-s24-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-s24/galaxy-s24-2.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.2\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 311,
+    "name": "Samsung Galaxy S24+ 5G 256GB",
+    "price": 410000,
+    "originalPrice": 680000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-s24-plus/galaxy-s24-plus-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Gris", "Jaune"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-s24-plus/galaxy-s24-plus-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-s24-plus/galaxy-s24-plus-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.7\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 312,
+    "name": "Samsung Galaxy S24 Ultra 5G 512GB",
+    "price": 520000,
+    "originalPrice": 870000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-s24-ultra/galaxy-s24-ultra-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Gris", "Titane"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-s24-ultra/galaxy-s24-ultra-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-s24-ultra/galaxy-s24-ultra-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "512GB",
+      "ecran": "6.8\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+
+  {
+    "id": 313,
+    "name": "Samsung Galaxy S25 5G 256GB",
+    "price": 450000,
+    "originalPrice": 750000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-s25/galaxy-s25-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Bleu", "Vert"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-s25/galaxy-s25-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-s25/galaxy-s25-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.3\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 314,
+    "name": "Samsung Galaxy S25+ 5G 256GB",
+    "price": 500000,
+    "originalPrice": 830000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-s25-plus/galaxy-s25-plus-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Bleu", "Vert"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-s25-plus/galaxy-s25-plus-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-s25-plus/galaxy-s25-plus-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.8\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 315,
+    "name": "Samsung Galaxy S25 Ultra 5G 512GB",
+    "price": 580000,
+    "originalPrice": 970000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-s25-ultra/galaxy-s25-ultra-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Titane"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-s25-ultra/galaxy-s25-ultra-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-s25-ultra/galaxy-s25-ultra-2.jpg"
+    ],
+    "specifications": {
+      "ram": "16GB",
+      "stockage": "512GB",
+      "ecran": "6.9\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 317,
+    "name": "Samsung Galaxy S26+ 5G 256GB",
+    "price": 540000,
+    "originalPrice": 900000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-s26-plus/galaxy-s26-plus-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Blanc"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-s26-plus/galaxy-s26-plus-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-s26-plus/galaxy-s26-plus-2.jpg"
+    ],
+    "specifications": {
+      "ram": "16GB",
+      "stockage": "256GB",
+      "ecran": "6.8\" AMOLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 401,
+    "name": "Samsung Galaxy Z Flip3 5G 128GB",
+    "price": 320000,
+    "originalPrice": 530000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-z-flip3/galaxy-z-flip3-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Crème", "Lavande", "Vert"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-z-flip3/galaxy-z-flip3-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-z-flip3/galaxy-z-flip3-2.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.7\" AMOLED pliable",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 402,
+    "name": "Samsung Galaxy Z Flip4 5G 256GB",
+    "price": 380000,
+    "originalPrice": 640000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-z-flip4/galaxy-z-flip4-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Graphite", "Rose Gold", "Bleu"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-z-flip4/galaxy-z-flip4-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-z-flip4/galaxy-z-flip4-2.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "256GB",
+      "ecran": "6.7\" AMOLED pliable 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 403,
+    "name": "Samsung Galaxy Z Flip5 5G 256GB",
+    "price": 420000,
+    "originalPrice": 700000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-z-flip5/galaxy-z-flip5-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Menthe", "Lavande", "Crème"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-z-flip5/galaxy-z-flip5-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-z-flip5/galaxy-z-flip5-2.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "256GB",
+      "ecran": "6.7\" AMOLED pliable 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 404,
+    "name": "Samsung Galaxy Z Flip6 5G 256GB",
+    "price": 450000,
+    "originalPrice": 750000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-z-flip6/galaxy-z-flip6-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Vert", "Bleu"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-z-flip6/galaxy-z-flip6-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-z-flip6/galaxy-z-flip6-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.7\" AMOLED pliable 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 405,
+    "name": "Samsung Galaxy Z Flip7 5G 256GB",
+    "price": 500000,
+    "originalPrice": 830000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-z-flip7/galaxy-z-flip7-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Jet Black", "Blue Shadow", "Coral Red"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-z-flip7/galaxy-z-flip7-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-z-flip7/galaxy-z-flip7-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.9\" AMOLED pliable 120Hz",
+      "systeme": "Android"
+    }
+  },
+
+  {
+    "id": 406,
+    "name": "Samsung Galaxy Z Fold3 5G 256GB",
+    "price": 500000,
+    "originalPrice": 830000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-z-fold3/galaxy-z-fold3-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Vert", "Argent"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-z-fold3/galaxy-z-fold3-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-z-fold3/galaxy-z-fold3-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "7.6\" AMOLED pliable 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 407,
+    "name": "Samsung Galaxy Z Fold4 5G 256GB",
+    "price": 550000,
+    "originalPrice": 920000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-z-fold4/galaxy-z-fold4-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Gris Vert", "Beige"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-z-fold4/galaxy-z-fold4-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-z-fold4/galaxy-z-fold4-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "7.6\" AMOLED pliable 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 408,
+    "name": "Samsung Galaxy Z Fold5 5G 256GB",
+    "price": 600000,
+    "originalPrice": 1000000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-z-fold5/galaxy-z-fold5-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Bleu", "Ivoire"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-z-fold5/galaxy-z-fold5-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-z-fold5/galaxy-z-fold5-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "7.6\" AMOLED pliable 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 409,
+    "name": "Samsung Galaxy Z Fold6 5G 512GB",
+    "price": 680000,
+    "originalPrice": 1130000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-z-fold6/galaxy-z-fold6-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Titane"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-z-fold6/galaxy-z-fold6-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-z-fold6/galaxy-z-fold6-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "512GB",
+      "ecran": "7.8\" AMOLED pliable 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 410,
+    "name": "Samsung Galaxy Z Fold7 5G 512GB",
+    "price": 750000,
+    "originalPrice": 1250000,
+    "category": "telephones",
+    "brand": "Samsung",
+    "image": "/telephone_accessoires/samsung/galaxy-z-fold7/galaxy-z-fold7-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Noir", "Titane", "Bleu Nuit"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/samsung/galaxy-z-fold7/galaxy-z-fold7-1.jpg",
+      "/telephone_accessoires/samsung/galaxy-z-fold7/galaxy-z-fold7-2.jpg"
+    ],
+    "specifications": {
+      "ram": "16GB",
+      "stockage": "512GB",
+      "ecran": "8.0\" AMOLED pliable 120Hz",
+      "systeme": "Android"
+    }
+  },
+
+  {
+    "id": 501,
+    "name": "Google Pixel 4 XL 64GB",
+    "price": 60000,
+    "originalPrice": 90000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "telephone_accessoires/77/imgi_36_google_pixel_4a_-_128_go_-_d.jpg",
+    "taxType": "ttc",
+    "colors": ["Just Black", "Clearly White", "Oh So Orange"],
+    "minOrder": 1,
+    "images": [
+      "telephone_accessoires/77/imgi_36_google_pixel_4a_-_128_go_-_d.jpg",
+    ],
+    "specifications": {
+      "ram": "6GB",
+      "stockage": "64GB",
+      "ecran": "6.3\" OLED 90Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 502,
+    "name": "Google Pixel 5 128GB",
+    "price": 530000,
+    "originalPrice": 89000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "telephone_accessoires/62/pixel-5/pixel-5-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Just Black", "Sorta Sage"],
+    "minOrder": 1,
+    "images": [
+      "telephone_accessoires/62/pixel-5/pixel-5-1.jpg",
+      "telephone_accessoires/62/pixel-5/pixel-5-2.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.0\" OLED 90Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 503,
+    "name": "Google Pixel 6 128GB",
+    "price": 560000,
+    "originalPrice": 93000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "telephone_accessoires/62/pixel-6/pixel-6-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Sorta Seafoam", "Kinda Coral", "Stormy Black"],
+    "minOrder": 1,
+    "images": [
+      "telephone_accessoires/62/pixel-6/pixel-6-1.jpg",
+      "telephone_accessoires/62/pixel-6/pixel-6-2.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.4\" OLED 90Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 504,
+    "name": "Google Pixel 6 Pro 128GB",
+    "price": 153000,
+    "originalPrice": 450000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "telephone_accessoires/62/pixel-6-pro/pixel-6-pro-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Stormy Black", "Cloudy White", "Sorta Sunny"],
+    "minOrder": 1,
+    "images": [
+      "telephone_accessoires/62/pixel-6-pro/pixel-6-pro-1.jpg",
+      "telephone_accessoires/62/pixel-6-pro/pixel-6-pro-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "128GB",
+      "ecran": "6.7\" OLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 505,
+    "name": "Google Pixel 7 128GB",
+    "price": 120000,
+    "originalPrice": 420000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "telephone_accessoires/62/pixel-7/pixel-7-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Obsidian", "Snow", "Lemongrass"],
+    "minOrder": 1,
+    "images": [
+      "telephone_accessoires/62/pixel-7/pixel-7-1.jpg",
+      "telephone_accessoires/62/pixel-7/pixel-7-2.jpg"
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.3\" OLED 90Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 506,
+    "name": "Google Pixel 7 Pro 128GB",
+    "price": 190000,
+    "originalPrice": 480000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "telephone_accessoires/62/pixel-7-pro/pixel-7-pro-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Obsidian", "Snow", "Hazel"],
+    "minOrder": 1,
+    "images": [
+      "telephone_accessoires/62/pixel-7-pro/pixel-7-pro-1.jpg",
+      "telephone_accessoires/62/pixel-7-pro/pixel-7-pro-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "128GB",
+      "ecran": "6.7\" OLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 507,
+    "name": "Google Pixel 8 128GB",
+    "price": 150000,
+    "originalPrice": 470000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "/telephone_accessoires/74/imgi_33_google_pixel_8_5g_-_1.jpg",
+    "taxType": "ttc",
+    "colors": ["Obsidian", "Hazel", "Rose"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/74/imgi_33_google_pixel_8_5g_-_1.jpg",
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.2\" OLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 508,
+    "name": "Google Pixel 8 Pro 128GB",
+    "price": 190000,
+    "originalPrice": 250000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "/telephone_accessoires/73/imgi_32_google_pixel_8_pro_-_a.jpg",
+    "taxType": "ttc",
+      "colors": [
+      "Jaune",
+      "Noir",
+      "Rouge",
+      "Orange",
+      "Marron",
+      "Violet"
+    ],
+    "minOrder": 1,
+    "images": [
+       "/telephone_accessoires/73/imgi_32_google_pixel_8_pro_-_a.jpg",
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "128GB",
+      "ecran": "6.7\" OLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 509,
+    "name": "Google Pixel 9 128GB",
+    "price": 2280000,
+    "originalPrice": 530000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "/telephone_accessoires/65/imgi_24_google_pixel_92.jpg",
+    "taxType": "ttc",
+    "colors": [
+      "Jaune",
+      "Noir",
+      "Rouge",
+      "Orange",
+      "Marron",
+      "Violet"
+    ],
+    "minOrder": 1,
+    "images": [
+     "/telephone_accessoires/65/imgi_24_google_pixel_92.jpg",
+    ],
+    "specifications": {
+      "ram": "8GB",
+      "stockage": "128GB",
+      "ecran": "6.3\" OLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 510,
+    "name": "Google Pixel 9 Pro 256GB",
+    "price": 280000,
+    "originalPrice": 640000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "telephone_accessoires/62/pixel-9-pro/pixel-9-pro-1.jpg",
+    "taxType": "ttc",
+    "colors": ["Obsidian", "Porcelain", "Sky"],
+    "minOrder": 1,
+    "images": [
+      "telephone_accessoires/62/pixel-9-pro/pixel-9-pro-1.jpg",
+      "telephone_accessoires/62/pixel-9-pro/pixel-9-pro-2.jpg"
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.3\" OLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 511,
+    "name": "Google Pixel 9 Pro XL 256GB",
+    "price": 324000,
+    "originalPrice": 700000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "/telephone_accessoires/57/imgi_16_google_pixel_10_pro_.jpg",
+    "taxType": "ttc",
+    "colors": ["Obsidian", "Porcelain", "Sky"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/57/imgi_16_google_pixel_10_pro_.jpg",
+    ],
+    "specifications": {
+      "ram": "16GB",
+      "stockage": "256GB",
+      "ecran": "6.8\" OLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 512,
+    "name": "Google Pixel 10 128GB",
+    "price": 230000,
+    "originalPrice": 580000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "/telephone_accessoires/61/imgi_20_google_pixel_10_4__1.jpg",
+    "taxType": "ttc",
+    "colors": ["Obsidian", "Porcelain"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/61/imgi_20_google_pixel_10_4__1.jpg",
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "128GB",
+      "ecran": "6.3\" OLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 513,
+    "name": "Google Pixel 10 Pro 256GB",
+    "price": 290000,
+    "originalPrice": 700000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "/telephone_accessoires/57/imgi_16_google_pixel_10_pro_.jpg",
+    "taxType": "ttc",
+    "colors": ["Obsidian", "Porcelain", "Sea"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/57/imgi_16_google_pixel_10_pro_.jpg",
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "6.7\" OLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 514,
+    "name": "Google Pixel 10 Pro XL 256GB",
+    "price": 360000,
+    "originalPrice": 760000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "/telephone_accessoires/59/imgi_18_google_pixel_10_pro_xl.jpg",
+    "taxType": "ttc",
+    "colors": ["Obsidian", "Porcelain", "Sea"],
+    "minOrder": 1,
+    "images": [
+      "/telephone_accessoires/59/imgi_18_google_pixel_10_pro_xl.jpg",
+    ],
+    "specifications": {
+      "ram": "16GB",
+      "stockage": "256GB",
+      "ecran": "6.9\" OLED 120Hz",
+      "systeme": "Android"
+    }
+  },
+  {
+    "id": 515,
+    "name": "Google Pixel Fold 256GB",
+    "price": 350000,
+    "originalPrice": 620000,
+    "category": "telephones",
+    "brand": "Google",
+    "image": "telephone_accessoires/62/imgi_21_google_pixel_9_pro_fold_-_bon.jpg",
+    "taxType": "ttc",
+    "colors": ["Obsidian", "Porcelain"],
+    "minOrder": 1,
+    "images": [
+      "telephone_accessoires/62/imgi_21_google_pixel_9_pro_fold_-_bon.jpg",
+    ],
+    "specifications": {
+      "ram": "12GB",
+      "stockage": "256GB",
+      "ecran": "7.6\" OLED pliable 120Hz",
       "systeme": "Android"
     }
   }

@@ -40,22 +40,6 @@ const ContactModal = ({ isOpen, onClose }) => {
       },
       close: "Close"
     },
-    zh: {
-      title: "让我们谈谈您的项目",
-      subtitle: "我们的团队全天候为您服务，回答您的所有问题",
-      description: "选择您喜欢的平台，立即联系我们。我们随时为您提供支持！",
-      whatsapp: {
-        title: "WhatsApp",
-        description: "保证即时响应",
-        button: "在 WhatsApp 上聊天"
-      },
-      telegram: {
-        title: "Telegram",
-        description: "超快速支持",
-        button: "在 Telegram 上聊天"
-      },
-      close: "关闭"
-    }
   };
 
   const t = content[language] || content.fr;
@@ -67,13 +51,15 @@ const ContactModal = ({ isOpen, onClose }) => {
   const telegramLink = 'https://t.me/Sinotradelogistics';
 
   const handleWhatsApp = () => {
-    // Charger et ouvrir le chat Smartsupp
+    // Charger et ouvrir le widget Tawk.to
     setShowSmartsupp(true);
-    
-    // Attendre que le script soit chargé puis ouvrir le chat
+
+    // Si Tawk est déjà présent, l'ouvrir directement
     setTimeout(() => {
-      if (window.smartsupp) {
-        window.smartsupp('chat:open');
+      if (window.Tawk_API && typeof window.Tawk_API.maximize === 'function') {
+        try { window.Tawk_API.maximize(); } catch (e) {}
+      } else if (window.Tawk_API && typeof window.Tawk_API.toggle === 'function') {
+        try { window.Tawk_API.toggle(); } catch (e) {}
       }
     }, 1000);
   };
@@ -88,82 +74,71 @@ const ContactModal = ({ isOpen, onClose }) => {
     }
   };
 
-  // Charger le script Smartsupp uniquement quand showSmartsupp est true
+  // Charger le script Tawk.to uniquement quand showSmartsupp est true
   useEffect(() => {
-    if (showSmartsupp && !window.smartsupp) {
+    const loadTawk = () => {
+      if (window.Tawk_API) return; // déjà chargé
+
+      window.Tawk_API = window.Tawk_API || {};
+      window.Tawk_LoadStart = new Date();
+
       const script = document.createElement('script');
       script.type = 'text/javascript';
-      script.charset = 'utf-8';
+      script.charset = 'UTF-8';
       script.async = true;
-      script.src = 'https://www.smartsuppchat.com/loader.js?';
-      
-      // Configuration Smartsupp
-      window._smartsupp = window._smartsupp || {};
-      window._smartsupp.key = '02dd1a669c47bdb06eb86824e2d2b8c7e4a749cb';
-      window.smartsupp = window.smartsupp || function() {
-        (window.smartsupp._ = window.smartsupp._ || []).push(arguments);
-      };
-      window.smartsupp._ = window.smartsupp._ || [];
-      
-      // Écouter la fermeture du chat pour le masquer automatiquement
-      window._smartsupp.on = window._smartsupp.on || [];
-      window._smartsupp.on.push(['chat:close', () => {
-        setShowSmartsupp(false);
-      }]);
-      
-      // Insérer le script dans le document
+      script.src = 'https://embed.tawk.to/6963b526d00da4197cacc860/1jemnn8j9';
+      script.setAttribute('crossorigin', '*');
+
       const firstScript = document.getElementsByTagName('script')[0];
-      firstScript.parentNode.insertBefore(script, firstScript);
-      
-      // Ouvrir automatiquement le chat une fois chargé
+      if (firstScript && firstScript.parentNode) {
+        firstScript.parentNode.insertBefore(script, firstScript);
+      } else {
+        document.head.appendChild(script);
+      }
+
       script.onload = () => {
-        if (window.smartsupp) {
-          window.smartsupp('chat:open');
-          // Écouter la fermeture du chat
-          window.smartsupp('on', 'chat:close', () => {
-            setShowSmartsupp(false);
-          });
+        // Ouvrir le widget si possible
+        if (window.Tawk_API && typeof window.Tawk_API.maximize === 'function') {
+          try { window.Tawk_API.maximize(); } catch (e) {}
+        } else if (window.Tawk_API && typeof window.Tawk_API.toggle === 'function') {
+          try { window.Tawk_API.toggle(); } catch (e) {}
         }
       };
-    } else if (showSmartsupp && window.smartsupp) {
-      // Si le script est déjà chargé, ouvrir directement le chat
-      window.smartsupp('chat:open');
-      // S'assurer que l'événement de fermeture est écouté
-      window.smartsupp('on', 'chat:close', () => {
-        setShowSmartsupp(false);
-      });
+    };
+
+    if (showSmartsupp) {
+      if (!window.Tawk_API) loadTawk();
+      else {
+        // Si déjà chargé, maximiser
+        if (window.Tawk_API && typeof window.Tawk_API.maximize === 'function') {
+          try { window.Tawk_API.maximize(); } catch (e) {}
+        }
+      }
     }
+
+    // Note: on ne tente pas d'écouter un événement 'close' précis ici (Tawk fournit des hooks côté widget si besoin)
   }, [showSmartsupp]);
 
   // Cacher l'icône Smartsupp tant qu'on n'a pas cliqué sur WhatsApp et la placer derrière le bouton scroll
   useEffect(() => {
     const style = document.createElement('style');
-    style.id = 'smartsupp-hide-style';
+    style.id = 'tawk-hide-style';
     style.innerHTML = `
-      #chat-application {
+      /* Masque/contrôle du widget Tawk tant que l'utilisateur n'a pas cliqué */
+      div[id^="tawk"],
+      div[class*="tawk"],
+      iframe[id*="tawk"],
+      #tawkchat-minified,
+      #tawkIframe {
         display: ${showSmartsupp ? 'block' : 'none'} !important;
-        z-index: 45 !important;
-      }
-      #chat-application iframe {
-        z-index: 45 !important;
-      }
-      #chat-application * {
-        z-index: 45 !important;
-      }
-      /* Forcer tous les éléments Smartsupp à être sous le bouton scroll (z-50) */
-      div[id^="smartsupp"], 
-      div[class*="smartsupp"],
-      iframe[id*="smartsupp"] {
         z-index: 45 !important;
       }
     `;
     document.head.appendChild(style);
 
     return () => {
-      const existingStyle = document.getElementById('smartsupp-hide-style');
-      if (existingStyle) {
-        existingStyle.remove();
-      }
+      const existingStyle = document.getElementById('tawk-hide-style');
+      if (existingStyle) existingStyle.remove();
     };
   }, [showSmartsupp]);
 

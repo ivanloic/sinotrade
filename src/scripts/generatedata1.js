@@ -40,6 +40,7 @@ function inferCategory(name) {
   if (ln.includes('veste') || ln.includes('jacket') || ln.includes('coat')) return 'jackets'
   if (ln.includes('robe') || ln.includes('dress')) return 'dresses'
   if (ln.includes('sweat') || ln.includes('hoodie')) return 'sweatshirts'
+  if (ln.includes('Maillot') || ln.includes('maillot')) return 'maillot'
   if (ln.includes('short')) return 'shorts'
   if (ln.includes('chaussure') || ln.includes('shoe') || ln.includes('boot')) return 'shoes'
   return 'men'
@@ -51,10 +52,18 @@ function cleanNameFromFilename(filename) {
   // remove common resolution suffixes and trailing numbers
   name = name.replace(/-\d{1,4}x\d{1,4}$/,'')
   name = name.replace(/-\d+$/,'')
+  // remove prefixes like "imgi_123_" or "img_123_" (possibly repeated) and similar patterns
+  name = name.replace(/^(?:[\s._-]*(?:imgi|img)[_\-]?\d+[_\-]*)+/i, '')
+  // remove leading numbers and separators like "001-", "12_", "(3) ", "123"
+  name = name.replace(/^[\s._-]*\(?\d+\)?[\s._-]*/,'')
+  // also handle numbers stuck to letters like "12Shirt" -> "Shirt"
+  name = name.replace(/^\d+(?=[A-Za-z])/,'')
   // replace dashes with spaces
   name = name.replace(/[-_]+/g, ' ')
   // remove words like 'guitar' that may be irrelevant
   name = name.replace(/\bguitar\b/gi, '')
+  // remove words that may be irrelevant
+  name = name.replace(/\b(imgi|(1-9)|pic|picture)\b/gi, '')
   // trim
   name = name.trim()
   // remove leading 'a' if it's the first character (ex: 'aShirt' -> 'Shirt' or 'a tshirt' -> 'tshirt')
@@ -99,21 +108,27 @@ function buildProduct(id, dir, files) {
   const name = cleanNameFromFilename(first)
   let brand = inferBrand(first)
   let category = inferCategory(first)
-  let price = rand(1500, 2500)
+  let price = rand(2500, 3500)
   let originalPrice = price + rand(50, 500)
   const images = files.map(f => `/vetement_homme/${dir}/${f}`)
   const image = images[0]
   const taxType = Math.random() > 0.5 ? 'ttc' : 'ht'
   const colors = extractColorsFromName(first)
   const isEnsemble = /\bensemble\b/i.test(name)
+  const isMaillot = /\bMaillot\b/i.test(name)
   // minOrder rule: if price < 1500 then minOrder must be > 15 (but not the inverse)
   let minOrder = rand(5, 20)
   if (price < 1500) minOrder = rand(5, 20)
 
   if (isEnsemble) {
-    price = rand(3200, 5200)
+    price = rand(4800, 7200)
     originalPrice = price + rand(100, 600)
     minOrder = rand(1, 11)
+  }
+  if (isMaillot) {
+    price = rand(2000, 2500)
+    originalPrice = price + rand(100, 600)
+    minOrder = rand(5, 20)
   }
   
   

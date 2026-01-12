@@ -44,7 +44,7 @@ const ClothingCategoryPage = () => {
     ]
   };
 
-  const computedSubIds = ['all','men','women','child','tshirts','shirts','pants','dresses','sportswear','suits','jackets']
+  const computedSubIds = ['all','men','women','child','maillot','tshirts','shirts','pants','dresses','sportswear','suits','jackets']
 
   // measure header height so the sub-categories nav can stick just below it
   const [headerHeight, setHeaderHeight] = useState(0)
@@ -169,6 +169,7 @@ const ClothingCategoryPage = () => {
         id === 'men' ? 'Vêtements Homme' :
         id === 'women' ? 'Vêtements Femme' :
         id === 'child' ? 'Vêtements Enfant' :
+        id === 'maillot' ? 'Maillots de foot' :
         id === 'tshirts' ? 'T-Shirts' :
         id === 'shirts' ? 'Chemises' :
         id === 'pants' ? 'Pantalons' :

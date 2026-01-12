@@ -191,7 +191,7 @@ export const chaussure = [
   },
   {
     "id": 6,
-    "name": "Tenis",
+    "name": "Tenis enfant",
     "price": 1816,
     "originalPrice": 2298,
     "category": "shoes",

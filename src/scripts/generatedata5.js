@@ -155,16 +155,16 @@ function buildProduct(id, dir, files) {
   
   // Ajustement des prix selon le type de sac
   if (isHandbag) {
-    price = rand(1700, 2300)
+    price = rand(2500, 4700)
     originalPrice = price + rand(1000, 2500)
   } else if (isBackpack) {
-    price = rand(1500, 2200)
+    price = rand(2500, 4800)
     originalPrice = price + rand(800, 1000)
   } else if (isTravel) {
     price = rand(12000, 45000)
     originalPrice = price + rand(2000, 10000)
   } else if (isBusiness) {
-    price = rand(1000, 3000)
+    price = rand(2000, 3400)
     originalPrice = price + rand(500, 1000)
   } else if (isClutch) {
     price = rand(3000, 15000)
