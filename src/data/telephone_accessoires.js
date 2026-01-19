@@ -1031,7 +1031,7 @@ export const telephone_accessoires = [
     ],
     "specifications": {
       "ram": "8GB",
-      "stockage": "128GB",
+      "stockage": "256GB",
       "ecran": "6.1\" AMOLED 120Hz",
       "systeme": "Android"
     }
